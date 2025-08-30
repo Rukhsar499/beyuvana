@@ -49,7 +49,7 @@ const FAQAccordion: FC = () => {
             <Accordion.Item eventKey={key} key={key}>
               <Accordion.Header onClick={() => handleToggle(key)}>
                 <span className="me-auto">{item.question}</span>
-                <span className="ms-2 fw-bold">{isOpen ? "−" : "+"}</span>
+                <span className="ms-2 fw-bold afe">{isOpen ? "−" : "+"}</span>
               </Accordion.Header>
               <Accordion.Body>{item.answer}</Accordion.Body>
             </Accordion.Item>

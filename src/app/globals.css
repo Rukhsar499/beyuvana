@@ -46,6 +46,28 @@ a {
 .accordion-button::after {
   display: none !important; /* Bootstrap ka default arrow hatao */
 }
+.accordion-item{
+  margin-bottom: 30px;
+}
+.accordion-body {
+  background-color: #EFF0F4;
+}
+.accordion-button {
+  background-color: #1F1F1F;
+  font-family: 'Be Vietnam Pro';
+  color: #fff;
+}
+.accordion-button:not(.collapsed) {
+  background-color: #1F1F1F;
+  color: #fff;
+}
+.afe{
+  font-size: 18px;
+}
+.accordion {
+  --bs-accordion-btn-focus-box-shadow: none !important;
+
+}
 .footer {
   background: #122014;
   padding: 80px 0px;
