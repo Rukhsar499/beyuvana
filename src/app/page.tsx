@@ -1,13 +1,16 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Header from "../app/components/Header";
+import Footer from "../app/components/Footer";
+import FAQAccordion from "../app/components/FAQAccordion";
+
 
 export default function Home() {
   return (
-     <div className="container mt-5">
-      <h1 className="text-primary">Hello, Beyuvana 👋</h1>
-      <p className="lead">This is a Next.js + TypeScript + Bootstrap project.</p>
-
-      <button className="btn btn-success">Click Me</button>
-    </div>
+     <>
+      <Header />
+ <FAQAccordion />
+       <Footer />
+    </>
   );
 }
