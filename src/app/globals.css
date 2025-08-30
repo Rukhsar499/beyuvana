@@ -31,8 +31,9 @@ body {
 }
 @font-face {
   font-family: 'GrafielsRegular-JpODj';
-  src: url('/fonts/GrafielsRegular-JpODj.ttf') format('ttf');
-   font-weight: 500;
+  src: url('/fonts/GrafielsRegular-JpODj.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
 }
 a {
   color: inherit;
@@ -116,8 +117,12 @@ margin-top: -30px;
 }
 .accordion {
   --bs-accordion-btn-focus-box-shadow: none !important;
-
 }
+.t-box{
+  background-color: #FCFCFC;
+}
+
+
 .footer {
   background: #122014;
   padding: 80px 0px;
