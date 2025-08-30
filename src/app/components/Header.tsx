@@ -15,7 +15,7 @@ function Header() {
 
     return (
         <header>
-            <section className="header">
+            <section className="header mb">
                 <div className='logo-sec'>
                     <Link className="d-lg-block d-none" href="/">
                         <Image src="/assets/img/logo.png" alt="Beyuvana" width={150} height={70} />

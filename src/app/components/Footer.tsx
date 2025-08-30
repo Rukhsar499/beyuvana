@@ -54,18 +54,18 @@ function Footer() {
             <h3 style={{ color: "#DFC362" }}>Address</h3>
             <div className="d-flex">
               <Image src="/assets/img/location.png" alt="Location" width={20} height={20} className="me-2 imhg" />
-              <p id="btd">#Kolkata, India</p>
+              <p id="btd" style={{ color: "#fff" }}>#Kolkata, India</p>
             </div>
             <div className="d-flex">
               <Image src="/assets/img/call-calling.png" alt="Call" width={20} height={20} className="me-2 imhg" />
               <Link href="tel:+917003810162" className="rishra">
-                <p id="btd">+917003810162</p>
+                <p id="btd" style={{ color: "#fff" }}>+917003810162</p>
               </Link>
             </div>
             <div className="d-flex">
               <Image src="/assets/img/sms-notification.png" alt="Email" width={20} height={20} className="me-2 imhg" />
               <Link href="mailto:info@beyuvana.com" className="rishra">
-                <p id="btd">info@beyuvana.com</p>
+                <p id="btd" style={{ color: "#fff" }}>info@beyuvana.com</p>
               </Link>
             </div>
             <div className="social">
