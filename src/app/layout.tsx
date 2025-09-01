@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import { Antic } from "next/font/google";
 import { Be_Vietnam_Pro } from "next/font/google";
 import "./globals.css";
 
@@ -17,8 +17,14 @@ const geistMono = Geist_Mono({
 
 const beVietnamPro = Be_Vietnam_Pro({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"], // jo weights chahiye wo add karo
-  variable: "--font-be-vietnam-pro",   // optional: CSS variable ke liye
+  weight: ["400", "500", "600", "700"], 
+  variable: "--font-be-vietnam-pro",   
+});
+
+const antic = Antic({
+  subsets: ["latin"],
+  weight: "400", 
+  variable: "--font-antic",
 });
 
 export const metadata: Metadata = {
@@ -33,7 +39,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="hydrated">
-      <body className={`${geistSans.variable} ${geistMono.variable} ${beVietnamPro.variable}`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} ${beVietnamPro.variable} ${antic.variable}`}>
         {children}
       </body>
     </html>

@@ -5,11 +5,12 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import Image from "next/image";
 
 interface Testimonial {
-  id: number;
+ id: number;
   name: string;
   text: string;
-  img: string;
+  profileImg: string;
   product: string;
+  productImg: string;
 }
 
 const testimonials: Testimonial[] = [
@@ -17,29 +18,33 @@ const testimonials: Testimonial[] = [
     id: 1,
     name: "Ramesh Kumar",
     text: "Naturally flavored with plant extracts and stevia for a refreshing taste—no artificial sweeteners or additives. Clean, light flavor powered by nature. Just the right hint of sweetness, naturally derived.",
-    img: "/assets/img/ramesh.png",  // ✅ Fixed
+    profileImg: "/assets/img/ramesh.png",  // ✅ Fixed
     product: "Collagen Builder - Plant Based Premium",
+    productImg: "/assets/img/pink-box.png",  // ✅ Fixed
   },
   {
     id: 2,
     name: "Shivangi Dhar",
     text: "Naturally flavored with plant extracts and stevia for a refreshing taste—no artificial sweeteners or additives. Clean, light flavor powered by nature. Just the right hint of sweetness, naturally derived.",
-    img: "/assets/img/shivangi.png", // ✅ Fixed
+    profileImg: "/assets/img/shivangi.png", // ✅ Fixed
     product: "Advanced Glow - Nourishing Formula",
+    productImg: "/assets/img/green-box.webp",  // ✅ Fixed
   },
   {
     id: 3,
     name: "Anjan Dutta",
     text: "Naturally flavored with plant extracts and stevia for a refreshing taste—no artificial sweeteners or additives. Clean, light flavor powered by nature. Just the right hint of sweetness, naturally derived.",
-    img: "/assets/img/anjan.png", // ✅ Fixed
+    profileImg: "/assets/img/anjan.png", // ✅ Fixed
     product: "Collagen Builder - Plant Based Premium",
+    productImg: "/assets/img/pink-box.png",  // ✅ Fixed
   },
   {
     id: 4,
     name: "Priya Sharma",
     text: "Light flavor powered by nature. Just the right hint of sweetness, naturally derived.",
-    img: "/assets/img/shivangi.png", // ✅ Fixed (typo tha "asets")
+    profileImg: "/assets/img/shivangi.png", // ✅ Fixed (typo tha "asets")
     product: "Hair & Skin Booster",
+    productImg: "/assets/img/green-box.webp",  // ✅ Fixed
   },
 ];
 
@@ -61,10 +66,10 @@ export default function TestimonialSlider() {
   }
 
   return (
-    <Container className="my-5 position-relative">
+    <Container className=" position-relative mb">
       {/* Heading + Arrows */}
-      <div className="d-flex justify-content-between align-items-center mb-4">
-        <h3 className="text-success fw-bold">Customer Testimonials</h3>
+      <div className="d-flex justify-content-between  mb-4">
+        <h2 className="text-center">Customer Testimonials</h2>
         <div>
           <Button
             variant="light"
@@ -97,7 +102,7 @@ export default function TestimonialSlider() {
             >
               <div className="d-flex align-items-center mb-3">
                 <Image
-                  src={t.img}
+                  src={t.profileImg}
                   alt={t.name}
                   className="rounded-circle me-3"
                   width="60"
@@ -109,7 +114,16 @@ export default function TestimonialSlider() {
                 </div>
               </div>
               <p className="text-muted small">{t.text}</p>
-              <div className="mt-3 text-success fw-semibold">{t.product}</div>
+              <div className="mt-3 text-success fw-semibold d-flex">
+                 <Image
+                  src={t.productImg}
+                  alt={t.product}
+                  className="me-3"
+                  width="40"
+                  height="40"
+                />
+                {t.product}
+                </div>
             </div>
           </Col>
         ))}
