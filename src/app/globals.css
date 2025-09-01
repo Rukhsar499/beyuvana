@@ -183,6 +183,7 @@ h3 {
   z-index: 1030; /* navbar ke upar rakhega */
   background: #fff; /* zaroori hai warna neeche ka content dikhega */
   width: 100%;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 .why-img {
   position: relative;
@@ -480,7 +481,7 @@ h3 {
 
 .login-modal {
   border-radius: 15px;
-  /* overflow: hidden; */
+  
   border: none;
   max-width: 700px;
   /* modal width */
