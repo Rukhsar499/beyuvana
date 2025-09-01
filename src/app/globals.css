@@ -177,7 +177,13 @@ h3 {
   gap: 0px;
   /* spacing between images */
 }
-
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1030; /* navbar ke upar rakhega */
+  background: #fff; /* zaroori hai warna neeche ka content dikhega */
+  width: 100%;
+}
 .why-img {
   position: relative;
   flex: 1 1 200px;
