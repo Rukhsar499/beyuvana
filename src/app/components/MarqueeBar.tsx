@@ -11,23 +11,7 @@ export default function MarqueeBar() {
           Join the Beyuvana Tribe — Get 20% Off Your First Order and Glow from
           Within. &nbsp; • &nbsp;
         </span>
-        <span>
-          Join the Beyuvana Tribe — Get 20% Off Your First Order and Glow from
-          Within. &nbsp; • &nbsp;
-        </span>
-        <span>
-          Join the Beyuvana Tribe — Get 20% Off Your First Order and Glow from
-          Within. &nbsp; • &nbsp;
-        </span>
-        <span>
-          Join the Beyuvana Tribe — Get 20% Off Your First Order and Glow from
-          Within. &nbsp; • &nbsp;
-        </span>
-        <span>
-          Join the Beyuvana Tribe — Get 20% Off Your First Order and Glow from
-          Within. &nbsp; • &nbsp;
-        </span>
-      </div>
+       </div>
     </div>
   );
 }

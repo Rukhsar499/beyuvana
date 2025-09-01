@@ -9,7 +9,7 @@ import RegisterModal from "../components/RegisterModal";
 import MarqueeBar from "../components/MarqueeBar";
 
 function Header() {
-   
+
 
     return (
         <header>
@@ -56,21 +56,21 @@ function Header() {
                                 </ul>
                             </div>
                             <Image
-                                          src="/assets/img/shopping-cart.png" // 👈 apni image ka path daalo
-                                          alt="Login Banner"
-                                          width={25}
-                                          height={25}
-                                          className="img-fluid me-3"
-                                        />
-                           <LoginModal />
-                          <RegisterModal />
+                                src="/assets/img/shopping-cart.png" // 👈 apni image ka path daalo
+                                alt="Login Banner"
+                                width={25}
+                                height={25}
+                                className="img-fluid me-3"
+                            />
+                            <LoginModal />
+                            <RegisterModal />
                         </div>
                     </nav>
                 </div>
             </section>
             <MarqueeBar />
         </header>
-        
+
 
     );
 }

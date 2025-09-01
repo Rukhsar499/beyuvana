@@ -1,4 +1,8 @@
+"use client";
+import { useState } from "react";
 import Image from "next/image";
+import { Modal, Button } from "react-bootstrap";
+
 import styles from "./page.module.css";
 import Header from "../app/components/Header";
 import Footer from "../app/components/Footer";
@@ -7,6 +11,10 @@ import TestimonialSlider from "../app/TestimonialSlider";
 
 
 export default function Home() {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
   return (
     <>
       <Header />
@@ -88,22 +96,22 @@ export default function Home() {
                     />
                   </video>
                   <div className="image1">
-                   <Image src="/assets/img/hand.png" width={90} height={90} alt="No Toxins" className="icon me-2" />
+                    <Image src="/assets/img/hand.png" width={90} height={90} alt="No Toxins" className="icon me-2" />
                   </div>
-                   <div className="image2">
-                   <Image src="/assets/img/bulb.png" width={90} height={90} alt="No Toxins" className="icon me-2" />
+                  <div className="image2">
+                    <Image src="/assets/img/bulb.png" width={90} height={90} alt="No Toxins" className="icon me-2" />
                   </div>
-                   <div className="image3">
-                   <Image src="/assets/img/star.png" width={90} height={90} alt="No Toxins" className="icon me-2" />
+                  <div className="image3">
+                    <Image src="/assets/img/star.png" width={90} height={90} alt="No Toxins" className="icon me-2" />
                   </div>
-                   <div className="image4">
-                   <Image src="/assets/img/lotus.png" width={90} height={90} alt="No Toxins" className="icon me-2" />
+                  <div className="image4">
+                    <Image src="/assets/img/lotus.png" width={90} height={90} alt="No Toxins" className="icon me-2" />
                   </div>
-                   <div className="image5">
-                   <Image src="/assets/img/tick.png" width={90} height={90} alt="No Toxins" className="icon me-2" />
+                  <div className="image5">
+                    <Image src="/assets/img/tick.png" width={90} height={90} alt="No Toxins" className="icon me-2" />
                   </div>
-                   <div className="image6">
-                   <Image src="/assets/img/bowl.png" width={90} height={90} alt="No Toxins" className="icon me-2" />
+                  <div className="image6">
+                    <Image src="/assets/img/bowl.png" width={90} height={90} alt="No Toxins" className="icon me-2" />
                   </div>
                 </div>
               </div>
@@ -404,7 +412,7 @@ export default function Home() {
               </div>
             </div>
             <div className="col-lg-3 col-md-3 col-12">
-              <div className="ship-box">
+              <div className="ship-box" onClick={handleShow} style={{ cursor: "pointer" }}>
                 <div className="d-flex">
                   <Image src="/assets/img/free-shipping.png" alt="Money back" width={70} height={50} className="img-fluid me-3" />
                   <p className="mb-0 mt-2 active-text">
@@ -416,6 +424,35 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <Modal show={show} onHide={handleClose} centered size="xl">
+            <button className="btn-close-custom" onClick={handleClose}>
+              ✕
+            </button>
+            <Modal.Body className="moday">
+              <h4 className="works">How It Works?</h4>
+              <ul>
+                <li> Use the product as recommended for 60 days, with consistent daily consumption.</li>
+                <li>Submit your refund request with your Order ID via email
+                  (customercare@beyuvana.com) or WhatsApp (+91-XXXXXXXXXX) within 60
+                  days of delivery.</li>
+                <li>Our team will verify your order details. A complimentary nutritionist
+                  consultation may be arranged to understand your experience and ensure eligibility.</li>
+                <li>Valid only on orders placed directly at www.beyuvana.com within the last 60
+                  days. Purchases made on third-party platforms (Amazon, Nykaa, etc.) are not covered.</li>
+                <li>Applicable once per customer, only on our sachet wellness range (Collagen
+                  Builder & Glow Essence).</li>
+              </ul>
+              <h4 className="works">When It Doesn’t Apply</h4>
+              <ul>
+                <li>If the sachets were not consumed consistently as per guidance.</li>
+                <li>If an underlying health condition may have influenced individual experience.</li>
+                <li>If the claim is for product bundles that include items outside the sachet wellness range.</li>
+              </ul>
+              <div className="green-boxz">
+                <p className="mb-0 text-white small-text">If an underlying health condition may have influenced individual experience. <span className="btru"> BEYUVANA™ — Wellness, Naturally.</span></p>
+              </div>
+            </Modal.Body>
+           </Modal>
         </div>
       </section>
       <section className="money mb">
@@ -443,3 +480,4 @@ export default function Home() {
     </>
   );
 }
+

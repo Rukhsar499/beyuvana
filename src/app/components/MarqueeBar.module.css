@@ -6,13 +6,10 @@
   padding: 10px 0;
   position: relative;
   margin-bottom: 50px;
+  text-align: center;
 }
 
-.marquee {
-  display: inline-block;
-  white-space: nowrap;
-  animation: scroll 25s linear infinite;
-}
+
 
 .marquee span {
   display: inline-block;

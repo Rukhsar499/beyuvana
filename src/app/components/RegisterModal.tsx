@@ -48,7 +48,7 @@ export default function LoginModal() {
 
                     {/* Right Side Form */}
                     <div className="login-right p-4 d-flex flex-column justify-content-center">
-                        <h4 className="mb-3 text-success fw-bold">Register Now!</h4>
+                        <h4 className="mb-3 text-success regis">Register Now!</h4>
                         <hr className="green-line" />
 
                         <Form>
