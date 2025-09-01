@@ -22,6 +22,22 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <section className="hero-section mb">
+        <div className="container">
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="banner-video"
+          >
+            <source
+              src="/assets/img/banner-video.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </div>
+      </section>
       <section className="choose">
         <div className="container">
           <div className="text-center">
@@ -186,7 +202,7 @@ export default function Home() {
                     <div className="ship-box br-b">
                       <Image src="/assets/img/c1.png" alt="Money back" width={70} height={50} className="img-fluid me-3" />
                       <p className="mb-0 mt-2 fd">
-                       Glow & Brightening
+                        Glow & Brightening
                       </p>
                     </div>
                   </div>
@@ -253,7 +269,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="why-img">
-                <Image src="/assets/img/lysine.png" alt="Money back" width={200} height={400} className="img-fluid" />
+                <Image src="/assets/img/amla.png" alt="Money back" width={200} height={400} className="img-fluid" />
                 <div className="why-txt">
                   <h3>Amla</h3>
                   <Image src="/assets/img/add.png" alt="Money back" width={20} height={20} className="img-fluid" />
@@ -264,7 +280,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="why-img">
-                <Image src="/assets/img/lysine.png" alt="Money back" width={200} height={400} className="img-fluid" />
+                <Image src="/assets/img/bambo.png" alt="Money back" width={200} height={400} className="img-fluid" />
                 <div className="why-txt">
                   <h3>Bamboo Silica</h3>
                   <Image src="/assets/img/add.png" alt="Money back" width={20} height={20} className="img-fluid" />
@@ -276,7 +292,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="why-img">
-                <Image src="/assets/img/lysine.png" alt="Money back" width={200} height={400} className="img-fluid" />
+                <Image src="/assets/img/biotin.png" alt="Money back" width={200} height={400} className="img-fluid" />
                 <div className="why-txt">
                   <h3>Hyaluronic Acid</h3>
                   <Image src="/assets/img/add.png" alt="Money back" width={20} height={20} className="img-fluid" />
@@ -287,7 +303,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="why-img">
-                <Image src="/assets/img/lysine.png" alt="Money back" width={200} height={400} className="img-fluid" />
+                <Image src="/assets/img/gotu.png" alt="Money back" width={200} height={400} className="img-fluid" />
                 <div className="why-txt">
                   <h3>Ashwagandha</h3>
                   <Image src="/assets/img/add.png" alt="Money back" width={20} height={20} className="img-fluid" />
