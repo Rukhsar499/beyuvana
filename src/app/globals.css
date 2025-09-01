@@ -178,7 +178,7 @@ h3 {
   /* spacing between images */
 }
 .header {
-  position: sticky;
+  position: sticky !important;
   top: 0;
   z-index: 1030; /* navbar ke upar rakhega */
   background: #fff; /* zaroori hai warna neeche ka content dikhega */
