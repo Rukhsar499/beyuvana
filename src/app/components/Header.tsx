@@ -56,11 +56,11 @@ function Header() {
                                 </ul>
                             </div>
                             <Image
-                                          src="/assets/img/login-img.png" // 👈 apni image ka path daalo
+                                          src="/assets/img/shopping-cart.png" // 👈 apni image ka path daalo
                                           alt="Login Banner"
-                                          width={20}
-                                          height={20}
-                                          className="img-fluid h-100 w-100 object-fit-cover"
+                                          width={25}
+                                          height={25}
+                                          className="img-fluid me-3"
                                         />
                            <LoginModal />
                           <RegisterModal />
