@@ -10,6 +10,34 @@ export default function Home() {
   return (
     <>
       <Header />
+
+      <section className="hero-section mb">
+        <div className="container">
+          <div className="v-sec">
+            <video
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="banner-video"
+            >
+              <source
+                src="/assets/img/banner-video.mp4"
+                type="video/mp4"
+              />
+            </video>
+            <div className="banner-text">
+              {/* <Image src="/assets/img/video-circle.png" alt="Money back" width={60} height={60} className="img-fluid mb-3" /> */}
+              <h1>Discover the Power <br />
+                of Plant-Based Collagen</h1>
+              <hr className="text-white tg" />
+              <p className="btr">
+                At Beyuvana, we are committed to providing high-quality, plant-based collagen products that support your health and beauty goals.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="about mb">
         <div className="container">
           <div className="text-center">
@@ -20,22 +48,6 @@ export default function Home() {
               lab-tested for safety, and made 100% vegetarian—so you always know exactly what you’re putting into your body.
             </p>
           </div>
-        </div>
-      </section>
-      <section className="hero-section mb">
-        <div className="container">
-          <video
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="banner-video"
-          >
-            <source
-              src="/assets/img/banner-video.mp4"
-              type="video/mp4"
-            />
-          </video>
         </div>
       </section>
       <section className="choose">
@@ -63,11 +75,40 @@ export default function Home() {
               </div>
               <div className="col-lg-4 col-md-3 col-12">
                 <div className="chose-img">
-                  <Image src="/assets/img/beyuna.webp" alt="Money back" width={400} height={400} className="img-fluid" />
+                  <video
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    className="banner-videos"
+                  >
+                    <source
+                      src="/assets/img/Sqaure-video.mp4"
+                      type="video/mp4"
+                    />
+                  </video>
+                  <div className="image1">
+                   <Image src="/assets/img/hand.png" width={90} height={90} alt="No Toxins" className="icon me-2" />
+                  </div>
+                   <div className="image2">
+                   <Image src="/assets/img/bulb.png" width={90} height={90} alt="No Toxins" className="icon me-2" />
+                  </div>
+                   <div className="image3">
+                   <Image src="/assets/img/star.png" width={90} height={90} alt="No Toxins" className="icon me-2" />
+                  </div>
+                   <div className="image4">
+                   <Image src="/assets/img/lotus.png" width={90} height={90} alt="No Toxins" className="icon me-2" />
+                  </div>
+                   <div className="image5">
+                   <Image src="/assets/img/tick.png" width={90} height={90} alt="No Toxins" className="icon me-2" />
+                  </div>
+                   <div className="image6">
+                   <Image src="/assets/img/bowl.png" width={90} height={90} alt="No Toxins" className="icon me-2" />
+                  </div>
                 </div>
               </div>
               <div className="col-lg-4 col-md-3 col-12">
-                <div className="chos-tetx">
+                <div className="chos-tetx left-alk">
                   <div className="mb-3">
                     <h3 className="plant">Holistic Approach</h3>
                     <p className="dec">Designed to support overall wellness, balance, and daily vitality.</p>

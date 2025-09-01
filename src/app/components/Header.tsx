@@ -55,6 +55,13 @@ function Header() {
                                     </li>
                                 </ul>
                             </div>
+                            <Image
+                                          src="/assets/img/login-img.png" // 👈 apni image ka path daalo
+                                          alt="Login Banner"
+                                          width={20}
+                                          height={20}
+                                          className="img-fluid h-100 w-100 object-fit-cover"
+                                        />
                            <LoginModal />
                           <RegisterModal />
                         </div>
