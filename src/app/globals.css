@@ -190,7 +190,7 @@ h3 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-padding: 60px 0 30px;
+  padding: 60px 0 30px;
   margin-top: 40px;
   border-radius: 70px;
 
@@ -261,10 +261,12 @@ h1 {
   width: 60%;
   color: #fff;
 }
-.banner-videos{
+
+.banner-videos {
   width: 100%;
   border-radius: 40px;
 }
+
 .choose {
   background-image: url("/assets/img/choose-bg.png");
   background-repeat: no-repeat;
@@ -272,48 +274,58 @@ h1 {
   background-position: center;
   padding: 50px 0px;
 }
-.chose-img{
+
+.chose-img {
   position: relative;
 }
-.image1{
+
+.image1 {
   position: absolute;
   top: 5%;
   left: -10%;
 }
-.image2{
+
+.image2 {
   position: absolute;
   top: 35%;
   left: -10%;
 }
-.image3{
+
+.image3 {
   position: absolute;
   top: 65%;
   left: -10%;
 }
-.image4{
+
+.image4 {
   position: absolute;
   top: 5%;
   right: -10%;
 }
-.image5{
+
+.image5 {
   position: absolute;
   top: 35%;
   right: -10%;
 }
-.image6{
+
+.image6 {
   position: absolute;
   top: 65%;
   right: -10%;
 }
+
 .plant {
   color: #1A2819;
   font-family: 'GrafielsRegular-JpODj';
   font-size: 20px;
   margin-bottom: 0px;
 }
-.left-alk{
+
+.left-alk {
   margin-left: 30px;
 }
+
 .feature-strip {
   background-color: #9CB82A;
   /* Green strip */
@@ -445,15 +457,30 @@ h3 {
 
 .login-modal {
   border-radius: 15px;
-  overflow: hidden;
+  /* overflow: hidden; */
   border: none;
   max-width: 700px;
   /* modal width */
 }
 
+.form-control {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #525252;
+  font-size: 14px;
+}
+
 .login-left {
   width: 40%;
   background: #fff;
+}
+
+.green-line {
+  color: #057A37;
+  border: 1px solid #057A37;
+  width: 40%;
+  margin: 0 0 20px;
+  opacity: 1;
 }
 
 .btn-login {
@@ -474,19 +501,19 @@ h3 {
 }
 
 .btn-close-custom {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  background: #2CA24C;
   color: #fff;
-  border: none;
-  border-radius: 50%;
-  font-size: 18px;
-  width: 30px;
-  height: 30px;
-  line-height: 1;
   cursor: pointer;
   z-index: 10;
+  background: #2ca24c;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  line-height: 1;
+  position: absolute;
+  top: -18px;
+  right: -17px;
 }
 
 @media (max-width: 768px) {

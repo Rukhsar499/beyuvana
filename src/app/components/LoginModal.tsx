@@ -48,18 +48,18 @@ export default function LoginModal() {
 
           {/* Right Side Form */}
           <div className="login-right p-4 d-flex flex-column justify-content-center">
-            <h4 className="mb-3 text-success fw-bold">Login Now!</h4>
-            <p className="text-muted small">
-              Enter your phone no.
-              <br />
-              By continuing, you agree to Beyuvana’s Terms of use and Privacy Policy.
-            </p>
+            <h4 className=" text-success fw-bold">Login Now!</h4>
+            <hr className="green-line" />
+            
 
             <Form>
               <Form.Group className="mb-3" controlId="formPhone">
                 <Form.Control type="text" placeholder="Enter phone number" />
               </Form.Group>
-
+              <p className="text-muted small mt-3">
+            
+              By continuing, you agree to Beyuvana’s Terms of use and Privacy Policy.
+            </p>
               <Button
                 type="submit"
                 className="w-100"
@@ -68,6 +68,7 @@ export default function LoginModal() {
                 Continue
               </Button>
             </Form>
+           
           </div>
         </div>
       </Modal>
