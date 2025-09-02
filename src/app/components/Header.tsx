@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import LoginModal from "../components/LoginModal";
 import RegisterModal from "../components/RegisterModal";
-import MarqueeBar from "../components/MarqueeBar";
+
 
 function Header() {
     return (

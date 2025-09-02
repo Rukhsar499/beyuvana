@@ -16,5 +16,10 @@
     padding-right: 0px; /* gap between repeats */
   font-size: 12px;
 }
-
+.marqueeWrapper {
+  margin-top: 76px;
+}
+.fd {
+    font-size: 12px;
+}
 }
