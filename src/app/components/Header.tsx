@@ -2,8 +2,6 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { Button } from "@mui/material";
-
 import LoginModal from "../components/LoginModal";
 import RegisterModal from "../components/RegisterModal";
 import MarqueeBar from "../components/MarqueeBar";
@@ -15,14 +13,14 @@ function Header() {
                 <section className="header">
                     <div className='logo-sec d-lg-block d-none'>
                         <Link className="" href="/">
-                            <Image src="/assets/img/logo.png" alt="Beyuvana" width={150} height={70} />
+                            <Image src="/assets/img/logo.png" alt="Beyuvana" width={130} height={60} />
                         </Link>
                     </div>
                     <div className="container bvcs">
                         <nav className="navbar navbar-expand-lg">
                             <div className="container-fluid">
                                 <Link className="navbar-brand d-lg-none d-flex" href="/">
-                                    <Image src="/assets/img/logo.png" alt="Beyuvana" width={140} height={70} />
+                                    <Image src="/assets/img/logo.png" alt="Beyuvana" width={100} height={50} />
                                 </Link>
 
                                 <button
@@ -68,8 +66,8 @@ function Header() {
                 </section>
             </header>
 
-            {/* 👇 MarqueeBar header ke bahar rakh diya */}
-            <MarqueeBar />
+           
+          
         </>
     );
 }

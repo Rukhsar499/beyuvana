@@ -9,6 +9,7 @@ import Footer from "../app/components/Footer";
 import FAQAccordion from "../app/components/FAQAccordion";
 import TestimonialSlider from "../app/TestimonialSlider";
 import StickyFooter from "./components/StickyFooter";
+import MarqueeBar from "./components/MarqueeBar";
 
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
   return (
     <>
       <Header />
+        <MarqueeBar />
 
       <section className="hero-section mb">
         <div className="container">

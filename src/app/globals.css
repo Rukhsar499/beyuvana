@@ -180,7 +180,7 @@ h3 {
   /* spacing between images */
 }
 .header {
-  position: sticky !important;
+  position: fixed !important;
   top: 0;
   z-index: 1030; /* navbar ke upar rakhega */
   background: #fff; /* zaroori hai warna neeche ka content dikhega */
@@ -227,6 +227,7 @@ h1 {
 }
 
 .hero-section {
+  padding-top: 50px;
   position: relative;
   width: 100%;
 }
