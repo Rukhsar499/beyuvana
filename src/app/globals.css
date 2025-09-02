@@ -570,7 +570,9 @@ h3 {
   font-family: var(--font-be-vietnam-pro), sans-serif !important;
   font-size: 14px;
 }
-
+.privacy{
+  padding-top: 140px;
+}
 .login-right {
   width: 60%;
   /* halka greenish background */
