@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Antic } from "next/font/google";
 import { Be_Vietnam_Pro } from "next/font/google";
+import BootstrapClient from './components/BootstrapClient';
 import "./globals.css";
 
 const geistSans = Geist({
@@ -40,6 +41,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="hydrated">
       <body className={`${geistSans.variable} ${geistMono.variable} ${beVietnamPro.variable} ${antic.variable}`}>
+        <BootstrapClient />
         {children}
       </body>
     </html>

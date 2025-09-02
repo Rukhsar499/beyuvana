@@ -45,7 +45,9 @@ a {
 p {
   color: #3B3B3B;
 }
-
+.fixed-bottom{
+  display: none;
+}
 h2 {
   font-size: 32px;
   color: #1A2819;
@@ -56,7 +58,7 @@ h3 {
   font-family: 'GrafielsRegular-JpODj';
 }
 
-.nou {
+#nou {
   font-family: var(--font-be-vietnam-pro), sans-serif;
   color: #3B3B3B;
 }
@@ -550,6 +552,111 @@ h3 {
 
   .why-img {
     width: 100%;
-    max-width: 300px;
+    max-width: 400px;
   }
+  .btn-login{
+    display:none !important;
+  }
+h2 {
+   font-size: 26px;
+}
+p{
+  font-size: 12px;
+}
+.btr {
+  width: 100%;
+}
+h1{
+  margin-bottom: 0;
+}
+.tg {
+  margin-top: 0;
+}
+.plant {
+  font-size: 17px;
+}
+.image1 img, .image2 img, .image3 img, .image4 img, .image5 img, .image6 img{
+  width: 60px;
+  height: 60px;
+}
+.image1, .image2, .image3{
+  left: -4%;
+}
+.image4, .image5, .image6{
+  right: -6%;
+}
+.left-alk {
+    margin-left: 0px;
+    margin-top: 20px;
+}
+.choose {
+padding: 30px 0;
+}
+.feature-item .icon {
+  margin-bottom: 20px;
+}
+.coll-img {
+    padding-top: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.bag, .cart {
+  font-size: 15px;
+  padding: 10px 20px;
+}
+#nou{
+  font-size: 18px;
+}
+.ship-box{
+  text-align: center;
+  margin: 10px;
+}
+.glow {
+padding: 30px 0;
+}
+.colk{
+  margin-top: 30px;
+}
+.green {
+  border-radius: 0px;
+margin-top: 20px;
+padding: 30px 0 30px;
+}
+.money {
+   height: auto;
+}
+.footer {
+padding: 30px 0;
+}
+.used {
+    margin-left: 0px;
+}
+.br-b, .br {
+    border-right: none;
+}
+.ship-box{
+  justify-content: center;
+}
+.bvcs{
+  background-color: #1e2c1e;
+}
+.btn-warning, .btn-success{
+  border-radius: 0 !important;
+  text-transform: capitalize !important;
+  font-size: 14px !important;
+  font-family: var(--font-be-vietnam-pro), sans-serif !important;
+}
+.mt-2 {
+    margin-top: 1.5rem !important;
+}
+.car{
+  border-bottom: 1px solid #00000052;
+  padding-bottom: 20px;
+}
+.nav-link {
+    color: #fff;
+  }
+      .navbar-toggler {
+        border: none;
+      }
 }

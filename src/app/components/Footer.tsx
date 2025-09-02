@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
+
 function Footer() {
   return (
     <section className="footer">
@@ -83,7 +84,8 @@ function Footer() {
           <Link href="/privacy-policy" style={{ color: '#fff' }}>Privacy Policy</Link>
         </p>
       </div>
-    </section>
+   </section>
+  
   );
   
 }

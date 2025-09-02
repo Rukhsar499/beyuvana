@@ -8,6 +8,7 @@ import Header from "../app/components/Header";
 import Footer from "../app/components/Footer";
 import FAQAccordion from "../app/components/FAQAccordion";
 import TestimonialSlider from "../app/TestimonialSlider";
+import StickyFooter from "./components/StickyFooter";
 
 
 export default function Home() {
@@ -186,7 +187,7 @@ export default function Home() {
                 <p className="agihg">Aging is Natural — Radiance is a Choice</p>
                 <p>Crafted with 21 synergistic, clinically studied botanicals that work from within. Each precision-dosed sachet supports skin elasticity, deep hydration, and youthful glow. Stimulates natural collagen with Amla, Bamboo Silica, L-Lysine, and Hyaluronic Acid.</p>
                 <div className="row">
-                  <div className="col-lg-3 col-md-3 col-12">
+                  <div className="col-lg-3 col-md-3 col-6">
                     <div className="ship-box br-b">
                       <Image src="/assets/img/c1.png" alt="Money back" width={70} height={50} className="img-fluid me-3" />
                       <p className="mb-0 mt-2 fd">
@@ -195,7 +196,7 @@ export default function Home() {
                       </p>
                     </div>
                   </div>
-                  <div className="col-lg-3 col-md-3 col-12">
+                  <div className="col-lg-3 col-md-3 col-6">
                     <div className="ship-box br-b">
                       <Image src="/assets/img/c2.png" alt="Money back" width={70} height={50} className="img-fluid me-3" />
                       <p className="mb-0 mt-2 fd">
@@ -204,7 +205,7 @@ export default function Home() {
                       </p>
                     </div>
                   </div>
-                  <div className="col-lg-3 col-md-3 col-12">
+                  <div className="col-lg-3 col-md-3 col-6">
                     <div className="ship-box br-b">
                       <Image src="/assets/img/c3.png" alt="Money back" width={70} height={50} className="img-fluid me-3" />
                       <p className="mb-0 mt-2 fd">
@@ -213,7 +214,7 @@ export default function Home() {
                       </p>
                     </div>
                   </div>
-                  <div className="col-lg-3 col-md-3 col-12">
+                  <div className="col-lg-3 col-md-3 col-6">
                     <div className="ship-box">
                       <Image src="/assets/img/c4.png" alt="Money back" width={70} height={50} className="img-fluid me-3" />
                       <p className="mb-0 mt-2 fd">
@@ -247,7 +248,7 @@ export default function Home() {
                   Glutathione and clinically studied Vitamin C, it works deep at the cellular level to visibly reduce dark spots,
                   pigmentation, and dullness — revealing a brighter, more even-toned complexion. </p>
                 <div className="row">
-                  <div className="col-lg-3 col-md-3 col-12">
+                  <div className="col-lg-3 col-md-3 col-6">
                     <div className="ship-box br-b">
                       <Image src="/assets/img/c1.png" alt="Money back" width={70} height={50} className="img-fluid me-3" />
                       <p className="mb-0 mt-2 fd">
@@ -255,7 +256,7 @@ export default function Home() {
                       </p>
                     </div>
                   </div>
-                  <div className="col-lg-3 col-md-3 col-12">
+                  <div className="col-lg-3 col-md-3 col-6">
                     <div className="ship-box br-b">
                       <Image src="/assets/img/c2.png" alt="Money back" width={70} height={50} className="img-fluid me-3" />
                       <p className="mb-0 mt-2 fd">
@@ -263,7 +264,7 @@ export default function Home() {
                       </p>
                     </div>
                   </div>
-                  <div className="col-lg-3 col-md-3 col-12">
+                  <div className="col-lg-3 col-md-3 col-6">
                     <div className="ship-box br-b">
                       <Image src="/assets/img/c3.png" alt="Money back" width={70} height={50} className="img-fluid me-3" />
                       <p className="mb-0 mt-2 fd">
@@ -271,7 +272,7 @@ export default function Home() {
                       </p>
                     </div>
                   </div>
-                  <div className="col-lg-3 col-md-3 col-12">
+                  <div className="col-lg-3 col-md-3 col-6">
                     <div className="ship-box">
                       <Image src="/assets/img/c4.png" alt="Money back" width={70} height={50} className="img-fluid me-3" />
                       <p className="mb-0 mt-2 fd">
@@ -291,7 +292,7 @@ export default function Home() {
             </div>
             <div className="col-lg-1 col-md-1 col-1"></div>
             <div className="col-lg-4 col-md-4 col-12">
-              <div className="coll-img">
+              <div className="coll-img colk">
                 <Image src="/assets/img/product-glow-essence.png" alt="collagen" width={300} height={300} className="img-fluid" />
               </div>
             </div>
@@ -377,7 +378,7 @@ export default function Home() {
         <div className="container">
           <div className="row">
             <div className="col-lg-3 col-md-3 col-12">
-              <div className="ship-box br">
+              <div className="ship-box br car">
                 <div className="d-flex">
                   <Image src="/assets/img/free-shipping.png" alt="Money back" width={70} height={50} className="img-fluid me-3" />
                   <p className="mb-0 mt-2">
@@ -388,7 +389,7 @@ export default function Home() {
               </div>
             </div>
             <div className="col-lg-3 col-md-3 col-12">
-              <div className="ship-box br">
+              <div className="ship-box br car">
                 <div className="d-flex">
                   <Image src="/assets/img/cash-on-delivery.png" alt="Money back" width={70} height={50} className="img-fluid me-3" />
                   <p className="mb-0 mt-2">
@@ -400,7 +401,7 @@ export default function Home() {
               </div>
             </div>
             <div className="col-lg-3 col-md-3 col-12">
-              <div className="ship-box br">
+              <div className="ship-box br car">
                 <div className="d-flex">
                   <Image src="/assets/img/load.png" alt="Money back" width={70} height={50} className="img-fluid me-3" />
                   <p className="mb-0 mt-2">
@@ -412,7 +413,7 @@ export default function Home() {
               </div>
             </div>
             <div className="col-lg-3 col-md-3 col-12">
-              <div className="ship-box" onClick={handleShow} style={{ cursor: "pointer" }}>
+              <div className="ship-box car" onClick={handleShow} style={{ cursor: "pointer" }}>
                 <div className="d-flex">
                   <Image src="/assets/img/free-shipping.png" alt="Money back" width={70} height={50} className="img-fluid me-3" />
                   <p className="mb-0 mt-2 active-text">
@@ -477,6 +478,7 @@ export default function Home() {
       </section>
       <FAQAccordion />
       <Footer />
+        <StickyFooter />
     </>
   );
 }

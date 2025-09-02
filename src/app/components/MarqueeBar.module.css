@@ -12,7 +12,7 @@
 
 
 .marquee span {
-  display: inline-block;
+  
   padding-right: 50px; /* gap between repeats */
   font-size: 14px;
   font-weight: 500;
@@ -25,4 +25,11 @@
   to {
     transform: translateX(-100%);
   }
+}
+@media (max-width: 768px) {
+.marquee span {
+    padding-right: 0px; /* gap between repeats */
+  font-size: 12px;
+}
+
 }

@@ -13,12 +13,12 @@ function Header() {
         <>
             <header>
                 <section className="header">
-                    <div className='logo-sec'>
-                        <Link className="d-lg-block d-none" href="/">
+                    <div className='logo-sec d-lg-block d-none'>
+                        <Link className="" href="/">
                             <Image src="/assets/img/logo.png" alt="Beyuvana" width={150} height={70} />
                         </Link>
                     </div>
-                    <div className='container'>
+                    <div className="container bvcs">
                         <nav className="navbar navbar-expand-lg">
                             <div className="container-fluid">
                                 <Link className="navbar-brand d-lg-none d-flex" href="/">
@@ -58,7 +58,7 @@ function Header() {
                                     alt="Login Banner"
                                     width={25}
                                     height={25}
-                                    className="img-fluid me-3"
+                                    className="img-fluid me-3 d-lg-flex d-none"
                                 />
                                 <LoginModal />
                                 <RegisterModal />
