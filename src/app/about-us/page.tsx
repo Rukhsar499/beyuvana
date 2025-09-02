@@ -1,7 +1,7 @@
 "use client";
-import { useState } from "react";
+
 import Image from "next/image";
-import { Modal, Button } from "react-bootstrap";
+
 import styles from "./page.module.css";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
@@ -12,10 +12,7 @@ import Different from "../about-us/Different";
 
 
 export default function Home() {
-    const [show, setShow] = useState(false);
-
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
+  
     return (
         <>
             <Header />
@@ -30,7 +27,7 @@ export default function Home() {
                                 Our philosophy is simple: clean, transparent, and
                                 effective nutrition that supports your skin, gut, and overallbalance—without shortcuts, unnecessary fillers, or hidden additives.
                                 Unlike ordinary capsules that typically carry only 600–800 mg of actives, every BEYUVANA™ sachet delivers a full 8,000 mg of carefully
-                                selected nutrients—that’s 10X more nourishment in a form your body can truly absorb.
+                                selected nutrients—that&apos;s 10X more nourishment in a form your body can truly absorb.
                             </p>
                             <p>
                                 We bring together the wisdom of ancient botanicals and the precision of modern nutrition, ensuring each blend is safe,
@@ -38,7 +35,7 @@ export default function Home() {
                             </p>
                             <p>
                                 With a strong focus on purity, quality, and honesty, BEYUVANA™ is not just another
-                                supplement—it’s a commitment to long-term vitality, timeless beauty, and natural well-
+                                supplement—it&apos;s a commitment to long-term vitality, timeless beauty, and natural well-
                                 being.
                             </p>
                             <p><b>BEYUVANA™— Wellness, Naturally.</b></p>
@@ -57,7 +54,7 @@ export default function Home() {
                 <div className="container">
                     <div className="text-center">
                         <h2>What is BEYUVANA?</h2>
-                        <p id="yuna" style={{ color: "#fff" }}><span style={{ color: "#DFC362" }}>BEYUVANA</span> = Be + Yuvana = "Be Youthful. Be Alive. Be You."</p>
+                        <p id="yuna" style={{ color: "#fff" }}><span style={{ color: "#DFC362" }}>BEYUVANA</span> = Be + Yuvana = &quot;Be Youthful. Be Alive. Be You.&quot;</p>
                         <p>
                             We are a plant-based nutrition brand rooted in Indian heritage and powered by science.
                             But we’re more than just anti-aging— We support your daily health, gut balance, glowing skin, energy, and inner wellness.

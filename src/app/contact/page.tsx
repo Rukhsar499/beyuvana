@@ -22,7 +22,7 @@ export default function Home() {
                     <div className="row">
                         <div className="col-lg-6 col-md-6 col-12">
                             <div className="con-text">
-                                <h2  style={{ color: "#057A37" }}>Contact Us</h2>
+                                <h2 style={{ color: "#057A37" }}>Contact Us</h2>
                                 <p>
                                     At Beyuvana, we are committed to providing high-quality, plant-based collagen
                                     products that support your health and beauty goals. At Beyuvana, we are committed to providing high-quality, plant-based collagen
@@ -70,10 +70,37 @@ export default function Home() {
                         <div className="col-lg-1 col-md-1 col-1"></div>
                         <div className="col-lg-5 col-md-5 col-12">
 
+                            <form>
+                                <div className="enq">
+                                    <h4>Enquire Online</h4>
+                                </div>
+                                <div className="con-form">
+                                    <div className="mb-3">
+                                        <input type="text" className="form-control" placeholder="Full Name:" />
+                                    </div>
+                                    <div className="mb-3">
+                                        <input type="email" className="form-control" placeholder="Email Address:" />
+                                    </div>
+                                    <div className="mb-3">
+                                        <input type="text" className="form-control" placeholder="Phone Number:" />
+                                    </div>
+                                    <div className="mb-3">
+                                        <input type="text" className="form-control" placeholder="Subject:" />
+                                    </div>
+                                    <div className="mb-3">
+                                        <div className="form-floating">
+                                            <textarea className="form-control" >Message:</textarea>
+                                            
+                                        </div>
+                                    </div>
+                                    <button type="submit" className="subm">Submit</button>
+                                </div>
+                            </form>
+
                         </div>
                     </div>
                 </div>
-            </section>
+            </section >
 
 
 

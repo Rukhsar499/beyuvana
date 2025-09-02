@@ -563,7 +563,24 @@ h3 {
   margin: 0 0 20px;
   opacity: 1;
 }
-
+.con-form{
+  background-color: #F2FFF7;
+  padding: 20px;
+}
+.enq{
+  background-color: #057A37;
+  padding: 15px 20px;
+  color: #fff;
+}
+.subm{
+  background-color:#057A37;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  border: none;
+  color: #fff;
+  border-radius: 12px;
+}
 .btn-login {
   border-radius: 17px;
   padding: 5px 20px;
