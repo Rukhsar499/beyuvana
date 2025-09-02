@@ -1,22 +1,18 @@
 "use client";
 
 import Link from "next/link";
-import { FaWhatsapp } from "react-icons/fa";
-import { Button } from "@mui/material";
+
+
 import Image from "next/image";
+import { Modal, Button, Form } from "react-bootstrap";
 
 import { useState } from "react";
 
 export default function StickyFooter() {
-    const [open, setOpen] = useState(false);
+   const [show, setShow] = useState(false);
 
-    const handleClickOpen = () => {
-        setOpen(true);
-    };
-
-    const handleClose = () => {
-        setOpen(false);
-    };
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
     return (
         <footer
             className="fixed-bottom text-white shadow-lg"
@@ -44,7 +40,7 @@ export default function StickyFooter() {
                 {/* Login Button - Highlighted */}
                 <Button type="button" style={{ backgroundColor: "#1A2819", color: "#fff" }}
                     variant="contained"
-                    onClick={handleClickOpen}
+                     onClick={handleShow}
 
                     className="btn btn-warning  py-2 w-100"
 
@@ -58,11 +54,38 @@ export default function StickyFooter() {
                     />
                     Login
                 </Button >
+                <Modal show={show} onHide={handleClose} centered size="lg" contentClassName="login-modal">
+        <button className="btn-close-custom" onClick={handleClose}>
+          ✕
+        </button>
+       
+         {/* Right Side Form */}
+          <div className="login-right login-hgf p-4 d-flex flex-column justify-content-center">
+            <h4 className=" text-success regis">Login Now!</h4>
+            <hr className="green-line" />
+            
 
-
-
+            <Form>
+              <Form.Group className="mb-3" controlId="formPhone">
+                <Form.Control type="text" placeholder="Enter phone number" />
+              </Form.Group>
+              <p className="text-muted small mt-3">
+            
+              By continuing, you agree to Beyuvana’s Terms of use and Privacy Policy.
+            </p>
+              <Button
+                type="submit"
+                className="w-100"
+                style={{ backgroundColor: "#2CA24C", border: "none" }}
+              >
+                Continue
+              </Button>
+            </Form>
+           
+          </div>
+    
+      </Modal>
             </div>
-
         </footer>
     );
 }

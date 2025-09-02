@@ -99,9 +99,9 @@ function Terms() {
                     <p>For any questions regarding these Terms, please contact us:</p>
 
                     <p>Beyuvana™</p>
-                    <p>Email: [Insert Contact Email]</p>
-                    <p>Phone: [Insert Phone Number]</p>
-                    <p>Address: [Insert Business Address]</p>
+                    <p>Email: [info@beyuvana.com]</p>
+                    <p>Phone: [+917003810162]</p>
+                    <p>Address: [#Kolkata, India]</p>
                 </div>
             </section>
             <StickyFooter />
