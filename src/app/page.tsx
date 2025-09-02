@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <>
       <Header />
-        <MarqueeBar />
+      <MarqueeBar />
 
       <section className="hero-section mb">
         <div className="container">
@@ -308,63 +308,74 @@ export default function Home() {
             <p>
               BEYUVANA gives your body everything it needs to rebuild collagen naturally:
             </p>
-            <div className="d-flex flex-wrap justify-content-center why-wrapper">
-              <div className="why-img">
-                <Image src="/assets/img/lysine.png" alt="Money back" width={200} height={400} className="img-fluid" />
-                <div className="why-txt">
-                  <h3>L-Lysine</h3>
-                  <Image src="/assets/img/add.png" alt="Money back" width={20} height={20} className="img-fluid" />
-                  <h3>L-Proline</h3>
-                  <hr style={{ color: "#fff" }} />
-                  <p style={{ color: "#fff" }}>Core collagen
-                    amino acids</p>
+            <div className="row">
+              <div className="col-lg-1 col-md-1 col-12"></div>
+              <div className="col-lg-2 col-md-2 col-6">
+                <div className="why-img">
+                  <Image src="/assets/img/lysine.png" alt="Money back" width={230} height={400} className="img-fluid" />
+                  <div className="why-txt">
+                    <h3>L-Lysine</h3>
+                    <Image src="/assets/img/add.png" alt="Money back" width={20} height={20} className="img-fluid" />
+                    <h3>L-Proline</h3>
+                    <hr style={{ color: "#fff" }} />
+                    <p style={{ color: "#fff" }}>Core collagen
+                      amino acids</p>
+                  </div>
                 </div>
               </div>
-              <div className="why-img">
-                <Image src="/assets/img/amla.png" alt="Money back" width={200} height={400} className="img-fluid" />
-                <div className="why-txt">
-                  <h3>Amla</h3>
-                  <Image src="/assets/img/add.png" alt="Money back" width={20} height={20} className="img-fluid" />
-                  <h3>Vitamin C</h3>
-                  <hr style={{ color: "#fff" }} />
-                  <p style={{ color: "#fff" }}>Boosts natural
-                    collagen production</p>
+              <div className="col-lg-2 col-md-2 col-6">
+                <div className="why-img">
+                  <Image src="/assets/img/amla.png" alt="Money back" width={230} height={400} className="img-fluid" />
+                  <div className="why-txt">
+                    <h3>Amla</h3>
+                    <Image src="/assets/img/add.png" alt="Money back" width={20} height={20} className="img-fluid" />
+                    <h3>Vitamin C</h3>
+                    <hr style={{ color: "#fff" }} />
+                    <p style={{ color: "#fff" }}>Boosts natural
+                      collagen production</p>
+                  </div>
                 </div>
               </div>
-              <div className="why-img">
-                <Image src="/assets/img/bambo.png" alt="Money back" width={200} height={400} className="img-fluid" />
-                <div className="why-txt">
-                  <h3>Bamboo Silica</h3>
-                  <Image src="/assets/img/add.png" alt="Money back" width={20} height={20} className="img-fluid" />
-                  <h3>Glutathione</h3>
-                  <hr style={{ color: "#fff" }} />
-                  <p style={{ color: "#fff" }}>For glow, repair
-                    and strength
-                  </p>
+              <div className="col-lg-2 col-md-2 col-6">
+                <div className="why-img">
+                  <Image src="/assets/img/bambo.png" alt="Money back" width={230} height={400} className="img-fluid" />
+                  <div className="why-txt">
+                    <h3>Bamboo Silica</h3>
+                    <Image src="/assets/img/add.png" alt="Money back" width={20} height={20} className="img-fluid" />
+                    <h3>Glutathione</h3>
+                    <hr style={{ color: "#fff" }} />
+                    <p style={{ color: "#fff" }}>For glow, repair
+                      and strength
+                    </p>
+                  </div>
                 </div>
               </div>
-              <div className="why-img">
-                <Image src="/assets/img/biotin.png" alt="Money back" width={200} height={400} className="img-fluid" />
-                <div className="why-txt">
-                  <h3>Hyaluronic Acid</h3>
-                  <Image src="/assets/img/add.png" alt="Money back" width={20} height={20} className="img-fluid" />
-                  <h3>Biotin</h3>
-                  <hr style={{ color: "#fff" }} />
-                  <p style={{ color: "#fff" }}>For hydration,
-                    firmness & beauty</p>
+              <div className="col-lg-2 col-md-2 col-6">
+                <div className="why-img">
+                  <Image src="/assets/img/biotin.png" alt="Money back" width={230} height={400} className="img-fluid" />
+                  <div className="why-txt">
+                    <h3>Hyaluronic Acid</h3>
+                    <Image src="/assets/img/add.png" alt="Money back" width={20} height={20} className="img-fluid" />
+                    <h3>Biotin</h3>
+                    <hr style={{ color: "#fff" }} />
+                    <p style={{ color: "#fff" }}>For hydration,
+                      firmness & beauty</p>
+                  </div>
                 </div>
               </div>
-              <div className="why-img">
-                <Image src="/assets/img/gotu.png" alt="Money back" width={200} height={400} className="img-fluid" />
-                <div className="why-txt">
-                  <h3>Ashwagandha</h3>
-                  <Image src="/assets/img/add.png" alt="Money back" width={20} height={20} className="img-fluid" />
-                  <h3>Gotu Kola</h3>
-                  <hr style={{ color: "#fff" }} />
-                  <p style={{ color: "#fff" }}>Reduces
-                    stress-aging
-                    and supports
-                    hormones</p>
+              <div className="col-lg-2 col-md-2 col-6">
+                <div className="why-img">
+                  <Image src="/assets/img/gotu.png" alt="Money back" width={230} height={400} className="img-fluid" />
+                  <div className="why-txt">
+                    <h3>Ashwagandha</h3>
+                    <Image src="/assets/img/add.png" alt="Money back" width={20} height={20} className="img-fluid" />
+                    <h3>Gotu Kola</h3>
+                    <hr style={{ color: "#fff" }} />
+                    <p style={{ color: "#fff" }}>Reduces
+                      stress-aging
+                      and supports
+                      hormones</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -455,7 +466,7 @@ export default function Home() {
                 <p className="mb-0 text-white small-text">If an underlying health condition may have influenced individual experience. <span className="btru"> BEYUVANA™ — Wellness, Naturally.</span></p>
               </div>
             </Modal.Body>
-           </Modal>
+          </Modal>
         </div>
       </section>
       <section className="money mb">
@@ -480,7 +491,7 @@ export default function Home() {
       </section>
       <FAQAccordion />
       <Footer />
-        <StickyFooter />
+      <StickyFooter />
     </>
   );
 }

@@ -75,14 +75,14 @@ export default function TestimonialSlider() {
         <div>
           <Button
             variant="light"
-            className="me-2 rounded-circle shadow-sm"
+            className="me-2  shadow-sm"
             onClick={handlePrev}
           >
             <FaArrowLeft />
           </Button>
           <Button
             variant="success"
-            className="rounded-circle shadow-sm"
+            className=" shadow-sm"
             onClick={handleNext}
           >
             <FaArrowRight />
