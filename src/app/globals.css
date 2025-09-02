@@ -638,7 +638,7 @@ padding: 30px 0;
   justify-content: center;
 }
 .bvcs{
-  background-color: #1e2c1e;
+  background-color: #122014;
 }
 .btn-warning, .btn-success{
   border-radius: 0 !important;
@@ -658,5 +658,8 @@ padding: 30px 0;
   }
       .navbar-toggler {
         border: none;
-      }
+  }
+  .fixed-bottom{
+  display: block;
+}
 }

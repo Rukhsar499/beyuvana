@@ -42,8 +42,8 @@ function Footer() {
               <div className="footeil">
                 <ul>
                   <li><Link href="#">Shipping Policy</Link></li>
-                  <li><Link href="/terms-of-service">Refund Policy</Link></li>
-                  <li><Link href="#">Terms & Conditions</Link></li>
+                  <li><Link href="/">Refund Policy</Link></li>
+                  <li><Link href="/terms-and-condition">Terms & Conditions</Link></li>
                   <li><Link href="#">Cancellation Policy</Link></li>
                 </ul>
               </div>
