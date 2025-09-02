@@ -13,7 +13,7 @@ function Footer() {
           {/* Logo and description */}
           <div className="col-lg-3 col-md-4 col-12">
             <div className="footrd bhb">
-              <Image src="/assets/img/logo.png" alt="Beyuvana" width={150} height={70} />
+              <Image src="/assets/img/logo1.png" alt="Beyuvana" width={150} height={70} />
               <p className="text-white">
                At Beyuvana, we are committed to providing high-quality, plant-based collagen products that support your health and beauty goals. Our products are made with sustainably sourced ingredients and are cruelty-free, ensuring you receive the best without compromising your values. 
               </p>

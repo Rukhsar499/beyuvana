@@ -570,6 +570,9 @@ h3 {
   font-family: var(--font-be-vietnam-pro), sans-serif !important;
   font-size: 14px;
 }
+.get-text{
+  border-right: 1px solid #000;
+}
 .privacy{
   padding-top: 140px;
 }

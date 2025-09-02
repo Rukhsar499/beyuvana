@@ -13,14 +13,14 @@ function Header() {
                 <section className="header">
                     <div className='logo-sec d-lg-block d-none'>
                         <Link className="" href="/">
-                            <Image src="/assets/img/logo.png" alt="Beyuvana" width={130} height={60} />
+                            <Image src="/assets/img/logo1.png" alt="Beyuvana" width={130} height={60} />
                         </Link>
                     </div>
                     <div className="container bvcs">
                         <nav className="navbar navbar-expand-lg">
                             <div className="container-fluid">
                                 <Link className="navbar-brand d-lg-none d-flex" href="/">
-                                    <Image src="/assets/img/logo.png" alt="Beyuvana" width={100} height={50} />
+                                    <Image src="/assets/img/logo1.png" alt="Beyuvana" width={100} height={50} />
                                 </Link>
 
                                 <button
