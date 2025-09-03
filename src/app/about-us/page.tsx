@@ -57,7 +57,7 @@ export default function Home() {
                         <p id="yuna" style={{ color: "#fff" }}><span style={{ color: "#DFC362" }}>BEYUVANA</span> = Be + Yuvana = &quot;Be Youthful. Be Alive. Be You.&quot;</p>
                         <p>
                             We are a plant-based nutrition brand rooted in Indian heritage and powered by science.
-                            But we’re more than just anti-aging— We support your daily health, gut balance, glowing skin, energy, and inner wellness.
+                            But we&apos;re more than just anti-aging— We support your daily health, gut balance, glowing skin, energy, and inner wellness.
                         </p>
                         <p>
                             We believe true beauty and wellness begin inside your body—not just on your skin.
