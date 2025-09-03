@@ -801,4 +801,9 @@ padding: 20px;
 .pros-img, .pro-img{
   margin-bottom: 20px;
 }
+.get-text {
+    border-right: none;
+    border-bottom: 1px solid #00000073;
+    margin-bottom: 20px;
+}
 }
