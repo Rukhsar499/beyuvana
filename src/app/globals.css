@@ -282,8 +282,11 @@ h1 {
   padding-top: 50px;
   position: relative;
   width: 100%;
+  background-color: #fff;
 }
-
+.about, .collagen, .why, .ship, .test, .faq{
+  background-color: #fff;
+}
 .v-sec {
   position: relative;
   border-radius: 20px;

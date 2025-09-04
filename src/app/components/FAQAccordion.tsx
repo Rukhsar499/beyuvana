@@ -39,7 +39,7 @@ const FAQAccordion: FC = () => {
   };
 
   return (
-    <div className="container my-5">
+    <div className="container my-5 faq">
       <Accordion activeKey={activeKey}>
         {faqData.map((item, index) => {
           const key = index.toString();
