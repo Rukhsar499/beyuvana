@@ -5,6 +5,8 @@ import { Antic } from "next/font/google";
 import { Be_Vietnam_Pro } from "next/font/google";
 import BootstrapClient from './components/BootstrapClient';
 import "./globals.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

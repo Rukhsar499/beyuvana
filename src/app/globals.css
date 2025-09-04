@@ -67,7 +67,9 @@ h3 {
 .br {
   border-right: 1px solid #000;
 }
-
+.slick-slide img {
+    display: math !important;
+}
 .active-text {
   color: #000;
   animation: pulseGlow 1.5s ease-in-out infinite;
@@ -810,5 +812,8 @@ padding: 20px;
 }
 .bgx{
   margin-top: 20px;
+}
+.slick-dots {
+  bottom: -9px !important;
 }
 }

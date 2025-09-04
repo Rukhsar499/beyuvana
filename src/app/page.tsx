@@ -10,6 +10,7 @@ import FAQAccordion from "../app/components/FAQAccordion";
 import TestimonialSlider from "../app/TestimonialSlider";
 import StickyFooter from "./components/StickyFooter";
 import MarqueeBar from "./components/MarqueeBar";
+import Why from "./components/Why";
 
 
 export default function Home() {
@@ -343,7 +344,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="mb why">
+      {/* <section className="mb why">
         <div className="container">
           <div className="text-center">
             <h2 style={{ color: "#1A2819" }}>Why You Need BEYUVANA — <span style={{ color: "#0C4B33" }}>Right Now</span></h2>
@@ -427,7 +428,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+      <Why />
       <TestimonialSlider />
       <section className="ship mb">
         <div className="container">
@@ -489,7 +491,7 @@ export default function Home() {
               <ul>
                 <li> Use the product as recommended for 60 days, with consistent daily consumption.</li>
                 <li>Submit your refund request with your Order ID via email
-                  (customercare@beyuvana.com) or WhatsApp (+91-XXXXXXXXXX) within 60
+                  (customercare@beyuvana.com) or WhatsApp (+917003810162) within 60
                   days of delivery.</li>
                 <li>Our team will verify your order details. A complimentary nutritionist
                   consultation may be arranged to understand your experience and ensure eligibility.</li>
