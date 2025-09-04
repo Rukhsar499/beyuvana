@@ -48,7 +48,7 @@ export default function WhatMakesUsDifferent() {
     };
 
     return (
-        <Container className="mb">
+        <Container className="mb diff">
             <h3 className="text-center mb-4 fw-bold">What Makes Us Different?</h3>
             <Slider {...settings}>
                 {cards.map((card) => (
