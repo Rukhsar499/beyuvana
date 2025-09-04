@@ -37,7 +37,7 @@ export default function Home() {
                 type="video/mp4"
               />
             </video>
-            <div className="banner-text">
+            <div className="banner-text d-lg-block d-none">
               {/* <Image src="/assets/img/video-circle.png" alt="Money back" width={60} height={60} className="img-fluid mb-3" /> */}
               <h1>Discover the Power <br />
                 of Plant-Based Collagen</h1>
@@ -69,18 +69,39 @@ export default function Home() {
           <div className="chose_box">
             <div className="row align-items-center">
               <div className="col-lg-4 col-md-3 col-12">
-                <div className="chos-tetx">
+                <div className="chos-tetx bgx">
                   <div className="mb-3">
-                    <h3 className="plant">Plant-Powered Formulations</h3>
-                    <p className="dec">Developed with carefully selected botanicals, vitamins, and adaptogens.</p>
+                    <div className="d-flex">
+                      <div className="image7">
+                        <Image src="/assets/img/hand.png" width={60} height={60} alt="No Toxins" className="icon me-2 d-lg-none d-block" />
+                      </div>
+                      <div>
+                        <h3 className="plant">Plant-Powered Formulations</h3>
+                        <p className="dec">Developed with carefully selected botanicals, vitamins, and adaptogens.</p>
+                      </div>
+                    </div>
                   </div>
-                  <div className="mb-3">
-                    <h3 className="plant">Science-Inspired</h3>
-                    <p className="dec">Created using ingredients that are supported by nutritional research.</p>
+                 <div className="mb-3">
+                    <div className="d-flex">
+                      <div className="image7">
+                        <Image src="/assets/img/bulb.png" width={60} height={60} alt="No Toxins" className="icon me-2 d-lg-none d-block" />
+                      </div>
+                      <div>
+                        <h3 className="plant">Science-Inspired</h3>
+                        <p className="dec">Created using ingredients that are supported by nutritional research.</p>
+                      </div>
+                    </div>
                   </div>
-                  <div className="mb-3">
-                    <h3 className="plant">Clean & Transparent </h3>
-                    <p className="dec">100% vegetarian, with no added sugar, no harmful chemicals, and no hidden additives.</p>
+                 <div className="mb-3">
+                    <div className="d-flex">
+                      <div className="image7">
+                        <Image src="/assets/img/star.png" width={60} height={60} alt="No Toxins" className="icon me-2 d-lg-none d-block" />
+                      </div>
+                      <div>
+                        <h3 className="plant">Clean & Transparent </h3>
+                        <p className="dec">100% vegetarian, with no added sugar, no harmful chemicals, and no hidden additives.</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -99,38 +120,59 @@ export default function Home() {
                     />
                   </video>
                   <div className="image1">
-                    <Image src="/assets/img/hand.png" width={90} height={90} alt="No Toxins" className="icon me-2" />
+                    <Image src="/assets/img/hand.png" width={90} height={90} alt="No Toxins" className="icon me-2 d-lg-block d-none" />
                   </div>
                   <div className="image2">
-                    <Image src="/assets/img/bulb.png" width={90} height={90} alt="No Toxins" className="icon me-2" />
+                    <Image src="/assets/img/bulb.png" width={90} height={90} alt="No Toxins" className="icon me-2 d-lg-block d-none"  />
                   </div>
                   <div className="image3">
-                    <Image src="/assets/img/star.png" width={90} height={90} alt="No Toxins" className="icon me-2" />
+                    <Image src="/assets/img/star.png" width={90} height={90} alt="No Toxins" className="icon me-2 d-lg-block d-none" />
                   </div>
                   <div className="image4">
-                    <Image src="/assets/img/lotus.png" width={90} height={90} alt="No Toxins" className="icon me-2" />
+                    <Image src="/assets/img/lotus.png" width={90} height={90} alt="No Toxins" className="icon me-2 d-lg-block d-none" />
                   </div>
                   <div className="image5">
-                    <Image src="/assets/img/tick.png" width={90} height={90} alt="No Toxins" className="icon me-2" />
+                    <Image src="/assets/img/tick.png" width={90} height={90} alt="No Toxins" className="icon me-2 d-lg-block d-none" />
                   </div>
                   <div className="image6">
-                    <Image src="/assets/img/bowl.png" width={90} height={90} alt="No Toxins" className="icon me-2" />
+                    <Image src="/assets/img/bowl.png" width={90} height={90} alt="No Toxins" className="icon me-2 d-lg-block d-none" />
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 col-md-3 col-12">
                 <div className="chos-tetx left-alk">
-                  <div className="mb-3">
-                    <h3 className="plant">Holistic Approach</h3>
-                    <p className="dec">Designed to support overall wellness, balance, and daily vitality.</p>
+                 <div className="mb-3">
+                    <div className="d-flex">
+                      <div className="image7">
+                        <Image src="/assets/img/lotus.png" width={60} height={60} alt="No Toxins" className="icon me-2 d-lg-none d-block" />
+                      </div>
+                      <div>
+                        <h3 className="plant">Holistic Approach </h3>
+                        <p className="dec">Designed to support overall wellness, balance, and daily vitality.</p>
+                      </div>
+                    </div>
+                  </div>
+                 <div className="mb-3">
+                    <div className="d-flex">
+                      <div className="image7">
+                        <Image src="/assets/img/tick.png" width={60} height={60} alt="No Toxins" className="icon me-2 d-lg-none d-block" />
+                      </div>
+                      <div>
+                        <h3 className="plant">Trusted Quality</h3>
+                        <p className="dec">Every batch is lab-tested for safety and purity before it reaches you.</p>
+                      </div>
+                    </div>
                   </div>
                   <div className="mb-3">
-                    <h3 className="plant">Trusted Quality</h3>
-                    <p className="dec">Every batch is lab-tested for safety and purity before it reaches you.</p>
-                  </div>
-                  <div className="mb-3">
-                    <h3 className="plant">Commitment to Integrity</h3>
-                    <p className="dec">Honest, clear, and mindful formulations made with your long-term well-being in mind.</p>
+                    <div className="d-flex">
+                      <div className="image7">
+                        <Image src="/assets/img/bowl.png" width={60} height={60} alt="No Toxins" className="icon me-2 d-lg-none d-block" />
+                      </div>
+                      <div>
+                        <h3 className="plant">Commitment to Integrity</h3>
+                        <p className="dec">Honest, clear, and mindful formulations made with your long-term well-being in mind.</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
