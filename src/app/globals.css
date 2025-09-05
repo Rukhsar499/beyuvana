@@ -137,7 +137,9 @@ h3 {
   background-color: #F8F8F8;
   height: 280px;
 }
-
+.it{
+  font-size: 28px !important;
+}
 .money-text {
   padding: 30px 0px;
 }

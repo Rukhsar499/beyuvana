@@ -16,14 +16,34 @@ const ProductGallery = () => {
   ];
 
   const [activeImage, setActiveImage] = useState<string>(images[0]);
+  const [zoomStyle, setZoomStyle] = useState<React.CSSProperties>({ display: 'none' });
+
+  // ✅ Mouse move handler for zoom
+  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
+    const { left, top, width, height } = e.currentTarget.getBoundingClientRect();
+    const x = ((e.pageX - left - window.scrollX) / width) * 80;
+    const y = ((e.pageY - top - window.scrollY) / height) * 80;
+
+    setZoomStyle({
+      display: 'block',
+      backgroundImage: `url(${activeImage})`,
+      backgroundPosition: `${x}% ${y}%`,
+      backgroundSize: '200%', // zoom level
+    });
+  };
+
+  const handleMouseLeave = () => {
+    setZoomStyle({ display: 'none' });
+  };
 
   return (
-    <section className="container my-5">
-      
-        {/* Left Side: Main Image */}
-        
-          <div className="position-relative">
-            {/* ✅ Main Image */}
+    <section className="container">
+     
+          <div
+            className="main-image-wrapper position-relative"
+            onMouseMove={handleMouseMove}
+            onMouseLeave={handleMouseLeave}
+          >
             <Image
               src={activeImage}
               alt="Product"
@@ -32,15 +52,8 @@ const ProductGallery = () => {
               className="img-fluid rounded shadow product-main-image"
             />
 
-            {/* ✅ Zoom lens */}
-            <div className="zoom-container">
-              <Image
-                src={activeImage}
-                alt="Zoomed Product"
-                fill
-                className="zoomed-img"
-              />
-            </div>
+            {/* ✅ Zoom Window */}
+            <div className="zoom-window" style={zoomStyle}></div>
           </div>
 
           {/* ✅ Thumbnails Slider */}
@@ -70,8 +83,8 @@ const ProductGallery = () => {
                     <Image
                       src={img}
                       alt={`Thumbnail ${index + 1}`}
-                      width={100}
-                      height={100}
+                      width={80}
+                      height={80}
                       className="img-fluid"
                     />
                   </div>
@@ -79,17 +92,14 @@ const ProductGallery = () => {
               ))}
             </Splide>
           </div>
-    
-
-        {/* Right Side: Product Details */}
-       
+        
 
       {/* ✅ Extra CSS */}
       <style jsx>{`
         .product-main-image {
           max-height: 500px;
           object-fit: contain;
-          cursor: zoom-in;
+          cursor: crosshair;
         }
         .thumb {
           cursor: pointer;
@@ -98,8 +108,17 @@ const ProductGallery = () => {
         .thumb:hover {
           border-color: #057a37 !important;
         }
-        .zoom-container {
-          display: none; /* optional: if you want a hover zoom preview */
+        .zoom-window {
+          position: absolute;
+          top: 0;
+          left: 100%;
+          margin-left: 15px;
+          width: 400px;
+          height: 400px;
+          border: 1px solid #ddd;
+          background-repeat: no-repeat;
+          display: none;
+          z-index: 10;
         }
       `}</style>
     </section>
