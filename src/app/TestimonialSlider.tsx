@@ -14,13 +14,16 @@ const MySplideSlider = () => {
       options={{
         perPage: 3,
         type: 'loop',
+        dots: false,
         rewind: true,
         gap: '1rem',
         breakpoints: {
           640: {
+             dots: false,
             perPage: 1,
           },
           1024: {
+             dots: false,
             perPage: 2,
           },
         },
