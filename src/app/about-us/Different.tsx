@@ -1,83 +1,112 @@
-"use client";
+'use client';
 
-import React, { useState } from "react";
-import Slider from "react-slick";
-import Image from "next/image";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import { Container } from "react-bootstrap";
+import { Splide, SplideSlide } from '@splidejs/react-splide';
+import type { Splide as SplideClass } from '@splidejs/splide';
+import Image from 'next/image';
+import { useState } from 'react';
 
-interface CardItem {
-    id: number;
-    title: string;
-    text: string;
-    img: string;
-}
+const MySplideSlider = () => {
+  const [activeIndex, setActiveIndex] = useState(0);
 
-const cards: CardItem[] = [
-    { id: 1, title: "Plant Based Activities", text: "Pure natural", img: "/assets/img/vegan1.png" },
-    { id: 2, title: "No Animal Products", text: "Cruelty-free", img: "/assets/img/poison1.png" },
-    { id: 3, title: "Ayurvedic + Modern", text: "Best of both worlds", img: "/assets/img/herbal-treatment.png" },
-    { id: 4, title: "Safe Daily Use", text: "Long term safe", img: "/assets/img/insurance1.png" },
-    { id: 5, title: "High Quality Ingredients", text: "Premium quality", img: "/assets/img/ingredient1.png" },
-];
+  const testimonials = [
+    {
+    name:'vegan',
+     img: '/assets/img/vegan1.png',
+     text:'Plant Based Activities',
+     paragraph:'Pure natural'
+     
+    },
+    {
+    name:'vegan',
+     img: '/assets/img/poison1.png',
+     text:'No Animal Products',
+     paragraph:'Cruelty-free'
+     
+    },
+    {
+    name:'vegan',
+     img: '/assets/img/herbal-treatment.png',
+     text:'Ayurvedic + Modern',
+     paragraph:'Best of both worlds'
+     
+    },
+    {
+    name:'vegan',
+     img: '/assets/img/insurance1.png',
+     text:'Safe Daily Use',
+     paragraph:'Long term safe'
+     
+    },
+    {
+    name:'vegan',
+     img: '/assets/img/ingredient1.png',
+     text:'High Quality Ingredients',
+     paragraph:'Premium quality'
+     
+    },
+  ];
 
-export default function WhatMakesUsDifferent() {
-    const [activeId, setActiveId] = useState<number>(1); // default active card id
+  return (
+    <section className="mb">
+      <div className="container position-relative">
+        {/* Heading */}
+        <div className="mb-3 text-center">
+          <h2>What Makes Us Different?</h2>
+        </div>
 
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 5,
-        slidesToScroll: 1,
-        responsive: [
-            {
-                breakpoint: 768, // mobile
-                settings: {
-                    slidesToShow: 2,
+        <div className="slider-wrapper position-relative">
+          <Splide
+            options={{
+              perPage: 5,
+              type: 'loop',
+              rewind: true,
+              gap: '1rem',
+              arrows: false,
+              pagination: false,
+              breakpoints: {
+                1024: {
+                arrows: false,
+                  perPage: 2,
                 },
-            },
-            {
-                breakpoint: 480, // very small
-                settings: {
-                    slidesToShow: 2,
+                640: {
+                  perPage: 2,
                 },
-            },
-        ],
-    };
+              },
+            }}
+            aria-label="Testimonials"
+  onMove={(splide: SplideClass, newIndex: number) => setActiveIndex(newIndex)}
+          >
+            {testimonials.map((item, index) => (
+              <SplideSlide key={index}>
+                <div
+                  className={`card h-100 text-center shadow-sm rounded-4 p-3 border border-success  ${activeIndex === index ? 'active-slide' : ''
+                    }`}
+                  onClick={() => setActiveIndex(index)}
+                >
+                  <div className="">
+                    <Image
+                      src={item.img}
+                      alt={item.name}
+                      width={60}
+                      height={60}
+                      className="mb-2"
+                    />
+                   <h6 className="fw-bold">{item.text}</h6>
+                   <p className="small text-muted">{item.paragraph}</p>
+                  </div>
+                
+                  
+                </div>
+              </SplideSlide>
+            ))}
+          </Splide>
+        </div>
+      </div>
 
-    return (
-        <Container className="mb diff">
-            <h3 className="text-center mb-4 fw-bold">What Makes Us Different?</h3>
-            <Slider {...settings}>
-                {cards.map((card) => (
-                    <div key={card.id} className="p-2">
-                        <div
-                            className={`card h-100 text-center shadow-sm rounded-4 p-3 ${activeId === card.id ? "border border-success" : ""
-                                }`}
-                            style={{
-                                cursor: "pointer",
-                                backgroundColor: activeId === card.id ? "#F0FFF9" : "white",
-                                transition: "all 0.3s ease",
-                            }}
-                            onClick={() => setActiveId(card.id)}
-                            onMouseEnter={(e) => (e.currentTarget.style.transform = "scale(1.03)")}
-                            onMouseLeave={(e) => (e.currentTarget.style.transform = "scale(1)")}
-                        >
-                            <Image
-                                src={card.img}
-                                alt={card.title}
-                                width={60}
-                                height={60}
-                                className="mx-auto mb-3"
-                            />
-                            <h6 className="fw-bold">{card.title}</h6>
-                            <p className="small text-muted">{card.text}</p>
-                        </div>
-                    </div>
-                ))}
-            </Slider>
-        </Container>
-    );
-}
+      {/* ✅ Extra CSS for arrows + active border */}
+      
+    </section>
+  );
+};
+
+export default MySplideSlider;
