@@ -157,6 +157,13 @@ const MySplideSlider = () => {
                 </div> 
       </SplideSlide>
     </Splide>
+    <div className="green mt-4 text-center">
+            <h3 style={{ color: "#fff" }}>
+              One sachet a day ={" "}
+              <span className="heal">inner healing + outer glow</span>
+            </h3>
+            <p style={{ color: "#fff" }}>Start early. Stay youthful longer.</p>
+          </div>
     </div>
     </section>
   );
