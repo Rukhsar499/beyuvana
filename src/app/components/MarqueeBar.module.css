@@ -22,4 +22,8 @@
 .fd {
     font-size: 12px;
 }
+.marqueeWrapper {
+padding: 10px 5px;
+
+}
 }
