@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import Image from "next/image";
-import { Modal, Button } from "react-bootstrap";
+import { Modal } from "react-bootstrap";
 
 import styles from "./page.module.css";
 import Header from "../app/components/Header";
@@ -272,7 +272,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="mt-2">
-                  <a href="" className="view">View More</a>
+                  <a href="/collagen" className="view">View More</a>
                 </div>
                 <div className="d-flex mt-3">
                   <button type="button" className="bag"><Image src="/assets/img/shopping-bag.png" alt="" width={20} height={20} className="me-2" />Shop Now</button>
@@ -329,7 +329,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="mt-2">
-                  <a href="" className="view">View More</a>
+                  <a href="/collagen" className="view">View More</a>
                 </div>
                 <div className="d-flex mt-3">
                   <button type="button" className="bag"><Image src="/assets/img/shopping-bag.png" alt="" width={20} height={20} className="me-2" />Shop Now</button>
