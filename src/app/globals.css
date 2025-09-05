@@ -816,6 +816,7 @@ padding: 20px;
 .mis-box {
     border-right: none;
     border-bottom: 1px dotted #00000091;
+    margin-bottom: 20px;
 }
 .mis-box, .miss-box {
     padding: 15px;
@@ -835,16 +836,6 @@ padding: 20px;
 .bgx{
   margin-top: 20px;
 }
-.slick-dots {
-  bottom: -9px !important;
+
 }
-}
-@media (max-width: 767px) {
-  .slick-slide {
-    display: block !important;
-    text-align: center;
-  }
-  .slick-slide > div {
-    width: auto !important;
-  }
-}
+

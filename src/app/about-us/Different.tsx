@@ -104,7 +104,11 @@ const MySplideSlider = () => {
       </div>
 
       {/* ✅ Extra CSS for arrows + active border */}
-      
+      <style jsx>{`
+        .active-slide {
+          background-color: #e6f7ed; /* Light green background */
+        }
+      `}</style>
     </section>
   );
 };
