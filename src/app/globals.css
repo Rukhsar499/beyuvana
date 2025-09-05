@@ -12,14 +12,13 @@
 
 html,
 body {
-  max-width: 100vw;
-  overflow-x: hidden;
+
   background-color: #fff;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  
+background-color: #fff;
   font-family: var(--font-be-vietnam-pro), sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -68,7 +67,12 @@ h3 {
   border-right: 1px solid #000;
 }
 .slick-slide img {
-    display: math !important;
+    display: block !important;
+    margin: 0 auto; /* image ko center align karne ke liye */
+}
+.slider-container {
+  overflow: hidden;
+  padding: 10px 0;
 }
 .active-text {
   color: #000;
@@ -137,7 +141,14 @@ h3 {
 .money-text {
   padding: 30px 0px;
 }
-
+.splide__pagination {
+   bottom: -8px !important;
+}
+.splide__pagination__page.is-active {
+    z-index: 1;
+    background: #057A37 !important;
+    transform: scale(1.4);
+}
 .mb {
   margin-bottom: 50px;
 }
@@ -249,7 +260,11 @@ border-right: 1px dotted #0000008f;
 .about-us{
   padding-top: 50px;
 }
-
+.test-box{
+  background-color: #FCFCFC;
+  padding: 20px;
+  border-radius: 20px;
+}
 .why-txt {
   position: absolute;
   top: 50%;
@@ -601,7 +616,14 @@ h3 {
   width: 60%;
   /* halka greenish background */
 }
-
+.slider-container {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+.slick-slide {
+  display: flex !important;
+  justify-content: center;
+}
 .modal-content {
   padding: 20px;
   background: #f9fff9;
@@ -816,4 +838,13 @@ padding: 20px;
 .slick-dots {
   bottom: -9px !important;
 }
+}
+@media (max-width: 767px) {
+  .slick-slide {
+    display: block !important;
+    text-align: center;
+  }
+  .slick-slide > div {
+    width: auto !important;
+  }
 }

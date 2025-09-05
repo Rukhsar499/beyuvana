@@ -1,69 +1,14 @@
-"use client";
+'use client';
 
-import Image from "next/image";
-import Slider from "react-slick";
+import { Splide, SplideSlide } from '@splidejs/react-splide';
+import Image from 'next/image';
 
-export default function WhySlider() {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 5, // desktop default
-    slidesToScroll: 1,
-    responsive: [
-      {
-        breakpoint: 992, // tablet
-        settings: {
-          slidesToShow: 3,
-        },
-      },
-      {
-        breakpoint: 576, // mobile
-        settings: {
-          slidesToShow: 2,
-        },
-      },
-    ],
-  };
-
-  const items = [
-    {
-      img: "/assets/img/lysine.png",
-      title1: "L-Lysine",
-      title2: "L-Proline",
-      desc: "Core collagen amino acids",
-    },
-    {
-      img: "/assets/img/amla.png",
-      title1: "Amla",
-      title2: "Vitamin C",
-      desc: "Boosts natural collagen production",
-    },
-    {
-      img: "/assets/img/bambo.png",
-      title1: "Bamboo Silica",
-      title2: "Glutathione",
-      desc: "For glow, repair and strength",
-    },
-    {
-      img: "/assets/img/biotin.png",
-      title1: "Hyaluronic Acid",
-      title2: "Biotin",
-      desc: "For hydration, firmness & beauty",
-    },
-    {
-      img: "/assets/img/gotu.png",
-      title1: "Ashwagandha",
-      title2: "Gotu Kola",
-      desc: "Reduces stress-aging and supports hormones",
-    },
-  ];
-
+const MySplideSlider = () => {
   return (
-    <section className="mb why">
-      <div className="container">
-        <div className="text-center">
-          <h2 style={{ color: "#1A2819" }}>
+    <section className='mb'>
+    <div className='container'>
+      <div className='text-center'>
+     <h2 style={{ color: "#1A2819" }}>
             Why You Need BEYUVANA —{" "}
             <span style={{ color: "#0C4B33" }}>Right Now</span>
           </h2>
@@ -71,21 +16,37 @@ export default function WhySlider() {
             BEYUVANA gives your body everything it needs to rebuild collagen
             naturally:
           </p>
-
-          {/* Multi-Item Slider */}
-          <Slider {...settings}>
-            {items.map((item, index) => (
-              <div key={index} className="p-2">
-                <div className="why-img text-center">
+      </div>
+    <Splide
+      options={{
+        perPage: 5,
+        type: 'loop',
+        arrows: false,
+        rewind: true,
+        gap: '1rem',
+        breakpoints: {
+          640: {
+            arrows: false,
+            perPage: 2,
+          },
+          1024: {
+            perPage: 2,
+          },
+        },
+      }}
+      aria-label="My Favorite Images"
+    >
+      <SplideSlide>
+         <div className="why-img text-center">
                   <Image
-                    src={item.img}
-                    alt={item.title1}
+                    src="/assets/img/lysine.png"
+                    alt="L-Lysine"
                     width={230}
                     height={400}
                     className="img-fluid mx-auto"
                   />
                   <div className="why-txt">
-                    <h3>{item.title1}</h3>
+                    <h3>L-Lysine</h3>
                     <Image
                       src="/assets/img/add.png"
                       alt="Add"
@@ -93,25 +54,112 @@ export default function WhySlider() {
                       height={20}
                       className="img-fluid"
                     />
-                    <h3>{item.title2}</h3>
+                    <h3>L-Proline</h3>
                     <hr style={{ color: "#fff" }} />
-                    <p style={{ color: "#fff" }}>{item.desc}</p>
+                    <p style={{ color: "#fff" }}>Core collagen amino acids</p>
                   </div>
-                </div>
-              </div>
-            ))}
-          </Slider>
-
-          {/* Bottom Text */}
-          <div className="green mt-4">
-            <h3 style={{ color: "#fff" }}>
-              One sachet a day ={" "}
-              <span className="heal">inner healing + outer glow</span>
-            </h3>
-            <p style={{ color: "#fff" }}>Start early. Stay youthful longer.</p>
-          </div>
-        </div>
-      </div>
+                </div> 
+      </SplideSlide>
+     <SplideSlide>
+         <div className="why-img text-center">
+                  <Image
+                    src="/assets/img/amla.png"
+                    alt="Amla"
+                    width={230}
+                    height={400}
+                    className="img-fluid mx-auto"
+                  />
+                  <div className="why-txt">
+                    <h3>Amla</h3>
+                    <Image
+                      src="/assets/img/add.png"
+                      alt="Add"
+                      width={20}
+                      height={20}
+                      className="img-fluid"
+                    />
+                    <h3>Vitamin C</h3>
+                    <hr style={{ color: "#fff" }} />
+                    <p style={{ color: "#fff" }}>Boosts natural collagen production</p>
+                  </div>
+                </div> 
+      </SplideSlide>
+      <SplideSlide>
+         <div className="why-img text-center">
+                  <Image
+                    src="/assets/img/bambo.png"
+                    alt="L-Lysine"
+                    width={230}
+                    height={400}
+                    className="img-fluid mx-auto"
+                  />
+                  <div className="why-txt">
+                    <h3>Bamboo Silica</h3>
+                    <Image
+                      src="/assets/img/add.png"
+                      alt="Add"
+                      width={20}
+                      height={20}
+                      className="img-fluid"
+                    />
+                    <h3>Glutathione</h3>
+                    <hr style={{ color: "#fff" }} />
+                    <p style={{ color: "#fff" }}>For glow, repair and strength</p>
+                  </div>
+                </div> 
+      </SplideSlide>
+      <SplideSlide>
+         <div className="why-img text-center">
+                  <Image
+                    src="/assets/img/biotin.png"
+                    alt="L-Lysine"
+                    width={230}
+                    height={400}
+                    className="img-fluid mx-auto"
+                  />
+                  <div className="why-txt">
+                    <h3>Hyaluronic Acid</h3>
+                    <Image
+                      src="/assets/img/add.png"
+                      alt="Add"
+                      width={20}
+                      height={20}
+                      className="img-fluid"
+                    />
+                    <h3>Biotin</h3>
+                    <hr style={{ color: "#fff" }} />
+                    <p style={{ color: "#fff" }}>For hydration, firmness & beauty</p>
+                  </div>
+                </div> 
+      </SplideSlide>
+      <SplideSlide>
+         <div className="why-img text-center">
+                  <Image
+                    src="/assets/img/gotu.png"
+                    alt="L-Lysine"
+                    width={230}
+                    height={400}
+                    className="img-fluid mx-auto"
+                  />
+                  <div className="why-txt">
+                    <h3>Ashwagandha</h3>
+                    <Image
+                      src="/assets/img/add.png"
+                      alt="Add"
+                      width={20}
+                      height={20}
+                      className="img-fluid"
+                    />
+                    <h3>Gotu Kola</h3>
+                    <hr style={{ color: "#fff" }} />
+                    <p style={{ color: "#fff" }}>Reduces stress-aging and supports hormones</p>
+                  </div>
+                </div> 
+      </SplideSlide>
+    </Splide>
+    </div>
     </section>
   );
-}
+};
+
+export default MySplideSlider;

@@ -1,139 +1,108 @@
-"use client";
-import { useState } from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
-import Image from "next/image";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+'use client';
 
-interface Testimonial {
-  id: number;
-  name: string;
-  text: string;
-  profileImg: string;
-  product: string;
-  productImg: string;
-}
+import { Splide, SplideSlide } from '@splidejs/react-splide';
+import Image from 'next/image';
 
-const testimonials: Testimonial[] = [
-  {
-    id: 1,
-    name: "Ramesh Kumar",
-    text: "Naturally flavored with plant extracts and stevia for a refreshing taste—no artificial sweeteners or additives. Clean, light flavor powered by nature. Just the right hint of sweetness, naturally derived.",
-    profileImg: "/assets/img/ramesh.png",
-    product: "Collagen Builder - Plant Based Premium",
-    productImg: "/assets/img/pink-box.png",
-  },
-  {
-    id: 2,
-    name: "Shivangi Dhar",
-    text: "Naturally flavored with plant extracts and stevia for a refreshing taste—no artificial sweeteners or additives. Clean, light flavor powered by nature. Just the right hint of sweetness, naturally derived.",
-    profileImg: "/assets/img/shivangi.png",
-    product: "Advanced Glow - Nourishing Formula",
-    productImg: "/assets/img/green-box.webp",
-  },
-  {
-    id: 3,
-    name: "Anjan Dutta",
-    text: "Naturally flavored with plant extracts and stevia for a refreshing taste—no artificial sweeteners or additives. Clean, light flavor powered by nature. Just the right hint of sweetness, naturally derived.",
-    profileImg: "/assets/img/anjan.png",
-    product: "Collagen Builder - Plant Based Premium",
-    productImg: "/assets/img/pink-box.png",
-  },
-  {
-    id: 4,
-    name: "Priya Sharma",
-    text: "Light flavor powered by nature. Just the right hint of sweetness, naturally derived.",
-    profileImg: "/assets/img/shivangi.png",
-    product: "Hair & Skin Booster",
-    productImg: "/assets/img/green-box.webp",
-  },
-];
-
-export default function TestimonialSlider() {
-  const [activeIndex, setActiveIndex] = useState(0);
-
-  const handlePrev = () => {
-    setActiveIndex((prev) => (prev === 0 ? testimonials.length - 1 : prev - 1));
-  };
-
-  const handleNext = () => {
-    setActiveIndex((prev) => (prev === testimonials.length - 1 ? 0 : prev + 1));
-  };
-
-  // Responsive ke liye ek hi card logic rakha
-  const visibleCards = testimonials.slice(activeIndex, activeIndex + 3);
-  if (visibleCards.length < 3) {
-    visibleCards.push(...testimonials.slice(0, 3 - visibleCards.length));
-  }
-
+const MySplideSlider = () => {
   return (
-    <Container className="position-relative mb-5 test">
-      {/* Heading + Arrows */}
-      <div className="d-flex justify-content-between align-items-center mb-4 flex-wrap">
-        <h2 className="mb-3 mb-md-0">Customer Testimonials</h2>
-        <div>
-          <Button
-            variant="light"
-            className="me-2  shadow-sm"
-            onClick={handlePrev}
-          >
-            <FaArrowLeft />
-          </Button>
-          <Button
-            variant="success"
-            className=" shadow-sm"
-            onClick={handleNext}
-          >
-            <FaArrowRight />
-          </Button>
-        </div>
+    <section className='mb'>
+    <div className='container'>
+      <div className='text-center'>
+      <h2 style={{ color: "#057A37" }}>Customer Testimonials</h2>
       </div>
-
-      {/* Cards */}
-      <Row>
-        {visibleCards.map((t, index) => (
-          <Col
-            lg={4}  // 3 cards desktop
-            md={6}  // 2 cards tablet
-            sm={12} // 1 card mobile
-            key={t.id}
-            className="mb-4"
-          >
-            <div
-              className={`p-4 t-box h-100 rounded-4 ${
-                index === 0 ? "border border-success shadow-sm" : ""
-              }`}
-              style={{ transition: "0.3s" }}
-            >
-              <div className="d-flex align-items-center mb-3">
-                <Image
-                  src={t.profileImg}
-                  alt={t.name}
-                  className="rounded-circle me-3"
-                  width={60}
-                  height={60}
-                />
-                <div>
-                  <h5 className="fw-bold mb-0">{t.name}</h5>
-                  <span className="text-warning">★★★★★</span>
-                </div>
-              </div>
-              <p className="text-muted small">{t.text}</p>
-              <div className="mt-3 text-success fw-semibold d-flex align-items-center">
-                <Image
-                  src={t.productImg}
-                  alt={t.product}
-                  className="me-2"
-                  width={40}
-                  height={40}
-                />
-                <span>{t.product}</span>
-              </div>
-            </div>
-          </Col>
-        ))}
-      </Row>
-    </Container>
+    <Splide
+      options={{
+        perPage: 3,
+        type: 'loop',
+        rewind: true,
+        gap: '1rem',
+        breakpoints: {
+          640: {
+            perPage: 1,
+          },
+          1024: {
+            perPage: 2,
+          },
+        },
+      }}
+      aria-label="My Favorite Images"
+    >
+      <SplideSlide>
+         <div className="test-box">
+          <div className="d-flex mb-3">
+            <div>
+            <Image src="/assets/img/ramesh.png" alt="Beyuvana" width={60} height={60} className="rounded-circle me-3" />
+             </div>
+             <div>
+              <h5 className='fw-bold mb-0'>Ramesh Kumar</h5>
+              <span><Image src="/assets/img/stafd.png" alt="Beyuvana" width={16} height={16} className="me-1" /></span>
+              <span><Image src="/assets/img/stafd.png" alt="Beyuvana" width={16} height={16} className="me-1" /></span>
+              <span><Image src="/assets/img/stafd.png" alt="Beyuvana" width={16} height={16} className="me-1" /></span>
+              <span><Image src="/assets/img/stafd.png" alt="Beyuvana" width={16} height={16} className="me-1" /></span>
+              <span><Image src="/assets/img/stafd.png" alt="Beyuvana" width={16} height={16} className="me-1" /></span>
+             </div>
+          </div>
+          <p>Naturally flavored with plant extracts and stevia for a refreshing taste—no artificial sweeteners or additives.Clean, light flavor powered by nature. Just the right hint of sweetness, naturally derived. </p>
+          <p>light flavor powered by nature. Just the right hint of sweetness, naturally derived.</p>
+          <div className="d-flex">
+            <Image src="/assets/img/green-box.webp" alt="Beyuvana" width={30} height={30} className="me-2" />
+            <p>BEYUVANA™ Collagen Builder— India’s  1st
+              Complete Plant-Based Premium</p>
+          </div>
+        </div> 
+      </SplideSlide>
+      <SplideSlide>
+        <div className="test-box">
+          <div className="d-flex mb-3">
+            <div>
+            <Image src="/assets/img/shivangi.png" alt="Beyuvana" width={60} height={60} className="rounded-circle me-3" />
+             </div>
+             <div>
+              <h5 className='fw-bold mb-0'>Shivangi Dhar</h5>
+              <span><Image src="/assets/img/stafd.png" alt="Beyuvana" width={16} height={16} className="me-1" /></span>
+              <span><Image src="/assets/img/stafd.png" alt="Beyuvana" width={16} height={16} className="me-1" /></span>
+              <span><Image src="/assets/img/stafd.png" alt="Beyuvana" width={16} height={16} className="me-1" /></span>
+              <span><Image src="/assets/img/stafd.png" alt="Beyuvana" width={16} height={16} className="me-1" /></span>
+              <span><Image src="/assets/img/stafd.png" alt="Beyuvana" width={16} height={16} className="me-1" /></span>
+             </div>
+          </div>
+          <p>Naturally flavored with plant extracts and stevia for a refreshing taste—no artificial sweeteners or additives.Clean, light flavor powered by nature. Just the right hint of sweetness, naturally derived. </p>
+          <p>light flavor powered by nature. Just the right hint of sweetness, naturally derived.</p>
+          <div className="d-flex">
+            <Image src="/assets/img/pink-box.png" alt="Beyuvana" width={30} height={30} className="me-2" />
+            <p>BEYUVANA™ Collagen Builder— India’s  1st
+              Complete Plant-Based Premium</p>
+          </div>
+        </div> 
+      </SplideSlide>
+      <SplideSlide>
+        <div className="test-box">
+          <div className="d-flex mb-3">
+            <div>
+            <Image src="/assets/img/anjan.png" alt="Beyuvana" width={60} height={60} className="rounded-circle me-3" />
+             </div>
+             <div>
+              <h5 className='fw-bold mb-0'>Anjan Dutta</h5>
+              <span><Image src="/assets/img/stafd.png" alt="Beyuvana" width={16} height={16} className="me-1" /></span>
+              <span><Image src="/assets/img/stafd.png" alt="Beyuvana" width={16} height={16} className="me-1" /></span>
+              <span><Image src="/assets/img/stafd.png" alt="Beyuvana" width={16} height={16} className="me-1" /></span>
+              <span><Image src="/assets/img/stafd.png" alt="Beyuvana" width={16} height={16} className="me-1" /></span>
+              <span><Image src="/assets/img/stafd.png" alt="Beyuvana" width={16} height={16} className="me-1" /></span>
+             </div>
+          </div>
+          <p>Naturally flavored with plant extracts and stevia for a refreshing taste—no artificial sweeteners or additives.Clean, light flavor powered by nature. Just the right hint of sweetness, naturally derived. </p>
+          <p>light flavor powered by nature. Just the right hint of sweetness, naturally derived.</p>
+          <div className="d-flex">
+            <Image src="/assets/img/green-box.webp" alt="Beyuvana" width={30} height={30} className="me-2" />
+            <p>BEYUVANA™ Collagen Builder— India’s  1st
+              Complete Plant-Based Premium</p>
+          </div>
+        </div> 
+      </SplideSlide>
+    </Splide>
+    </div>
+    </section>
   );
-}
+};
+
+export default MySplideSlider;

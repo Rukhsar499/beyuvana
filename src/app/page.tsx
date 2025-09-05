@@ -13,6 +13,7 @@ import MarqueeBar from "./components/MarqueeBar";
 import Why from "./components/Why";
 
 
+
 export default function Home() {
   const [show, setShow] = useState(false);
 
@@ -217,6 +218,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+    
       <section className="collagen mb">
         <div className="container">
           <div className="row">
