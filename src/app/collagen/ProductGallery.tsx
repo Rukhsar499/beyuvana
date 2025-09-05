@@ -9,19 +9,19 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const ProductGallery = () => {
   // ✅ Images array
   const images: string[] = [
-    '/assets/img/product1.png',
-    '/assets/img/product2.png',
-    '/assets/img/product3.png',
-    '/assets/img/product4.png',
+    '/assets/img/collagen-pro.png',
+    '/assets/img/1.png',
+    '/assets/img/2.png',
+    '/assets/img/3.png',
   ];
 
   const [activeImage, setActiveImage] = useState<string>(images[0]);
 
   return (
     <section className="container my-5">
-      <div className="row">
+      
         {/* Left Side: Main Image */}
-        <div className="col-md-6 text-center">
+        
           <div className="position-relative">
             {/* ✅ Main Image */}
             <Image
@@ -79,18 +79,10 @@ const ProductGallery = () => {
               ))}
             </Splide>
           </div>
-        </div>
+    
 
         {/* Right Side: Product Details */}
-        <div className="col-md-6">
-          <h2>Brightening Collagen Powder</h2>
-          <p>
-            This collagen powder helps restore your skin’s natural glow and
-            improves overall health with plant-based ingredients.
-          </p>
-          <button className="btn btn-success btn-lg">Add to Cart</button>
-        </div>
-      </div>
+       
 
       {/* ✅ Extra CSS */}
       <style jsx>{`

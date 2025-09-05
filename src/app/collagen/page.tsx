@@ -18,9 +18,11 @@ export default function collagen() {
             <Header />
             <MarqueeBar />
             <section className="about-us mb">
-                <div className="row">
-                    <div className="col-lg-4 col-md-4 col-12">
-                      <ProductGallery />  
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-4 col-md-4 col-12">
+                            <ProductGallery />
+                        </div>
                     </div>
                 </div>
             </section>
