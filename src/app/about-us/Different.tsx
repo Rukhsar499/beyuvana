@@ -62,13 +62,15 @@ const MySplideSlider = () => {
               rewind: true,
               gap: '1rem',
               arrows: false,
-              pagination: false,
+              pagination: true,
               breakpoints: {
                 1024: {
                 arrows: false,
+                dot:true,
                   perPage: 2,
                 },
                 640: {
+                    arrows: false,
                   perPage: 2,
                 },
               },
@@ -79,7 +81,7 @@ const MySplideSlider = () => {
             {testimonials.map((item, index) => (
               <SplideSlide key={index}>
                 <div
-                  className={`card h-100 text-center shadow-sm rounded-4 p-3 border border-success  ${activeIndex === index ? 'active-slide' : ''
+                  className={`card  text-center shadow-sm rounded-4 p-3 border border-success  ${activeIndex === index ? 'active-slide' : ''
                     }`}
                   onClick={() => setActiveIndex(index)}
                 >
