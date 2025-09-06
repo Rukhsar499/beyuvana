@@ -45,6 +45,7 @@ a {
 p {
   color: #3B3B3B;
   font-size: 14px;
+  font-family: var(--font-be-vietnam-pro), sans-serif;
 }
 .fixed-bottom{
   display: none;
@@ -560,7 +561,19 @@ h1 {
   background-color: #FAFAFA;
   padding: 50px 0px;
 }
-
+.res-box{
+  background-color: #EDFFF0;
+  text-align: center;
+  padding: 20px;
+  border-radius: 30px;
+  color: #0C4B33;
+  font-family: 'GrafielsRegular-JpODj';
+  margin-bottom: 20px;
+}
+.sevty{
+  font-size: 30px !important;
+  margin-bottom: 0;
+}
 .agihg {
   display: inline-block;
   background-color: transparent;

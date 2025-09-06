@@ -8,8 +8,7 @@ export default function MarqueeBar() {
     <div className={styles.marqueeWrapper}>
       <div className={styles.marquee}>
         <span>
-          Join the Beyuvana Tribe — Get 20% Off Your First Order and Glow from
-          Within. &nbsp; • &nbsp;
+          *Get freebies worth upto ₹500 & upto ₹200 off on all prepaid orders
         </span>
        </div>
     </div>

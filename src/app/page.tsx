@@ -35,7 +35,7 @@ export default function Home() {
               className="banner-video"
             >
               <source
-                src="/assets/img/banner-video.mp4"
+                src="/assets/img/banner-video.mov"
                 type="video/mp4"
               />
             </video>
@@ -117,7 +117,7 @@ export default function Home() {
                     className="banner-videos"
                   >
                     <source
-                      src="/assets/img/Sqaure-video.mp4"
+                      src="/assets/img/Sqaure-video.mov"
                       type="video/mp4"
                     />
                   </video>

@@ -10,6 +10,8 @@ import MarqueeBar from "../components/MarqueeBar";
 import ProductGallery from "../collagen/ProductGallery";
 import AccordionItem from "../collagen/AccordionItem";
 import Youth from "../collagen/Youth";
+import ColFaq from "../collagen/ColFaq";
+import PreSlider from "../collagen/PreSlider"
 
 
 
@@ -227,7 +229,7 @@ export default function collagen() {
                                     Synergistic Plant-Based Actives</h2>
                             </div>
                         </div>
-                         <div className="col-lg-1 col-md-1 col-1"></div>
+                        <div className="col-lg-1 col-md-1 col-1"></div>
                         <div className="col-lg-4 col-md-4 col-12">
                             <div className="greb-img">
                                 <Image src="/assets/img/womens.png" alt="Money back" width={400} height={400} className="img-fluid me-3" />
@@ -235,11 +237,182 @@ export default function collagen() {
                         </div>
                     </div>
                     <hr className="gil" />
-                   <Youth /> 
+                    <Youth />
+                </div>
+            </section>
+            <section className="premi mb">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-5 col-md-5 col-12">
+                            <div className="pr-img">
+                                <Image src="/assets/img/pre-ik.png" alt="Money back" width={500} height={500} className="img-fluid me-3" />
+                            </div>
+                        </div>
+                        <div className="col-lg-7 col-md-7 col-12">
+                            <div>
+                                <h2>Experience Visible Transformation in 10 Weeks</h2>
+                                <p>Our clinical-style progress chart reveals the powerful results of BEYUVANA™’s advanced
+                                    anti-ageing formula. Within 10 weeks:</p>
+                            </div>
+                            <div className="d-flex mb-3">
+                                <Image src="/assets/img/tick-square.png" alt="Money back" width={20} height={20} className="img-fluid me-2" />
+                                <p className="mb-0">
+                                    Hydration surges 75%, leaving skin plump and supple.
+                                </p>
+                            </div>
+                            <div className="d-flex mb-3">
+                                <Image src="/assets/img/tick-square.png" alt="Money back" width={20} height={20} className="img-fluid me-2" />
+                                <p className="mb-0">
+                                    Glow rises 70%, restoring luminous radiance.
+                                </p>
+                            </div>
+                            <div className="d-flex mb-3">
+                                <Image src="/assets/img/tick-square.png" alt="Money back" width={20} height={20} className="img-fluid me-2" />
+                                <p className="mb-0">
+                                    Elasticity improves 68%, for a firmer, lifted feel.
+                                </p>
+                            </div>
+                            <div className="d-flex mb-3">
+                                <Image src="/assets/img/tick-square.png" alt="Money back" width={20} height={20} className="img-fluid me-2" />
+                                <p className="mb-0">
+                                    Pigmentation reduces by 60%, revealing clearer, even skin tone.
+                                </p>
+                            </div>
+                            <div className="d-flex mb-3">
+                                <Image src="/assets/img/tick-square.png" alt="Money back" width={20} height={20} className="img-fluid me-2" />
+                                <p className="mb-0">
+                                    Wrinkle depth reduces 62%, visibly softening fine lines.
+                                </p>
+                            </div>
+                            <div className="d-flex mb-3">
+                                <Image src="/assets/img/tick-square.png" alt="Money back" width={20} height={20} className="img-fluid me-2" />
+                                <p className="mb-0">
+                                    Overall ageing markers drop 61%, showcasing comprehensive renewal.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="text-center mt-3">
+                        <p>
+                            This transformation is powered by a synergy of botanicals, antioxidants, and Ayurvedic adaptogens — uniting nature and science for timeless, radiant skin.
+                        </p>
+                    </div>
                 </div>
             </section>
 
+            <section className="resr mb">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-6 col-md-6 col-12">
+                            <div className="resr-text">
+                                <h2>Powered by Research-Backed Ingredients in BEYUVANA™ PREMIUM COLLAGEN BUILDER</h2>
+                                <p>Improvement in just 10 weeks</p>
+                                <div className="row">
+                                    <div className="col-lg-6 col-md-6 col-12">
+                                        <div className="res-box">
+                                            <h4 className="sevty">75%</h4>
+                                            <p>Increase in <br />
+                                                Skin Hydration</p>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-6 col-md-6 col-12">
+                                        <div className="res-box">
+                                            <h4 className="sevty">70%</h4>
+                                            <p>Increase in <br />
+                                                Skin Glow</p>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-6 col-md-6 col-12">
+                                        <div className="res-box">
+                                            <h4 className="sevty">68%</h4>
+                                            <p>Increase in <br />
+                                                Skin Elasticity</p>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-6 col-md-6 col-12">
+                                        <div className="res-box">
+                                            <h4 className="sevty">60%</h4>
+                                            <p>Reduce in <br />
+                                                Pigmentation Reduction </p>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-6 col-md-6 col-12">
+                                        <div className="res-box">
+                                            <h4 className="sevty">62%</h4>
+                                            <p>Reduce in <br />
+                                                Wrinkle Depth Reduction</p>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-6 col-md-6 col-12">
+                                        <div className="res-box">
+                                            <h4 className="sevty">61%</h4>
+                                            <p>Reduce in <br />
+                                                Visible Signs of Aging</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-6 col-md-6 col-12">
+                            <div className="prot-img">
+                                <Image src="/assets/img/envato.png" alt="Money back" width={600} height={600} className="img-fluid me-2" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
+            <PreSlider />
+            <section className="reviews mb">
+                <div className="container">
+                    <div className="text-center">
+                        <h2>Customer Reviews</h2>
+                    </div>
+                    <div className="d-flex">
+                        <div className="star">
+                            <span className="img-fluid me-2">Anonymous</span>
+                            <span> <Image src="/assets/img/star1.png" alt="Money back" width={20} height={20} className="img-fluid" /></span>
+                            <span> <Image src="/assets/img/star1.png" alt="Money back" width={20} height={20} className="img-fluid" /></span>
+                            <span> <Image src="/assets/img/star1.png" alt="Money back" width={20} height={20} className="img-fluid" /></span>
+                            <span> <Image src="/assets/img/star1.png" alt="Money back" width={20} height={20} className="img-fluid" /></span>
+                            <span> <Image src="/assets/img/half-star.png" alt="Money back" width={20} height={20} className="img-fluid" /></span>
+                        </div>
+                    </div>
+                    <p>
+                        Naturally flavored with plant extracts and stevia for a refreshing taste—no artificial sweeteners or additives.Clean, light flavor powered by nature.Naturally flavored with plant extracts and stevia for a refreshing taste—no artificial sweeteners or additives.Clean, light flavor powered by nature.Naturally flavored with plant extracts and stevia for a refreshing taste—no artificial sweeteners or additives.Clean, light flavor powered by nature.Naturally flavored with plant extracts and stevia for a refreshing taste—no artificial sweeteners or additives.Clean, light flavor powered by nature.
+                    </p>
+                    <hr />
+                    <div className="d-flex">
+                        <div className="star">
+                            <span className="img-fluid me-2">Anonymous</span>
+                            <span> <Image src="/assets/img/star1.png" alt="Money back" width={20} height={20} className="img-fluid" /></span>
+                            <span> <Image src="/assets/img/star1.png" alt="Money back" width={20} height={20} className="img-fluid" /></span>
+                            <span> <Image src="/assets/img/star1.png" alt="Money back" width={20} height={20} className="img-fluid" /></span>
+                            <span> <Image src="/assets/img/star1.png" alt="Money back" width={20} height={20} className="img-fluid" /></span>
+                            <span> <Image src="/assets/img/half-star.png" alt="Money back" width={20} height={20} className="img-fluid" /></span>
+                        </div>
+                    </div>
+                    <p>
+                        Naturally flavored with plant extracts and stevia for a refreshing taste—no artificial sweeteners or additives.Clean, light flavor powered by nature.Naturally flavored with plant extracts and stevia for a refreshing taste—no artificial sweeteners or additives.Clean, light flavor powered by nature.Naturally flavored with plant extracts and stevia for a refreshing taste—no artificial sweeteners or additives.Clean, light flavor powered by nature.Naturally flavored with plant extracts and stevia for a refreshing taste—no artificial sweeteners or additives.Clean, light flavor powered by nature.
+                    </p>
+                    <hr />
+                    <div className="d-flex">
+                        <div className="star">
+                            <span className="img-fluid me-2">Anonymous</span>
+                            <span> <Image src="/assets/img/star1.png" alt="Money back" width={20} height={20} className="img-fluid" /></span>
+                            <span> <Image src="/assets/img/star1.png" alt="Money back" width={20} height={20} className="img-fluid" /></span>
+                            <span> <Image src="/assets/img/star1.png" alt="Money back" width={20} height={20} className="img-fluid" /></span>
+                            <span> <Image src="/assets/img/star1.png" alt="Money back" width={20} height={20} className="img-fluid" /></span>
+                            <span> <Image src="/assets/img/half-star.png" alt="Money back" width={20} height={20} className="img-fluid" /></span>
+                        </div>
+                    </div>
+                    <p>
+                        Naturally flavored with plant extracts and stevia for a refreshing taste—no artificial sweeteners or additives.Clean, light flavor powered by nature.Naturally flavored with plant extracts and stevia for a refreshing taste—no artificial sweeteners or additives.Clean, light flavor powered by nature.Naturally flavored with plant extracts and stevia for a refreshing taste—no artificial sweeteners or additives.Clean, light flavor powered by nature.Naturally flavored with plant extracts and stevia for a refreshing taste—no artificial sweeteners or additives.Clean, light flavor powered by nature.
+                    </p>
+                    <hr />
+                </div>
+            </section>
+            <ColFaq />
             <Footer />
             <StickyFooter />
         </>

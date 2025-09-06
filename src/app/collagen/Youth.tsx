@@ -6,7 +6,7 @@ import Image from 'next/image';
 import { useState } from 'react';
 
 const MySplideSlider = () => {
-    const [activeIndex, setActiveIndex] = useState(0);
+    const [activeIndex, setActiveIndex] = useState(1);
 
     const testimonials = [
         {
