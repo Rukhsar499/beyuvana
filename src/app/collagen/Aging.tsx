@@ -1,8 +1,10 @@
 "use client";
 
 import { Splide, SplideSlide } from "@splidejs/react-splide";
+import type { Splide as SplideClass } from "@splidejs/splide"; 
 import Image from "next/image";
 import { useState } from "react";
+
 
 const items = [
   {
@@ -53,7 +55,9 @@ export default function CardSlider() {
               1024: { perPage: 2 },
             },
           }}
-          onMoved={(splide) => setActiveIndex(splide.index)}
+         onMoved={(splide: SplideClass) => {
+  setActiveIndex(splide.index);
+}}
         >
           {items.map((item, index) => (
             <SplideSlide key={item.id}>
