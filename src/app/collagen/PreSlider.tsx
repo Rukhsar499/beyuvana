@@ -32,7 +32,7 @@ const MySplideSlider = () => {
                 <div className='text-center'>
                     <h2>Why the BEYUVANA™ PREMIUM COLLAGEN BUILDER Works</h2>
                     <p>
-                        BEYUVANA™ isn’t just another supplement — it’s a multi-action, plant-powered skin nutrition system designed to target the root causes of aging, not just the symptoms. Here's why it delivers real, visible results:
+                        BEYUVANA™ isn&apos;t just another supplement — it&apos;s a multi-action, plant-powered skin nutrition system designed to target the root causes of aging, not just the symptoms. Here&apos;s why it delivers real, visible results:
                     </p>
                 </div>
 
