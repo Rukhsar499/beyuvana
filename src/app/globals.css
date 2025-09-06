@@ -283,6 +283,13 @@ padding-left: 10px;
   font-family: 'GrafielsRegular-JpODj';
   font-size: 24px;
 }
+.btn-review{
+  background-color: #057A37;
+  color: #fff;
+  padding: 10px 40px;
+  border: none;
+  margin-top: 30px;
+}
 .mis-box img, .miss-box img{
   margin-bottom: 30px;
 }

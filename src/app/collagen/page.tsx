@@ -371,45 +371,57 @@ export default function collagen() {
                     <div className="d-flex">
                         <div className="star">
                             <span className="img-fluid me-2">Anonymous</span>
-                            <span> <Image src="/assets/img/star1.png" alt="Money back" width={20} height={20} className="img-fluid" /></span>
-                            <span> <Image src="/assets/img/star1.png" alt="Money back" width={20} height={20} className="img-fluid" /></span>
-                            <span> <Image src="/assets/img/star1.png" alt="Money back" width={20} height={20} className="img-fluid" /></span>
-                            <span> <Image src="/assets/img/star1.png" alt="Money back" width={20} height={20} className="img-fluid" /></span>
-                            <span> <Image src="/assets/img/half-star.png" alt="Money back" width={20} height={20} className="img-fluid" /></span>
+                            <span> <Image src="/assets/img/green-star.png" alt="Money back" width={20} height={20} className="img-fluid" /></span>
+                            <span> <Image src="/assets/img/green-star.png" alt="Money back" width={20} height={20} className="img-fluid" /></span>
+                            <span> <Image src="/assets/img/green-star.png" alt="Money back" width={20} height={20} className="img-fluid" /></span>
+                            <span> <Image src="/assets/img/green-star.png" alt="Money back" width={20} height={20} className="img-fluid" /></span>
+                            <span> <Image src="/assets/img/b-star.png" alt="Money back" width={20} height={20} className="img-fluid" /></span>
                         </div>
                     </div>
                     <p>
                         Naturally flavored with plant extracts and stevia for a refreshing taste—no artificial sweeteners or additives.Clean, light flavor powered by nature.Naturally flavored with plant extracts and stevia for a refreshing taste—no artificial sweeteners or additives.Clean, light flavor powered by nature.Naturally flavored with plant extracts and stevia for a refreshing taste—no artificial sweeteners or additives.Clean, light flavor powered by nature.Naturally flavored with plant extracts and stevia for a refreshing taste—no artificial sweeteners or additives.Clean, light flavor powered by nature.
+                    </p>
+                    <p>
+                        <b>5 days ago</b>
                     </p>
                     <hr />
                     <div className="d-flex">
                         <div className="star">
                             <span className="img-fluid me-2">Anonymous</span>
-                            <span> <Image src="/assets/img/star1.png" alt="Money back" width={20} height={20} className="img-fluid" /></span>
-                            <span> <Image src="/assets/img/star1.png" alt="Money back" width={20} height={20} className="img-fluid" /></span>
-                            <span> <Image src="/assets/img/star1.png" alt="Money back" width={20} height={20} className="img-fluid" /></span>
-                            <span> <Image src="/assets/img/star1.png" alt="Money back" width={20} height={20} className="img-fluid" /></span>
-                            <span> <Image src="/assets/img/half-star.png" alt="Money back" width={20} height={20} className="img-fluid" /></span>
+                            <span> <Image src="/assets/img/green-star.png" alt="Money back" width={20} height={20} className="img-fluid" /></span>
+                            <span> <Image src="/assets/img/green-star.png" alt="Money back" width={20} height={20} className="img-fluid" /></span>
+                            <span> <Image src="/assets/img/green-star.png" alt="Money back" width={20} height={20} className="img-fluid" /></span>
+                            <span> <Image src="/assets/img/green-star.png" alt="Money back" width={20} height={20} className="img-fluid" /></span>
+                            <span> <Image src="/assets/img/b-star.png" alt="Money back" width={20} height={20} className="img-fluid" /></span>
                         </div>
                     </div>
                     <p>
                         Naturally flavored with plant extracts and stevia for a refreshing taste—no artificial sweeteners or additives.Clean, light flavor powered by nature.Naturally flavored with plant extracts and stevia for a refreshing taste—no artificial sweeteners or additives.Clean, light flavor powered by nature.Naturally flavored with plant extracts and stevia for a refreshing taste—no artificial sweeteners or additives.Clean, light flavor powered by nature.Naturally flavored with plant extracts and stevia for a refreshing taste—no artificial sweeteners or additives.Clean, light flavor powered by nature.
+                    </p>
+                    <p>
+                        <b>5 days ago</b>
                     </p>
                     <hr />
                     <div className="d-flex">
                         <div className="star">
                             <span className="img-fluid me-2">Anonymous</span>
-                            <span> <Image src="/assets/img/star1.png" alt="Money back" width={20} height={20} className="img-fluid" /></span>
-                            <span> <Image src="/assets/img/star1.png" alt="Money back" width={20} height={20} className="img-fluid" /></span>
-                            <span> <Image src="/assets/img/star1.png" alt="Money back" width={20} height={20} className="img-fluid" /></span>
-                            <span> <Image src="/assets/img/star1.png" alt="Money back" width={20} height={20} className="img-fluid" /></span>
-                            <span> <Image src="/assets/img/half-star.png" alt="Money back" width={20} height={20} className="img-fluid" /></span>
+                            <span> <Image src="/assets/img/green-star.png" alt="Money back" width={20} height={20} className="img-fluid" /></span>
+                            <span> <Image src="/assets/img/green-star.png" alt="Money back" width={20} height={20} className="img-fluid" /></span>
+                            <span> <Image src="/assets/img/green-star.png" alt="Money back" width={20} height={20} className="img-fluid" /></span>
+                            <span> <Image src="/assets/img/green-star.png" alt="Money back" width={20} height={20} className="img-fluid" /></span>
+                            <span> <Image src="/assets/img/b-star.png" alt="Money back" width={20} height={20} className="img-fluid" /></span>
                         </div>
                     </div>
                     <p>
                         Naturally flavored with plant extracts and stevia for a refreshing taste—no artificial sweeteners or additives.Clean, light flavor powered by nature.Naturally flavored with plant extracts and stevia for a refreshing taste—no artificial sweeteners or additives.Clean, light flavor powered by nature.Naturally flavored with plant extracts and stevia for a refreshing taste—no artificial sweeteners or additives.Clean, light flavor powered by nature.Naturally flavored with plant extracts and stevia for a refreshing taste—no artificial sweeteners or additives.Clean, light flavor powered by nature.
                     </p>
+                    <p>
+                        <b>5 days ago</b>
+                    </p>
                     <hr />
+                    <div className="text-center">
+                      <button className="btn-review">Write a review</button>
+                    </div>
                 </div>
             </section>
             <ColFaq />
