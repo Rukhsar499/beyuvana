@@ -14,6 +14,7 @@ import ColFaq from "../collagen/ColFaq";
 import PreSlider from "../collagen/PreSlider";
 import Reviews from "../collagen/Reviews";
 import Aging from "../collagen/Aging";
+import Pigment from "../collagen/Pigment";
 
 
 
@@ -365,7 +366,7 @@ export default function collagen() {
             </section>
 
             <PreSlider />
-             <Aging />
+            <Aging />
             <section className="builder mb">
                 <div className="container">
                     <div className="drk-g">
@@ -524,6 +525,26 @@ export default function collagen() {
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section className="gir-before mb">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-5 col-md-5 col-12">
+                            <div className="gir-img">
+                                <Image
+                                    src="/assets/img/glowing-girl.png"
+                                    alt="Product"
+                                    width={550}
+                                    height={500}
+                                    className="img-fluid "
+                                />
+                            </div>
+                        </div>
+                        <div className="col-lg-7 col-md-7 col-12">
+                           <Pigment />
                         </div>
                     </div>
                 </div>

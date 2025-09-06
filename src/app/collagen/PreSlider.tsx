@@ -44,7 +44,7 @@ const MySplideSlider = () => {
                             type: 'loop',
                             rewind: true,
                             gap: '1rem',
-                            arrows: false,
+                            arrows: true,
                             pagination: false,
                             breakpoints: {
                                 1024: {
