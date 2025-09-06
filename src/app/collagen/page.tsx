@@ -12,6 +12,7 @@ import AccordionItem from "../collagen/AccordionItem";
 import Youth from "../collagen/Youth";
 import ColFaq from "../collagen/ColFaq";
 import PreSlider from "../collagen/PreSlider"
+import Reviews from "../collagen/Reviews"
 
 
 
@@ -363,7 +364,8 @@ export default function collagen() {
             </section>
 
             <PreSlider />
-            <section className="reviews mb">
+            <Reviews />
+            {/* <section className="reviews mb">
                 <div className="container">
                     <div className="text-center">
                         <h2>Customer Reviews</h2>
@@ -423,7 +425,7 @@ export default function collagen() {
                       <button className="btn-review">Write a review</button>
                     </div>
                 </div>
-            </section>
+            </section> */}
             <ColFaq />
             <Footer />
             <StickyFooter />
