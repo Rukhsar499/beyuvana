@@ -373,8 +373,8 @@ export default function collagen() {
                                     <h2 className="text-white">Why Choose BEYUVANA™ Premium Collagen Builder?</h2>
                                     <p className="text-white">
                                         A Smarter, Safer Path to Ageless Skin. Not Just Collagen — A Complete Skin Nutrition Ritual
-                                        BEYUVANA™ is more than a collagen supplement. It's a powerful, plant-based formula that activates
-                                        your skin’s natural renewal systems from within. We don’t just give you collagen — we help your body
+                                        BEYUVANA™ is more than a collagen supplement. It&apos;s a powerful, plant-based formula that activates
+                                        your skin’s natural renewal systems from within. We don&apos;t just give you collagen — we help your body
                                         create, protect, and preserve its own.
                                         100% vegetarian, sugar-free, gelatin-free — crafted for those who want visible results, naturally. Every
                                         ingredient has a purpose, and every sachet is a step toward long-term skin health.
