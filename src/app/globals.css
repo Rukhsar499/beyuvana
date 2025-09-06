@@ -313,6 +313,11 @@ padding-left: 10px;
 .bul_second_bx{
   margin-left: 20px;
 }
+.r-fg{
+  height: 360px;
+  border: 1px solid #66666698;
+  border-radius: 20px;
+}
 .btn-review{
   background-color: #057A37;
   color: #fff;

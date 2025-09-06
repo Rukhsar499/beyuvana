@@ -11,8 +11,9 @@ import ProductGallery from "../collagen/ProductGallery";
 import AccordionItem from "../collagen/AccordionItem";
 import Youth from "../collagen/Youth";
 import ColFaq from "../collagen/ColFaq";
-import PreSlider from "../collagen/PreSlider"
-import Reviews from "../collagen/Reviews"
+import PreSlider from "../collagen/PreSlider";
+import Reviews from "../collagen/Reviews";
+import Aging from "../collagen/Aging";
 
 
 
@@ -364,6 +365,7 @@ export default function collagen() {
             </section>
 
             <PreSlider />
+             <Aging />
             <section className="builder mb">
                 <div className="container">
                     <div className="drk-g">
