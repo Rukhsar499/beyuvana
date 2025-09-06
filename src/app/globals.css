@@ -276,12 +276,42 @@ padding-left: 10px;
 }
 .mis-box, .miss-box{
   padding: 20px 30px;
-  
+}
+.drk-g{
+  background-color: #122014;
+  padding: 20px;
+  border-radius: 20px;
+}
+.buil_hr{
+  border:1px dotted #fff;
+  margin: 0px 0px 10px 0px;
+}
+.d-firt-img{
+  margin-bottom: 30px;
+}
+.bui_ul ul li{
+  font-size: 14px;
+}
+.core{
+  padding: 10px 20px;
+  border-radius: 12px;
+  text-align: center;
+  font-family: 'GrafielsRegular-JpODj';
 }
 .m-txt{
   color: #122014;
   font-family: 'GrafielsRegular-JpODj';
   font-size: 24px;
+}
+.thir-box-sec{
+  background-color: #000;
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 20px;
+  opacity: 0.5;
+}
+.bul_second_bx{
+  margin-left: 20px;
 }
 .btn-review{
   background-color: #057A37;
