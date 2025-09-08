@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const ProductGallery = () => {
   // ✅ Images array
   const images: string[] = [
-    '/assets/img/collagen-pro.png',
+    '/assets/img/product-pink1.png',
     '/assets/img/1.png',
     '/assets/img/2.png',
     '/assets/img/3.png',
@@ -119,6 +119,13 @@ const ProductGallery = () => {
           background-repeat: no-repeat;
           display: none;
           z-index: 10;
+        }
+          @media (max-width: 640px) {
+          .zoom-window {
+          left: 0%;
+          margin-left: 0px;
+          width: 300px;
+          height: 300px;
         }
       `}</style>
     </section>

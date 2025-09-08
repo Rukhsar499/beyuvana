@@ -329,7 +329,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="mt-2">
-                  <a href="/collagen" className="view">View More</a>
+                  <a href="/glow" className="view">View More</a>
                 </div>
                 <div className="d-flex mt-3">
                   <button type="button" className="bag"><Image src="/assets/img/shopping-bag.png" alt="" width={20} height={20} className="me-2" />Shop Now</button>

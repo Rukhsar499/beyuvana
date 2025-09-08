@@ -120,6 +120,14 @@ const ProductGallery = () => {
           display: none;
           z-index: 10;
         }
+          @media (max-width: 640px) {
+          .zoom-window {
+          left: 0%;
+          margin-left: 0px;
+          width: 300px;
+          height: 300px;
+        }
+          }
       `}</style>
     </section>
   );
