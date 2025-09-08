@@ -175,6 +175,12 @@ h3 {
   border-radius: 0px 0px 20px 20px;
   font-size: small;
 }
+.certig{
+  margin-top: 10px;
+}
+.bui_ul ul li{
+  padding-top: 10px;
+}
 .p-pac{
   border-radius: 20px;
   border: 1px solid #999999;
@@ -1060,8 +1066,10 @@ padding: 20px;
 .bul_second_bx {
     margin-left: 0px;
 }
-.bui_ul ul li{
-  padding-top: 10px;
+
+.content-box {
+  height: 534px;
 }
+
 }
 
