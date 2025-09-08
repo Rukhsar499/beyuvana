@@ -85,12 +85,12 @@ const MySplideSlider = () => {
        
 /* Active slide border */
 .test-box{
-background-color:#E2F9E5;
-color:#0C4B33;
+background-color:#FFE7E7;
+color:#B00404;
 }
 
 .active-slide {
-  background-color:#0C4B33;
+  background-color:#B00404;
   color:#fff;
 }
   .active-slide p{

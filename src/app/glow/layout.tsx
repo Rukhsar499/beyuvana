@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: 'collagen',
-    description: 'collagen - Beyuvana',
+    title: 'Glow',
+    description: 'Glow - Beyuvana',
   }
 
 

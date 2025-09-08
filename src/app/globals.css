@@ -627,6 +627,20 @@ h1 {
   background-color: #F8FFF9;
   padding: 20px;
 }
+.grebs{
+  background-color: #FFF0F0;
+  padding: 20px;
+}
+.bhg{
+  padding: 20px;
+  margin-bottom: 30px;
+  border-right: 1px solid #00000080;
+  margin-right: 100px;
+}
+.bhgs{
+  padding: 20px;
+  margin-bottom: 30px;
+}
 .gil{
   margin: 0;
 }
@@ -643,11 +657,17 @@ h1 {
   font-family: 'GrafielsRegular-JpODj';
   margin-bottom: 20px;
 }
+.rest{
+  background-color: #FFE7E7;
+}
 .sevty{
   font-size: 30px !important;
   margin-bottom: 0;
  color: #0c4b33;
    font-family: GrafielsRegular-JpODj;
+}
+.pert{
+  color: #B00404;
 }
 .agihg {
   display: inline-block;
@@ -656,6 +676,14 @@ h1 {
   border-radius: 20px;
   border: 1px solid #000;
   color: #000;
+}
+.agihgs {
+  display: inline-block;
+  background-color: transparent;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid #B00404;
+  color: #B00404;
 }
 .saml{
   font-size: 10px;

@@ -44,8 +44,8 @@ const ProductAccordion = () => {
             className="w-100 d-flex justify-content-between align-items-center bg-transparent border-0 p-2"
             onClick={() => toggleAccordion(index)}
           >
-            <span className="fw-bold text-success">{item.title}</span>
-            <span className="fs-4">
+            <span className="fw-bold text-pink">{item.title}</span>
+            <span className="fs-4 plkj">
               {openIndex === index ? '−' : '+'}
             </span>
           </button>
@@ -69,6 +69,8 @@ const ProductAccordion = () => {
           outline: none;
           box-shadow: none;
         }
+          .text-pink, .plkj{
+          color:#FF4646;}
         li {
           font-size: 0.9rem;
           margin-bottom: 0.25rem;

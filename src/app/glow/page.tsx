@@ -7,16 +7,16 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import StickyFooter from "../components/StickyFooter";
 import MarqueeBar from "../components/MarqueeBar";
-import ProductGallery from "../collagen/ProductGallery";
-import AccordionItem from "../collagen/AccordionItem";
-import Youth from "../collagen/Youth";
-import ColFaq from "../collagen/ColFaq";
-import PreSlider from "../collagen/PreSlider";
-import Reviews from "../collagen/Reviews";
-import Aging from "../collagen/Aging";
-import Pigment from "../collagen/Pigment";
-import Made from "../collagen/Made";
-import HealthTabs from "../collagen/HealthTabs";
+import ProductGallery from "../glow/ProductGallery";
+import AccordionItem from "../glow/AccordionItem";
+import Youth from "../glow/Youth";
+import ColFaq from "../glow/ColFaq";
+import PreSlider from "../glow/PreSlider";
+import Reviews from "../glow/Reviews";
+import Aging from "../glow/Aging";
+import Pigment from "../glow/Pigment";
+import Made from "../glow/Made";
+import HealthTabs from "../glow/HealthTabs";
 
 
 
@@ -35,13 +35,14 @@ export default function collagen() {
                         </div>
                         <div className="col-lg-5 col-md-4 col-12">
                             <div className="coll-deta">
-                                <h2 className="it">BEYUVANA™ Premium Collagen Builder—
-                                    Complete Anti-Aging Solution</h2>
+                                <h2 className="it">BEYUVANA™ Advanced Glow-Nourishing
+                                    Formula for Radiant, Even-Toned Skin</h2>
                                 <p className="agihg">Aging is Natural — Radiance is a Choice</p>
                                 <p>
-                                    Crafted with 21 synergistic, clinically studied botanicals that work from within.
-                                    Each precision-dosed sachet supports skin elasticity, deep hydration, and youthful glow.
-                                    Stimulates natural collagen with Amla, Bamboo Silica, L-Lysine, and Hyaluronic Acid.
+                                    Glow Essence is an advanced, 100% vegetarian, skin-nourishing formula enriched with 18 synergistic plant-
+                                    based actives, designed to unlock visible clarity and radiance from within.
+
+                                    Infused with 4X Liposomal Glutathione and clinically studied Vitamin C, it
                                 </p>
                                 <div className="d-flex">
                                     <Image
@@ -147,89 +148,73 @@ export default function collagen() {
             <section className="boost mb">
                 <div className="container">
                     <div className="row g-0">
-                        <div className="col-lg-3 col-md-3 col-6">
-                            <div className="bosst-box bos-br">
-                                <Image src="/assets/img/c1.png" alt="Money back" width={70} height={50} className="img-fluid me-3" />
+                        <div className="col-lg-4 col-md-4 col-6">
+                            <div className="d-flex bhg">
+                                <Image src="/assets/img/gl1.png" alt="Money back" width={70} height={70} className="img-fluid me-3" />
                                 <p className="mb-0 mt-2 bgv">
-                                    Boosts Skin Elasticity <br />
-                                    by up to 53%
+                                    Glow & <br />
+                                    Brightening
                                 </p>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-3 col-6">
-                            <div className="bosst-box bos-br">
-                                <Image src="/assets/img/c2.png" alt="Money back" width={70} height={50} className="img-fluid me-3" />
+                        <div className="col-lg-4 col-md-4 col-6">
+                            <div className="d-flex bhg">
+                                <Image src="/assets/img/gl2.png" alt="Money back" width={70} height={70} className="img-fluid me-3" />
                                 <p className="mb-0 mt-2 bgv">
-                                    Fast Absorption with <br />
-                                    Bioavailable Plant Actives
+                                    Dark Spots & <br />
+                                    Pigmentation
                                 </p>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-3 col-6">
-                            <div className="bosst-box bos-br">
-                                <Image src="/assets/img/c3.png" alt="Money back" width={70} height={50} className="img-fluid me-3" />
+                        <div className="col-lg-4 col-md-4 col-6">
+                            <div className="d-flex bhgs">
+                                <Image src="/assets/img/gl3.png" alt="Money back" width={70} height={70} className="img-fluid me-3" />
                                 <p className="mb-0 mt-2 bgv">
-                                    Reduces Visible Wrinkles & <br />
-                                    Fine Lines by 30%
+                                    Acne & Clear <br />
+                                    Skin
                                 </p>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-3 col-6">
-                            <div className="bosst-box impy">
-                                <Image src="/assets/img/c4.png" alt="Money back" width={70} height={50} className="img-fluid me-3" />
+                        <div className="col-lg-4 col-md-4 col-6">
+                            <div className="d-flex bhg">
+                                <Image src="/assets/img/gl4.png" alt="Money back" width={70} height={70} className="img-fluid me-3" />
                                 <p className="mb-0 mt-2 bgv">
-                                    Improves Skin Hydration & <br />
-                                    Moisture Retention by 45%
+                                    Skin <br />
+                                    Hydration
                                 </p>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-3 col-6">
-                            <div className="bosst-box bos-br">
-                                <Image src="/assets/img/pi.png" alt="Money back" width={70} height={50} className="img-fluid me-3" />
+                        <div className="col-lg-4 col-md-4 col-6">
+                            <div className="d-flex bhg">
+                                <Image src="/assets/img/gl5.png" alt="Money back" width={70} height={70} className="img-fluid me-3" />
                                 <p className="mb-0 mt-2 bgv">
-                                    Promotes Hair Strength <br />
-                                    & Growth Naturally
+                                    Gut <br />
+                                    Health
                                 </p>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-3 col-6">
-                            <div className="bosst-box bos-br">
-                                <Image src="/assets/img/c5.png" alt="Money back" width={70} height={50} className="img-fluid me-3" />
+                        <div className="col-lg-4 col-md-4 col-6">
+                            <div className="d-flex bhgs">
+                                <Image src="/assets/img/gl6.png" alt="Money back" width={70} height={70} className="img-fluid me-3" />
                                 <p className="mb-0 mt-2 bgv">
-                                    Fades Pigmentation <br />
-                                    & Brightens Skin Tone
+                                    Stress <br />
+                                    Balance
                                 </p>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-3 col-6">
-                            <div className="bosst-box bos-br">
-                                <Image src="/assets/img/c6.png" alt="Money back" width={70} height={50} className="img-fluid me-3" />
-                                <p className="mb-0 mt-2 bgv">
-                                    Combats Environmental <br />
-                                    Stress & Toxins
-                                </p>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-3 col-6">
-                            <div className="bosst-box impy">
-                                <Image src="/assets/img/c7.png" alt="Money back" width={70} height={50} className="img-fluid me-3" />
-                                <p className="mb-0 mt-2 bgv">
-                                    Supports Clearer Skin Through <br />
-                                    Gut & Hormonal Balance
-                                </p>
-                            </div>
-                        </div>
+
+
                     </div>
                     <hr className="ptoi" />
                 </div>
             </section>
 
-            <section className="greb mb">
+            <section className="grebs mb">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-7 col-md-7 col-12">
                             <div className="greb-text">
-                                <p className="agihg">10 ACTIONS. 1 SMART SACHET</p>
+                                <p className="agihgs">10 Transformative Actions. 1 Smart Sachet</p>
                                 <h2 className="by">A Premium Collagen Builder Powered by 21
                                     Synergistic Plant-Based Actives</h2>
                             </div>
@@ -250,58 +235,25 @@ export default function collagen() {
                     <div className="row">
                         <div className="col-lg-5 col-md-5 col-12">
                             <div className="pr-img">
-                                <Image src="/assets/img/pre-ik.png" alt="Money back" width={500} height={500} className="img-fluid me-3" />
+                                <Image src="/assets/img/gl7.png" alt="Money back" width={500} height={500} className="img-fluid me-3" />
                             </div>
                         </div>
                         <div className="col-lg-7 col-md-7 col-12">
                             <div className="pt-txt">
                                 <h2>Experience Visible Transformation in 10 Weeks</h2>
-                                <p>Our clinical-style progress chart reveals the powerful results of BEYUVANA™’s advanced
-                                    anti-ageing formula. Within 10 weeks:</p>
-                            </div>
-                            <div className="d-flex mb-3 t-imh">
-                                <Image src="/assets/img/tick-square.png" alt="Money back" width={20} height={20} className="img-fluid me-2" />
-                                <p className="mb-0">
-                                    Hydration surges 75%, leaving skin plump and supple.
+                                <p>Our clinical-style transformation chart reflects the powerful effects of BEYUVANA™ Glow Essence.</p>
+                                <p>
+                                    With consistent use, you’ll notice real, measurable improvements—designed by nature, proven by
+                                    science.Within just 10 weeks
                                 </p>
-                            </div>
-                            <div className="d-flex mb-3 t-imh">
-                                <Image src="/assets/img/tick-square.png" alt="Money back" width={20} height={20} className="img-fluid me-2" />
-                                <p className="mb-0">
-                                    Glow rises 70%, restoring luminous radiance.
-                                </p>
-                            </div>
-                            <div className="d-flex mb-3 t-imh">
-                                <Image src="/assets/img/tick-square.png" alt="Money back" width={20} height={20} className="img-fluid me-2" />
-                                <p className="mb-0">
-                                    Elasticity improves 68%, for a firmer, lifted feel.
-                                </p>
-                            </div>
-                            <div className="d-flex mb-3 t-imh">
-                                <Image src="/assets/img/tick-square.png" alt="Money back" width={20} height={20} className="img-fluid me-2" />
-                                <p className="mb-0">
-                                    Pigmentation reduces by 60%, revealing clearer, even skin tone.
-                                </p>
-                            </div>
-                            <div className="d-flex mb-3 t-imh">
-                                <Image src="/assets/img/tick-square.png" alt="Money back" width={20} height={20} className="img-fluid me-2" />
-                                <p className="mb-0">
-                                    Wrinkle depth reduces 62%, visibly softening fine lines.
-                                </p>
-                            </div>
-                            <div className="d-flex mb-3 t-imh">
-                                <Image src="/assets/img/tick-square.png" alt="Money back" width={20} height={20} className="img-fluid me-2" />
-                                <p className="mb-0">
-                                    Overall ageing markers drop 61%, showcasing comprehensive renewal.
+                                <p>
+                                    Results may vary by individual. Based on ingredient research and regular
+                                    usage.
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div className="text-center mt-3">
-                        <p>
-                            This transformation is powered by a synergy of botanicals, antioxidants, and Ayurvedic adaptogens — uniting nature and science for timeless, radiant skin.
-                        </p>
-                    </div>
+
                 </div>
             </section>
 
@@ -314,53 +266,40 @@ export default function collagen() {
                                 <p>Improvement in just 10 weeks</p>
                                 <div className="row g-3">
                                     <div className="col-lg-6 col-md-6 col-6">
-                                        <div className="res-box">
-                                            <h4 className="sevty">75%</h4>
+                                        <div className="res-box rest">
+                                            <h4 className="sevty pert">75%</h4>
                                             <p>Increase in <br />
                                                 Skin Hydration</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-6">
-                                        <div className="res-box">
-                                            <h4 className="sevty">70%</h4>
+                                        <div className="res-box rest">
+                                            <h4 className="sevty pert">70%</h4>
                                             <p>Increase in <br />
                                                 Skin Glow</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-6">
-                                        <div className="res-box">
-                                            <h4 className="sevty">68%</h4>
+                                        <div className="res-box rest">
+                                            <h4 className="sevty pert">68%</h4>
                                             <p>Increase in <br />
                                                 Skin Elasticity</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-6">
-                                        <div className="res-box">
-                                            <h4 className="sevty">60%</h4>
+                                        <div className="res-box rest">
+                                            <h4 className="sevty pert">60%</h4>
                                             <p>Reduce in <br />
                                                 Pigmentation Reduction </p>
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-6 col-md-6 col-6">
-                                        <div className="res-box">
-                                            <h4 className="sevty">62%</h4>
-                                            <p>Reduce in <br />
-                                                Wrinkle Depth Reduction</p>
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-6 col-md-6 col-6">
-                                        <div className="res-box">
-                                            <h4 className="sevty">61%</h4>
-                                            <p>Reduce in <br />
-                                                Visible Signs of Aging</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-6 col-md-6 col-12">
+                        <div className="col-lg-1 col-md-1 col-1"></div>
+                        <div className="col-lg-5 col-md-5 col-12">
                             <div className="prot-img">
-                                <Image src="/assets/img/envato.png" alt="Money back" width={600} height={600} className="img-fluid me-2" />
+                                <Image src="/assets/img/envato.png" alt="Money back" width={500} height={500} className="img-fluid me-2" />
                             </div>
                         </div>
                     </div>
@@ -383,7 +322,7 @@ export default function collagen() {
                             </div>
                         </div>
                         <div className="col-lg-7 col-md-7 col-12">
-                           <Pigment />
+                            <Pigment />
                         </div>
                     </div>
                 </div>
@@ -553,7 +492,7 @@ export default function collagen() {
                     </div>
                 </div>
             </section>
-            
+
             <Reviews />
             <ColFaq />
             <Footer />

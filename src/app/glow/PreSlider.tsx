@@ -10,19 +10,39 @@ const MySplideSlider = () => {
 
     const testimonials = [
         {
-            img: '/assets/img/Ellipse 226.png',
-            name: 'Stimulates Natural Collagen Production',
-            para: 'Unlike animal collagen powders that simply supply broken peptides, BEYUVANA™ uses amino acids (L-Lysine, L-Proline), Vitamin C, and bamboo silica to naturally boost your body’s own collagen-building process — from within.',
+            img: '/assets/img/gl8.png',
+            name: (
+                <>
+                    Brightens Skin & Fades <br /> Pigmentation
+                </>
+            ),
+            para: 'L-Glutathione + Vitamin C: Reduce melanin, boost glow, Licorice Extract, Amla, Lemon Powder: Naturally fade dark spots, Vitamin B3 : Evens out skin tone, improves radiance. Visible glow & reduced pigmentation',
         },
         {
-            img: '/assets/img/Ellipse 226.png',
-            name: 'Deep Hydration & Skin Barrier Repair',
-            para: 'With Hyaluronic Acid and Amla the formula restores moisture balance, plumps the skin, and strengthens the barrier — essential for smooth, youthful skin.',
+            img: '/assets/img/gl8.png',
+            name: (
+                <>
+                    Hydrates & Plumps
+                    <br /> Skin
+                </>
+            ),
+            para: 'Hyaluronic Acid : Deep hydration. Inulin + Bamboo Extract: Locks moisture, improves texture. Skin feels dewy, hydrated, and elastic',
         },
         {
-            img: '/assets/img/Ellipse 226.png',
-            name: 'Brightens Skin & Fades Pigmentation',
-            para: 'Clinically studied actives like Glutathione, Licorice, and Grape Seed Extract gently reduce oxidative stress and pigmentation, giving your skin a radiant glow.',
+            img: '/assets/img/gl8.png',
+            name: (
+                <>
+                    Fights Acne &
+
+                    <br /> Inflammation
+                </>
+            ),
+            para: 'Neem, Green Tea, Curcuma, Guava Leaf: Clear acne & calm redness. Ashwagandha: Reduces stress-triggered breakouts. Clearer, calmer skin',
+        },
+        {
+            img: '/assets/img/gl8.png',
+            name: 'Fights Acne &  pigmentation',
+            para: 'Neem, Green Tea, Curcuma, Guava Leaf: Clear acne & calm redness. Ashwagandha: Reduces stress-triggered breakouts. Clearer, calmer skin',
         },
     ];
 
@@ -30,9 +50,9 @@ const MySplideSlider = () => {
         <section className="mb">
             <div className="container position-relative">
                 <div className='text-center'>
-                    <h2>Why the BEYUVANA™ PREMIUM COLLAGEN BUILDER Works</h2>
+                    <h2>WHY BEYUVANA™ GLOW ESSENCE WORK</h2>
                     <p>
-                        BEYUVANA™ isn&apos;t just another supplement — it&apos;s a multi-action, plant-powered skin nutrition system designed to target the root causes of aging, not just the symptoms. Here&apos;s why it delivers real, visible results:
+                        Glow Essence is not just a skin product. It’s a skin nutrition revolution from within — combining glow boosters, antioxidants, collagen supporters, gut balancers, and anti-inflammatories in one intelligent formula.
                     </p>
                 </div>
 
@@ -44,8 +64,8 @@ const MySplideSlider = () => {
                             type: 'loop',
                             rewind: true,
                             gap: '1rem',
-                            arrows: true,
-                            pagination: false,
+                            arrows: false, 
+                            pagination: true,
                             breakpoints: {
                                 1024: {
                                     perPage: 2,
@@ -75,7 +95,7 @@ const MySplideSlider = () => {
                                                 height={60}
                                                 className="rounded-circle mb-3"
                                             />
-                                            <h5 className="fw-bold mb-2">{item.name}</h5>
+                                            <h5 className=" mb-2">{item.name}</h5>
                                             <p>
                                                 {item.para}
                                             </p>
@@ -98,18 +118,37 @@ const MySplideSlider = () => {
        
 /* Active slide border */
 .test-box{
-background-color:#E2F9E5;
-color:#0C4B33;
+background-color:#FFE7E7;
+color:#B00404;
+font-family: GrafielsRegular-JpODj;
+height:300px;
 }
 
 .active-slide {
-  background-color:#0C4B33;
+  background-color:#B00404;
   color:#fff;
 }
   .active-slide p{
   color:#fff;
 }
-  
+.test-box  .splide__pagination__page {
+    background: #ccc; /* normal color */
+    opacity: 1;
+    transition: background 0.3s;
+  }
+
+  /* Active dot */
+.test-box  .splide__pagination__page.is-active {
+    background: #B00404 !important;
+    transform: scale(1.2);
+    width:20px;
+    height:5px;
+  }
+
+  /* Hover pe color change */
+.test-box  .splide__pagination__page:hover {
+    background: #B00404 !important;
+  }
       `}</style>
         </section>
     );

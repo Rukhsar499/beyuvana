@@ -10,9 +10,9 @@ const ProductGallery = () => {
   // ✅ Images array
   const images: string[] = [
     '/assets/img/product-pink1.png',
-    '/assets/img/1.png',
-    '/assets/img/2.png',
-    '/assets/img/3.png',
+    '/assets/img/Artboard.png',
+    '/assets/img/Artboard1.png',
+    '/assets/img/Artboard2.png',
   ];
 
   const [activeImage, setActiveImage] = useState<string>(images[0]);
