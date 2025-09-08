@@ -111,6 +111,11 @@ const FAQAccordion = () => {
       display: block;
       line-height: 1.4;
     }
+     .text-hgf{
+          width:30px;
+           height:30px;
+         
+          } 
   }
       `}</style>
     </section>

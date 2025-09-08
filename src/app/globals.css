@@ -745,6 +745,9 @@ h1 {
 .es-img{
   padding-top: 40px;
 }
+.feded{
+  font-family: 'GrafielsRegular-JpODj';
+}
 .feature-item .icon {
   align-items: center;
   margin-bottom: 5px;
@@ -1097,7 +1100,7 @@ padding: 20px;
 .bgx{
   margin-top: 20px;
 }
-.coll-deta, .s_box, .pt-txt, .prot-img, .pigj{
+.coll-deta, .s_box, .pt-txt, .prot-img, .pigj, .bvck{
   margin-top: 30px;
 }
 .bos-br {
@@ -1145,6 +1148,18 @@ padding: 20px;
 .content-box {
   height: 534px;
 }
-
+.red2-box {
+  padding: 20px;
+}
+.bhg, .bhgs {
+    border-right: none;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    padding: 10px;
+}
+.bhg img, .bhgs img{
+  width:65px;
+  height:65px;
+}
 }
 

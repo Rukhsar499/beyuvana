@@ -151,7 +151,7 @@ export default function collagen() {
                         <div className="col-lg-4 col-md-4 col-6">
                             <div className="d-flex bhg">
                                 <Image src="/assets/img/gl1.png" alt="Money back" width={70} height={70} className="img-fluid me-3" />
-                                <p className="mb-0 mt-2 bgv">
+                                <p className="mb-0 mt-2">
                                     Glow & <br />
                                     Brightening
                                 </p>
@@ -160,7 +160,7 @@ export default function collagen() {
                         <div className="col-lg-4 col-md-4 col-6">
                             <div className="d-flex bhg">
                                 <Image src="/assets/img/gl2.png" alt="Money back" width={70} height={70} className="img-fluid me-3" />
-                                <p className="mb-0 mt-2 bgv">
+                                <p className="mb-0 mt-2">
                                     Dark Spots & <br />
                                     Pigmentation
                                 </p>
@@ -169,7 +169,7 @@ export default function collagen() {
                         <div className="col-lg-4 col-md-4 col-6">
                             <div className="d-flex bhgs">
                                 <Image src="/assets/img/gl3.png" alt="Money back" width={70} height={70} className="img-fluid me-3" />
-                                <p className="mb-0 mt-2 bgv">
+                                <p className="mb-0 mt-2">
                                     Acne & Clear <br />
                                     Skin
                                 </p>
@@ -178,7 +178,7 @@ export default function collagen() {
                         <div className="col-lg-4 col-md-4 col-6">
                             <div className="d-flex bhg">
                                 <Image src="/assets/img/gl4.png" alt="Money back" width={70} height={70} className="img-fluid me-3" />
-                                <p className="mb-0 mt-2 bgv">
+                                <p className="mb-0 mt-2">
                                     Skin <br />
                                     Hydration
                                 </p>
@@ -187,7 +187,7 @@ export default function collagen() {
                         <div className="col-lg-4 col-md-4 col-6">
                             <div className="d-flex bhg">
                                 <Image src="/assets/img/gl5.png" alt="Money back" width={70} height={70} className="img-fluid me-3" />
-                                <p className="mb-0 mt-2 bgv">
+                                <p className="mb-0 mt-2">
                                     Gut <br />
                                     Health
                                 </p>
@@ -196,7 +196,7 @@ export default function collagen() {
                         <div className="col-lg-4 col-md-4 col-6">
                             <div className="d-flex bhgs">
                                 <Image src="/assets/img/gl6.png" alt="Money back" width={70} height={70} className="img-fluid me-3" />
-                                <p className="mb-0 mt-2 bgv">
+                                <p className="mb-0 mt-2">
                                     Stress <br />
                                     Balance
                                 </p>
@@ -489,7 +489,7 @@ export default function collagen() {
                     <div className="red2-box">
                         <div className="row">
                             <div className="col-lg-4 col-md-4 col-12 bvcl">
-                                <h3 id="feds">BEYUVANA™ Glow Essence </h3>
+                                <h3 className="feded">BEYUVANA™ Glow Essence </h3>
                                 <div className="d-flex edh">
                                     <Image
                                         src="/assets/img/tick-circle2.png"
@@ -552,8 +552,8 @@ export default function collagen() {
                                     />
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-4 col-12 bvcl">
-                                <h3>Typical Market Skin Products </h3>
+                            <div className="col-lg-4 col-md-4 col-12 bvck">
+                                <h3 className="feded">Typical Market Skin Products </h3>
                                 <div className="d-flex edh">
                                     <Image
                                         src="/assets/img/close-circle.png"
