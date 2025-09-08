@@ -10,17 +10,17 @@ const MySplideSlider = () => {
 
     const testimonials = [
         {
-            img: '/assets/img/Ellipse 226.png',
-            name: 'Stimulates Natural Collagen Production',
-            para: 'Unlike animal collagen powders that simply supply broken peptides, BEYUVANA™ uses amino acids (L-Lysine, L-Proline), Vitamin C, and bamboo silica to naturally boost your body’s own collagen-building process — from within.',
+            img: '/assets/img/white-box.png',
+            name: 'Noticing early signs of aging',
+            para: 'BEYUVANA™ is designed for modern individuals who want results without compromise —using only clean, plant-based ingredients that are backed by science and safe for everyday use.',
         },
         {
-            img: '/assets/img/Ellipse 226.png',
+            img: '/assets/img/white-box.png',
             name: 'Deep Hydration & Skin Barrier Repair',
             para: 'With Hyaluronic Acid and Amla the formula restores moisture balance, plumps the skin, and strengthens the barrier — essential for smooth, youthful skin.',
         },
         {
-            img: '/assets/img/Ellipse 226.png',
+            img: '/assets/img/white-box.png',
             name: 'Brightens Skin & Fades Pigmentation',
             para: 'Clinically studied actives like Glutathione, Licorice, and Grape Seed Extract gently reduce oxidative stress and pigmentation, giving your skin a radiant glow.',
         },
@@ -29,6 +29,7 @@ const MySplideSlider = () => {
     return (
         <section className="mb">
             <div className="container position-relative">
+                <div className='prty'>
                 <div className='text-center'>
                     <h2>Who Is BEYUVANA™ Premium Collagen Builder Made For?</h2>
                     <p>
@@ -60,41 +61,42 @@ const MySplideSlider = () => {
                     >
                         {testimonials.map((item, index) => (
                             <SplideSlide key={index}>
-                                <div
-                                    className={`test-box mt-2   ${activeIndex === index ? 'active-slide' : ''
-                                        }`}
-                                    onClick={() => setActiveIndex(index)}
-                                >
-                                    <div className=" mb-3 text-center">
-
+                                <div className='row g-0'>
+                                    <div className='col-lg-5 col-md-5 col-12'>
                                         <div>
                                             <Image
                                                 src={item.img}
                                                 alt={item.name}
-                                                width={60}
-                                                height={60}
-                                                className="rounded-circle mb-3"
+                                                width={200}
+                                                height={100}
+                                                className="w-100 h-100"
                                             />
-                                            <h5 className="fw-bold mb-2">{item.name}</h5>
+                                        </div>
+                                    </div>
+                                    <div className='col-lg-7 col-md-7 col-12'>
+                                    <div
+                                        className={`test-box w-100 h-100   ${activeIndex === index ? 'active-slide' : ''
+                                            }`}
+                                        onClick={() => setActiveIndex(index)}
+                                    >
+                                        <div className=" mb-3 ">
+                                         <h5 className="fw-bold mb-2">{item.name}</h5>
                                             <p>
                                                 {item.para}
                                             </p>
                                         </div>
                                     </div>
-
-
-
-
-
+                                    </div>
                                 </div>
-                            </SplideSlide>
+                              
+                         </SplideSlide>
                         ))}
-                    </Splide>
-                </div>
+                </Splide>
             </div>
-
-            {/* ✅ Extra CSS for arrows + active border */}
-            <style jsx>{`
+        </div>
+  </div>
+            {/* ✅ Extra CSS for arrows + active border */ }
+    <style jsx>{`
        
 /* Active slide border */
 .test-box{
@@ -111,7 +113,7 @@ color:#0C4B33;
 }
   
       `}</style>
-        </section>
+        </section >
     );
 };
 

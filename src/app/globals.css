@@ -277,6 +277,21 @@ padding-left: 10px;
 .mis-box, .miss-box{
   padding: 20px 30px;
 }
+.fd-po{
+  padding: 10px;
+  border-right: 2px solid #9E9E9E;
+}
+.content-box{
+  background-color: #F8FFF9;
+  padding: 60px 20px;
+  border-radius: 20px;
+  height: 500px;
+}
+.tab-color{
+  background-color: #F8FFF9;
+  padding: 20px;
+  border-radius: 20px;
+}
 .drk-g{
   background-color: #122014;
   padding: 20px;
@@ -297,6 +312,16 @@ padding-left: 10px;
   border-radius: 12px;
   text-align: center;
   font-family: 'GrafielsRegular-JpODj';
+}
+.prty{
+ background-color: #F8FFF9;
+ padding: 40px 20px;
+ border-radius: 20px;
+}
+.agt-bx{
+  background-color: #F8FFF9;
+  padding: 20px;
+  border-radius: 20px;
 }
 .m-txt{
   color: #122014;
@@ -615,6 +640,8 @@ h1 {
 .sevty{
   font-size: 30px !important;
   margin-bottom: 0;
+ color: #0c4b33;
+   font-family: GrafielsRegular-JpODj;
 }
 .agihg {
   display: inline-block;
@@ -624,12 +651,27 @@ h1 {
   border: 1px solid #000;
   color: #000;
 }
-
+.saml{
+  font-size: 10px;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #017933;
+    background-color: transparent;
+    font-size: 16px;
+    font-family: var(--font-be-vietnam-pro), sans-serif;
+    border-bottom: 1px solid #9E9E9E;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 0px;
+}
 .feature-item .icon {
   align-items: center;
   margin-bottom: 5px;
 }
-
+.health .nav-link{
+  font-size: 16px;
+  padding: 10px;
+}
 .greens {
   background-color: #A9B528;
   padding: 30px 0px;

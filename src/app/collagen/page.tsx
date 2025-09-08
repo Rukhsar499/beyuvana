@@ -16,6 +16,7 @@ import Reviews from "../collagen/Reviews";
 import Aging from "../collagen/Aging";
 import Pigment from "../collagen/Pigment";
 import Made from "../collagen/Made";
+import HealthTabs from "../collagen/HealthTabs";
 
 
 
@@ -388,6 +389,7 @@ export default function collagen() {
                 </div>
             </section>
             <Made />
+            <HealthTabs />
             <Aging />
             <section className="builder mb">
                 <div className="container">
