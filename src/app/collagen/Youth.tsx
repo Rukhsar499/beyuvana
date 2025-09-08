@@ -25,7 +25,7 @@ const MySplideSlider = () => {
 
     return (
         <section className="mb">
-            <div className="container position-relative">
+            <div className="">
                 {/* Heading */}
 
 
@@ -40,9 +40,11 @@ const MySplideSlider = () => {
                             pagination: false,
                             breakpoints: {
                                 1024: {
+                                    dot: true,
                                     perPage: 2,
                                 },
                                 640: {
+                                    dot: true,
                                     perPage: 1,
                                 },
                             },

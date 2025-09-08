@@ -35,8 +35,8 @@ const MySplideSlider = () => {
     }, [activeIndex]);
 
     return (
-        <section className="mb">
-            <div className="container position-relative">
+        <section className="mb pigj">
+            <div className="">
                 <div className="slider-wrapper position-relative">
                     <Splide
                         options={{
@@ -65,7 +65,7 @@ const MySplideSlider = () => {
                                     className={`test-box1 ${activeIndex === index ? 'active-slide' : ''}`}
                                     onClick={() => setActiveIndex(index)}
                                 >
-                                    <div className="mb-3">
+                                    <div className="mb-3 tsti-img">
                                         <Image
                                             src={item.img}
                                             alt={item.name}
@@ -135,7 +135,9 @@ const MySplideSlider = () => {
                     justify-content: center;
                     gap: 5px;
                   }
-                
+                 .test-box1{
+                 height:auto;
+                 }
                  
                
                   .slider-wrapper :global(.splide__arrow--next) {

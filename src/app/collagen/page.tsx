@@ -140,87 +140,87 @@ export default function collagen() {
                             </div>
                         </div>
                     </div>
-                    <hr />
+                    <hr className="ptoi" />
                 </div>
             </section>
 
             <section className="boost mb">
                 <div className="container">
-                    <div className="row">
-                        <div className="col-lg-3 col-md-3 col-12">
+                    <div className="row g-0">
+                        <div className="col-lg-3 col-md-3 col-6">
                             <div className="bosst-box bos-br">
                                 <Image src="/assets/img/c1.png" alt="Money back" width={70} height={50} className="img-fluid me-3" />
-                                <p className="mb-0 mt-2">
+                                <p className="mb-0 mt-2 bgv">
                                     Boosts Skin Elasticity <br />
                                     by up to 53%
                                 </p>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-3 col-12">
+                        <div className="col-lg-3 col-md-3 col-6">
                             <div className="bosst-box bos-br">
                                 <Image src="/assets/img/c2.png" alt="Money back" width={70} height={50} className="img-fluid me-3" />
-                                <p className="mb-0 mt-2">
+                                <p className="mb-0 mt-2 bgv">
                                     Fast Absorption with <br />
                                     Bioavailable Plant Actives
                                 </p>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-3 col-12">
+                        <div className="col-lg-3 col-md-3 col-6">
                             <div className="bosst-box bos-br">
                                 <Image src="/assets/img/c3.png" alt="Money back" width={70} height={50} className="img-fluid me-3" />
-                                <p className="mb-0 mt-2">
+                                <p className="mb-0 mt-2 bgv">
                                     Reduces Visible Wrinkles & <br />
                                     Fine Lines by 30%
                                 </p>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-3 col-12">
-                            <div className="bosst-box">
+                        <div className="col-lg-3 col-md-3 col-6">
+                            <div className="bosst-box impy">
                                 <Image src="/assets/img/c4.png" alt="Money back" width={70} height={50} className="img-fluid me-3" />
-                                <p className="mb-0 mt-2">
+                                <p className="mb-0 mt-2 bgv">
                                     Improves Skin Hydration & <br />
                                     Moisture Retention by 45%
                                 </p>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-3 col-12">
+                        <div className="col-lg-3 col-md-3 col-6">
                             <div className="bosst-box bos-br">
                                 <Image src="/assets/img/pi.png" alt="Money back" width={70} height={50} className="img-fluid me-3" />
-                                <p className="mb-0 mt-2">
+                                <p className="mb-0 mt-2 bgv">
                                     Promotes Hair Strength <br />
                                     & Growth Naturally
                                 </p>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-3 col-12">
+                        <div className="col-lg-3 col-md-3 col-6">
                             <div className="bosst-box bos-br">
                                 <Image src="/assets/img/c5.png" alt="Money back" width={70} height={50} className="img-fluid me-3" />
-                                <p className="mb-0 mt-2">
+                                <p className="mb-0 mt-2 bgv">
                                     Fades Pigmentation <br />
                                     & Brightens Skin Tone
                                 </p>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-3 col-12">
+                        <div className="col-lg-3 col-md-3 col-6">
                             <div className="bosst-box bos-br">
                                 <Image src="/assets/img/c6.png" alt="Money back" width={70} height={50} className="img-fluid me-3" />
-                                <p className="mb-0 mt-2">
+                                <p className="mb-0 mt-2 bgv">
                                     Combats Environmental <br />
                                     Stress & Toxins
                                 </p>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-3 col-12">
-                            <div className="bosst-box ">
+                        <div className="col-lg-3 col-md-3 col-6">
+                            <div className="bosst-box impy">
                                 <Image src="/assets/img/c7.png" alt="Money back" width={70} height={50} className="img-fluid me-3" />
-                                <p className="mb-0 mt-2">
+                                <p className="mb-0 mt-2 bgv">
                                     Supports Clearer Skin Through <br />
                                     Gut & Hormonal Balance
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <hr />
+                    <hr className="ptoi" />
                 </div>
             </section>
 
@@ -254,42 +254,42 @@ export default function collagen() {
                             </div>
                         </div>
                         <div className="col-lg-7 col-md-7 col-12">
-                            <div>
+                            <div className="pt-txt">
                                 <h2>Experience Visible Transformation in 10 Weeks</h2>
                                 <p>Our clinical-style progress chart reveals the powerful results of BEYUVANA™’s advanced
                                     anti-ageing formula. Within 10 weeks:</p>
                             </div>
-                            <div className="d-flex mb-3">
+                            <div className="d-flex mb-3 t-imh">
                                 <Image src="/assets/img/tick-square.png" alt="Money back" width={20} height={20} className="img-fluid me-2" />
                                 <p className="mb-0">
                                     Hydration surges 75%, leaving skin plump and supple.
                                 </p>
                             </div>
-                            <div className="d-flex mb-3">
+                            <div className="d-flex mb-3 t-imh">
                                 <Image src="/assets/img/tick-square.png" alt="Money back" width={20} height={20} className="img-fluid me-2" />
                                 <p className="mb-0">
                                     Glow rises 70%, restoring luminous radiance.
                                 </p>
                             </div>
-                            <div className="d-flex mb-3">
+                            <div className="d-flex mb-3 t-imh">
                                 <Image src="/assets/img/tick-square.png" alt="Money back" width={20} height={20} className="img-fluid me-2" />
                                 <p className="mb-0">
                                     Elasticity improves 68%, for a firmer, lifted feel.
                                 </p>
                             </div>
-                            <div className="d-flex mb-3">
+                            <div className="d-flex mb-3 t-imh">
                                 <Image src="/assets/img/tick-square.png" alt="Money back" width={20} height={20} className="img-fluid me-2" />
                                 <p className="mb-0">
                                     Pigmentation reduces by 60%, revealing clearer, even skin tone.
                                 </p>
                             </div>
-                            <div className="d-flex mb-3">
+                            <div className="d-flex mb-3 t-imh">
                                 <Image src="/assets/img/tick-square.png" alt="Money back" width={20} height={20} className="img-fluid me-2" />
                                 <p className="mb-0">
                                     Wrinkle depth reduces 62%, visibly softening fine lines.
                                 </p>
                             </div>
-                            <div className="d-flex mb-3">
+                            <div className="d-flex mb-3 t-imh">
                                 <Image src="/assets/img/tick-square.png" alt="Money back" width={20} height={20} className="img-fluid me-2" />
                                 <p className="mb-0">
                                     Overall ageing markers drop 61%, showcasing comprehensive renewal.
@@ -312,43 +312,43 @@ export default function collagen() {
                             <div className="resr-text">
                                 <h2>Powered by Research-Backed Ingredients in BEYUVANA™ PREMIUM COLLAGEN BUILDER</h2>
                                 <p>Improvement in just 10 weeks</p>
-                                <div className="row">
-                                    <div className="col-lg-6 col-md-6 col-12">
+                                <div className="row g-3">
+                                    <div className="col-lg-6 col-md-6 col-6">
                                         <div className="res-box">
                                             <h4 className="sevty">75%</h4>
                                             <p>Increase in <br />
                                                 Skin Hydration</p>
                                         </div>
                                     </div>
-                                    <div className="col-lg-6 col-md-6 col-12">
+                                    <div className="col-lg-6 col-md-6 col-6">
                                         <div className="res-box">
                                             <h4 className="sevty">70%</h4>
                                             <p>Increase in <br />
                                                 Skin Glow</p>
                                         </div>
                                     </div>
-                                    <div className="col-lg-6 col-md-6 col-12">
+                                    <div className="col-lg-6 col-md-6 col-6">
                                         <div className="res-box">
                                             <h4 className="sevty">68%</h4>
                                             <p>Increase in <br />
                                                 Skin Elasticity</p>
                                         </div>
                                     </div>
-                                    <div className="col-lg-6 col-md-6 col-12">
+                                    <div className="col-lg-6 col-md-6 col-6">
                                         <div className="res-box">
                                             <h4 className="sevty">60%</h4>
                                             <p>Reduce in <br />
                                                 Pigmentation Reduction </p>
                                         </div>
                                     </div>
-                                    <div className="col-lg-6 col-md-6 col-12">
+                                    <div className="col-lg-6 col-md-6 col-6">
                                         <div className="res-box">
                                             <h4 className="sevty">62%</h4>
                                             <p>Reduce in <br />
                                                 Wrinkle Depth Reduction</p>
                                         </div>
                                     </div>
-                                    <div className="col-lg-6 col-md-6 col-12">
+                                    <div className="col-lg-6 col-md-6 col-6">
                                         <div className="res-box">
                                             <h4 className="sevty">61%</h4>
                                             <p>Reduce in <br />

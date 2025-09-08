@@ -1016,6 +1016,38 @@ padding: 20px;
 .bgx{
   margin-top: 20px;
 }
-
+.coll-deta, .s_box, .pt-txt, .prot-img, .pigj{
+  margin-top: 30px;
+}
+.bos-br {
+   border-bottom: 1px solid #00000060;
+}
+.bgv{
+  font-size: 9px;
+  margin-top: 5px !important;
+}
+.bosst-box {
+    margin-bottom: 0px;
+}
+.ptoi{
+  display: none !important;
+}
+.impy{
+  border-right: 1px solid #00000060;
+  border-bottom: 1px solid #00000060;
+}
+.greb {
+  padding: 20px 10px;
+}
+.t-imh img{
+  height: 20px;
+}
+.res-box {
+  padding-top: 30px;
+  height: 100%;
+}
+.tsti-img img{
+  height: auto !important;
+}
 }
 

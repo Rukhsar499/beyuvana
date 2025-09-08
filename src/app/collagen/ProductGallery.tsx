@@ -67,7 +67,7 @@ const ProductGallery = () => {
                 rewind: true,
                 breakpoints: {
                   768: { perPage: 3 },
-                  480: { perPage: 2 },
+                  480: { perPage: 3 },
                 },
               }}
               aria-label="Product Thumbnails"
