@@ -358,45 +358,55 @@ export default function collagen() {
                                     <div className="thir-box-sec text-white">
                                         <div className="row">
                                             <div className="col-lg-3 col-md-3 col-12">
-                                                <p className="text-white"><b>Activates Natural
-                                                    Collagen Production</b></p>
+                                                <p className="text-white"><b> Brightens skin tone </b></p>
                                             </div>
                                             <div className="col-lg-9 col-md-9 col-12">
-                                                <p className="text-white">Boosts collagen synthesis for firmer, younger-looking skin — without marine or bovine collagen.
-                                                    Key Ingredients: L-Lysine · L-Proline · Amla (Vit C) · Bamboo Extract (Silica)</p>
+                                                <p className="text-white">Glutathione + Vitamin C reduce melanin & even out skin tone</p>
                                             </div>
                                         </div>
                                         <hr className="buil_hr text-white" />
                                         <div className="row">
                                             <div className="col-lg-3 col-md-3 col-12">
-                                                <p className="text-white"><b>Delivers Deep Skin
-                                                    Hydration</b></p>
+                                                <p className="text-white"><b>Reduces dark spots</b></p>
                                             </div>
                                             <div className="col-lg-9 col-md-9 col-12">
-                                                <p className="text-white">Hydrates from within to smooth lines and restore skin bounce and suppleness.
-                                                    Key Ingredients: Hyaluronic Acid · Amla · Vitamin E</p>
+                                                <p className="text-white">Liposomal Glutathione lightens pigmentation and fades blemishes</p>
                                             </div>
                                         </div>
                                         <hr className="buil_hr text-white" />
                                         <div className="row">
                                             <div className="col-lg-3 col-md-3 col-12">
-                                                <p className="text-white"><b>Fades Pigmentation &
-                                                    Enhances Glow</b></p>
+                                                <p className="text-white"><b>Combats acne </b></p>
                                             </div>
                                             <div className="col-lg-9 col-md-9 col-12">
-                                                <p className="text-white">Brightens skin tone, reduces dark spots, and supports a radiant complexion.
-                                                    Key Ingredients: Glutathione · Grape Seed Extract · Vitamin C · Pomegranate · Licorice (via base)</p>
+                                                <p className="text-white">Zinc + Licorice control oil and reduce inflammation</p>
                                             </div>
                                         </div>
                                         <hr className="buil_hr text-white" />
                                         <div className="row">
                                             <div className="col-lg-3 col-md-3 col-12">
-                                                <p className="text-white"><b>Smooths Fine Lines
-                                                    & Wrinkles</b></p>
+                                                <p className="text-white"><b>Soothes breakouts </b></p>
                                             </div>
                                             <div className="col-lg-9 col-md-9 col-12">
-                                                <p className="text-white">Minimizes wrinkle depth, strengthens skin texture, and reduces visible signs of aging.
-                                                    Key Ingredients: CoQ10 · Astaxanthin · Resveratrol · Horsetail (Silica) · Vitamin E</p>
+                                                <p className="text-white">Green Tea Extract + Aloe calm redness & irritation</p>
+                                            </div>
+                                        </div>
+                                        <hr className="buil_hr text-white" />
+                                        <div className="row">
+                                            <div className="col-lg-3 col-md-3 col-12">
+                                                <p className="text-white"><b>Deeply hydrates skin</b></p>
+                                            </div>
+                                            <div className="col-lg-9 col-md-9 col-12">
+                                                <p className="text-white">Hyaluronic Acid + Amla boost water retention from within</p>
+                                            </div>
+                                        </div>
+                                        <hr className="buil_hr text-white" />
+                                        <div className="row">
+                                            <div className="col-lg-3 col-md-3 col-12">
+                                                <p className="text-white"><b>Strengthens skin barrier </b></p>
+                                            </div>
+                                            <div className="col-lg-9 col-md-9 col-12">
+                                                <p className="text-white">Biotin + Vitamin E support skin elasticity & repair</p>
                                             </div>
                                         </div>
                                         <hr className="buil_hr text-white" />
@@ -413,60 +423,187 @@ export default function collagen() {
                                         <hr className="buil_hr text-white" />
                                         <div className="row">
                                             <div className="col-lg-3 col-md-3 col-12">
-                                                <p className="text-white"><b>Protects from UV &
-                                                    Pollution Damage</b></p>
+                                                <p className="text-white"><b>Boosts antioxidant
+                                                    defense</b></p>
                                             </div>
                                             <div className="col-lg-9 col-md-9 col-12">
-                                                <p className="text-white">Defends against environmental aggressors that accelerate premature aging.
-                                                    Key Ingredients: Green Tea (EGCG) · Astaxanthin · Amla · Grape Seed</p>
+                                                <p className="text-white">Grape Seed + CoQ10 neutralize free radicals & delay skin aging</p>
                                             </div>
                                         </div>
                                         <hr className="buil_hr text-white" />
                                         <div className="row">
                                             <div className="col-lg-3 col-md-3 col-12">
-                                                <p className="text-white"><b>Strengthens the
-                                                    Gut-Skin Axis</b></p>
+                                                <p className="text-white"><b>Detoxifies at cellular
+                                                    level</b></p>
                                             </div>
                                             <div className="col-lg-9 col-md-9 col-12">
-                                                <p className="text-white">Promotes gut balance to support clearer, healthier, inflammation-free skin.
-                                                    Key Ingredients: Amla · Shatavari · Ashwagandha</p>
+                                                <p className="text-white">Glutathione helps clear toxins that dull and damage the skin</p>
                                             </div>
                                         </div>
                                         <hr className="buil_hr text-white" />
                                         <div className="row">
                                             <div className="col-lg-3 col-md-3 col-12">
-                                                <p className="text-white"><b>Fights Inflammation &
-                                                    Breakouts</b></p>
+                                                <p className="text-white"><b>Detoxifies at cellular
+                                                    level</b></p>
                                             </div>
                                             <div className="col-lg-9 col-md-9 col-12">
-                                                <p className="text-white">Soothes skin, reduces sensitivity, and calms flare-ups.
-                                                    Key Ingredients: Green Tea · Licorice (via base) · Selenium · Zinc</p>
+                                                <p className="text-white">Glutathione helps clear toxins that dull and damage the skin</p>
                                             </div>
                                         </div>
                                         <hr className="buil_hr text-white" />
                                         <div className="row">
                                             <div className="col-lg-3 col-md-3 col-12">
-                                                <p className="text-white"><b>Supports Cellular Detox
-                                                    & Skin Repair</b></p>
+                                                <p className="text-white"><b>Balances gut-skin
+                                                    axis </b></p>
                                             </div>
                                             <div className="col-lg-9 col-md-9 col-12">
-                                                <p className="text-white">Flushes toxins, promotes clarity, and accelerates natural skin repair cycles.
-                                                    Key Ingredients: Glutathione · Grape Seed · Selenium · Zinc · Vitamin C</p>
+                                                <p className="text-white">Shatavari, Ashwagandha, Amla reduce cortisol & improve digestion</p>
                                             </div>
                                         </div>
-                                        <hr className="buil_hr text-white" />
                                         <div className="row">
                                             <div className="col-lg-3 col-md-3 col-12">
-                                                <p className="text-white"><b>Promotes Whole-Body
-                                                    Skin Wellness</b></p>
+                                                <p className="text-white"><b>Promotes natural glow  </b></p>
                                             </div>
                                             <div className="col-lg-9 col-md-9 col-12">
-                                                <p className="text-white">Nourishes the skin from within by supporting hormones, energy, and internal balance.
-                                                    Key Ingredients: Adaptogen Blend · Biotin · CoQ10</p>
+                                                <p className="text-white">All 18 actives synergize to restore youthful, glowing skin from within</p>
                                             </div>
                                         </div>
 
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="essence mb">
+                <div className="container">
+                    <div className="text-center">
+                        <h2>GLOW ESSENCE VS OTHER PRODUCTS</h2>
+                        <p>
+                            “Powered by 18 precision-selected plant actives to nourish your skin, strengthen your gut, and restore
+                            emotional balance.”
+                        </p>
+                    </div>
+                    <div className="red2-box">
+                        <div className="row">
+                            <div className="col-lg-4 col-md-4 col-12 bvcl">
+                                <h3 id="feds">BEYUVANA™ Glow Essence </h3>
+                                <div className="d-flex edh">
+                                    <Image
+                                        src="/assets/img/tick-circle2.png"
+                                        alt="Product"
+                                        width={20}
+                                        height={20}
+                                        className="img-fluid me-3"
+                                    />
+                                    <p>Uses 4X Liposomal Glutathione + Liposomal Vitamin C for enhanced absorption & deeper skin brightening</p>
+                                </div>
+                                <div className="d-flex edh">
+                                    <Image
+                                        src="/assets/img/tick-circle2.png"
+                                        alt="Product"
+                                        width={20}
+                                        height={20}
+                                        className="img-fluid me-3"
+                                    />
+                                    <p>Contains 18 clinically-backed synergistic actives for glow,acne, hydration, pigmentation & gut health</p>
+                                </div>
+                                <div className="d-flex edh">
+                                    <Image
+                                        src="/assets/img/tick-circle2.png"
+                                        alt="Product"
+                                        width={20}
+                                        height={20}
+                                        className="img-fluid me-3"
+                                    />
+                                    <p>Delivered in delicious 8g daily sachets with natural flavors—improves routine consistency & absorption</p>
+                                </div>
+                                <div className="d-flex edh">
+                                    <Image
+                                        src="/assets/img/tick-circle2.png"
+                                        alt="Product"
+                                        width={20}
+                                        height={20}
+                                        className="img-fluid me-3"
+                                    />
+                                    <p>Rich in powerful antioxidants like Grape Seed Extract, Astaxanthin, Green Tea, and Pomegranate</p>
+                                </div>
+                                <div className="d-flex edh">
+                                    <Image
+                                        src="/assets/img/tick-circle2.png"
+                                        alt="Product"
+                                        width={20}
+                                        height={20}
+                                        className="img-fluid me-3"
+                                    />
+                                    <p>Includes gut-skin axis support with Glutathione, Green Tea, and Pomegranate for holistic skin repair</p>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-4 col-12">
+                                <div className="es-img">
+                                    <Image
+                                        src="/assets/img/circlepng.png"
+                                        alt="Product"
+                                        width={350}
+                                        height={350}
+                                        className="img-fluid me-3"
+                                    />
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-4 col-12 bvcl">
+                                <h3>Typical Market Skin Products </h3>
+                                <div className="d-flex edh">
+                                    <Image
+                                        src="/assets/img/close-circle.png"
+                                        alt="Product"
+                                        width={20}
+                                        height={20}
+                                        className="img-fluid me-3"
+                                    />
+                                    <p>Uses regular glutathione with poor absorption and minimal visible results</p>
+                                </div>
+                                <div className="d-flex edh">
+                                    <Image
+                                        src="/assets/img/close-circle.png"
+                                        alt="Product"
+                                        width={20}
+                                        height={20}
+                                        className="img-fluid me-3"
+                                    />
+                                    <p>Limited to 5–8 basic actives focused only on  superficial glow</p>
+                                </div>
+                                <div className="d-flex edh">
+                                    <Image
+                                        src="/assets/img/close-circle.png"
+                                        alt="Product"
+                                        width={20}
+                                        height={20}
+                                        className="img-fluid me-3"
+                                    />
+                                    <p>Capsules/tablets often have poor compliance due to taste and digestion issues</p>
+                                </div>
+                                <div className="d-flex edh">
+                                    <Image
+                                        src="/assets/img/close-circle.png"
+                                        alt="Product"
+                                        width={20}
+                                        height={20}
+                                        className="img-fluid me-3"
+                                    />
+                                    <p>Lacks antioxidant synergy or uses synthetic alternatives</p>
+                                </div>
+                                <div className="d-flex edh">
+                                    <Image
+                                        src="/assets/img/close-circle.png"
+                                        alt="Product"
+                                        width={20}
+                                        height={20}
+                                        className="img-fluid me-3"
+                                    />
+                                    <p>Ignores gut health, focusing only on
+                                        temporary surface-level appearance</p>
                                 </div>
                             </div>
                         </div>

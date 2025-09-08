@@ -49,9 +49,9 @@ const FAQAccordion = () => {
       {faqs.map((faq, index) => (
         <div
           key={index}
-          className={`faq-item mb-3 p-3  ${openIndex === index ? 'bg-light-green' : 'bg-white'
+          className={`faq-item mb-3 p-3  ${openIndex === index ? 'bg-light-orange' : 'bg-white'
             }`}
-          style={{ backgroundColor: ' #d3e7d9' }}
+          style={{ backgroundColor: ' #FFF6F6' }}
         >
           {/* Question Row */}
           <button
@@ -59,12 +59,12 @@ const FAQAccordion = () => {
             onClick={() => toggleFAQ(index)}
           >
             <div className="d-flex gap-3">
-              <span className="fw-bold text-success">
+              <span className="fw-bold ">
                 {String(index + 1).padStart(2, '0')}
               </span>
               <span className="fw-bold jhg">{faq.question}</span>
             </div>
-            <span className="fs-4 fw-bold text-success">
+            <span className="fs-4  text-hgf">
               {openIndex === index ? '−' : '+'}
             </span>
           </button>
@@ -84,9 +84,16 @@ const FAQAccordion = () => {
           transition: all 0.3s ease-in-out;
           border-radius:40px;
         }
-        .bg-light-green {
-          background-color: #eaf6ee;
+        .bg-light-orange {
+          background-color: #FFF6F6;
         }
+          .text-hgf{
+          width:40px;
+           height:40px;
+           border-radius:50%;
+           border:1px solid #D31714;
+          color:#D31714;
+          }
         button:focus {
           outline: none;
           box-shadow: none;

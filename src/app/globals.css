@@ -731,6 +731,20 @@ h1 {
     border-radius: 20px;
     padding: 20px;
 }
+.red2-box{
+  background-color: #FFF6F6;
+  padding: 20px 40px;
+}
+.edh img{
+  width: 20px;
+  height:20px;
+}
+.edh{
+  margin-top: 20px;
+}
+.es-img{
+  padding-top: 40px;
+}
 .feature-item .icon {
   align-items: center;
   margin-bottom: 5px;

@@ -95,7 +95,7 @@ const MySplideSlider = () => {
                                         <div>
                                             <Image
                                                 src={item.img}
-                                                alt={item.name}
+                                                 alt={typeof item.name === 'string' ? item.name.replace(/<br\s*\/?>/g, " ") : ""}
                                                 width={60}
                                                 height={60}
                                                 className="rounded-circle mb-3"
