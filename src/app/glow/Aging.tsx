@@ -40,8 +40,9 @@ export default function CardSlider() {
         <section className="mb">
             <div className="container">
                 <div className="text-center">
-                    <h2>India’s Most Advanced Anti-Aging Innovation</h2>
-                    <p>Collagen Reglow delivers clinically proven ingredients in precision-dosed sachets for maximum skin transformation.</p>
+                    <h2>India’s Most Advanced Glow Innovation</h2>
+                    <p>“Powered by 18 precision-selected plant actives to nourish your skin, strengthen your gut, and restore
+                        emotional balance.”</p>
                 </div>
                 <Splide
                     options={{

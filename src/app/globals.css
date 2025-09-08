@@ -152,7 +152,11 @@ h3 {
     z-index: 1;
     background: #057A37 !important;
     transform: scale(1.4);
-}
+  }
+
+/* .pinhg .splide__pagination {
+    bottom: -18px !important;
+} */
 .s_box{
   background-color: #fff;
   border-radius: 20px;
@@ -344,10 +348,18 @@ padding-left: 10px;
 .bul_second_bx{
   margin-left: 20px;
 }
+.poiv{
+  background-color: #FFF9F9;
+}
 .r-fg{
   height: 360px;
   border: 1px solid #66666698;
   border-radius: 20px;
+}
+.tab-colors {
+    background-color: #FFF6F6;
+    border-radius: 20px;
+    padding: 20px;
 }
 .btn-review{
   background-color: #057A37;
@@ -355,6 +367,12 @@ padding-left: 10px;
   padding: 10px 40px;
   border: none;
   margin-top: 20px;
+}
+.content-boxs {
+    background-color: #FFF6F6;
+    border-radius: 20px;
+    height: 500px;
+    padding: 60px 20px;
 }
 .mis-box img, .miss-box img{
   margin-bottom: 30px;
@@ -688,7 +706,7 @@ h1 {
 .saml{
   font-size: 10px;
 }
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+.tab-color .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
     color: #017933;
     background-color: transparent;
     font-size: 16px;
@@ -697,6 +715,21 @@ h1 {
     padding: 10px;
     margin-bottom: 15px;
     border-radius: 0px;
+}
+.tab-colors .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #FF4646;
+    background-color: transparent;
+    font-size: 16px;
+    font-family: var(--font-be-vietnam-pro), sans-serif;
+    border-bottom: 1px solid #9E9E9E;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 0px;
+}
+.drk-gs {
+    background-color: #E02D2D;
+    border-radius: 20px;
+    padding: 20px;
 }
 .feature-item .icon {
   align-items: center;

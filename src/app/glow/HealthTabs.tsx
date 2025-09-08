@@ -15,9 +15,9 @@ type TabData = {
 
 const tabs: TabData[] = [
   {
-    key: "aging",
-    title: "Aging",
-    icon: "/assets/img/time .png",
+    key: "Antioxidant Deficiency",
+    title: "Antioxidant Deficiency",
+    icon: "/assets/img/time21.png",
     img: "/assets/img/early-aging.png",
     content:
       "With age, your skin’s natural production of collagen and hyaluronic acid begins to decline — quietly reducing firmness, suppleness, and radiance. The result? Fine lines, sagging, and a visible loss of youthful glow.",
@@ -42,8 +42,8 @@ const tabs: TabData[] = [
     ],
   },
   {
-    key: "stress",
-    title: "Stress",
+    key: "Chronic Inflammation",
+    title: "Chronic Inflammation",
     icon: "/assets/img/stress.png",
     img: "/assets/img/stress-image.png",
     content:
@@ -58,8 +58,8 @@ const tabs: TabData[] = [
     statd: [], // ✅ keep empty if no data
   },
   {
-    key: "Pollution",
-    title: "Pollution",
+    key: "Dehydrated Skin",
+    title: "Dehydrated Skin",
     icon: "/assets/img/air-pollution.png",
     img: "/assets/img/stress-image.png",
     content:
@@ -74,8 +74,8 @@ const tabs: TabData[] = [
     statd: [],
   },
   {
-    key: "UV Radiation",
-    title: "UV Radiation",
+    key: "Weak Skin Barrier",
+    title: "Weak Skin Barrier",
     icon: "/assets/img/uv.png",
     img: "/assets/img/stress-image.png",
     content:
@@ -90,8 +90,8 @@ const tabs: TabData[] = [
     statd: [],
   },
   {
-    key: "Disrupted Sleep Pattern",
-    title: "Disrupted Sleep Pattern",
+    key: "Melanin Overproduction",
+    title: "Melanin Overproduction",
     icon: "/assets/img/uv.png",
     img: "/assets/img/stress-image.png",
     content:
@@ -106,8 +106,8 @@ const tabs: TabData[] = [
     statd: [],
   },
   {
-    key: "Poor Gut Health",
-    title: "Poor Gut Health",
+    key: "Nutrient Gaps in Diet",
+    title: "Nutrient Gaps in Diet",
     icon: "/assets/img/uv.png",
     img: "/assets/img/stress-image.png",
     content:
@@ -136,7 +136,7 @@ export default function HealthTabs() {
       >
         <Row>
           {/* Left Side (Tabs for Desktop) */}
-          <Col md={3} className="d-none d-md-block tab-color">
+          <Col md={3} className="d-none d-md-block tab-colors">
             <Nav variant="pills" className="flex-column custom-tabs">
               {tabs.map((tab) => (
                 <Nav.Item key={tab.key}>
@@ -190,9 +190,9 @@ export default function HealthTabs() {
                       </div>
                     </Col>
                     <Col md={7}>
-                      <div className="content-box">
+                      <div className="content-boxs">
                         <Image
-                          src="/assets/img/tick-square.png"
+                          src="/assets/img/tick-circle1.png"
                           alt="tick icon"
                           width={20}
                           height={20}
@@ -206,7 +206,7 @@ export default function HealthTabs() {
                               key={statIndex}
                               className="col-lg-6 col-12 mb-3"
                             >
-                              <h4 className="sevty">{stat.text}</h4>
+                              <h4 className="sevty pert">{stat.text}</h4>
                               <p className="mb-1">{stat.para}</p>
                               <p className="mb-0 saml">{stat.desc}</p>
                             </div>
@@ -219,7 +219,7 @@ export default function HealthTabs() {
                               key={statdIndex}
                               className="col-lg-6 col-12 mb-3"
                             >
-                              <h4 className="sevty">{statd.text}</h4>
+                              <h4 className="sevty pert">{statd.text}</h4>
                               <p className="mb-1">{statd.para}</p>
                               <p className="mb-0 saml">{statd.desc}</p>
                             </div>

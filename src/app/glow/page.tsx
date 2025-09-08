@@ -332,39 +332,20 @@ export default function collagen() {
             <Aging />
             <section className="builder mb">
                 <div className="container">
-                    <div className="drk-g">
+                    <div className="drk-gs">
                         <div className="row">
                             <div className="col-lg-6 col-md-6 col-12">
                                 <div className="d-first">
-                                    <h2 className="text-white">Why Choose BEYUVANA™ Premium Collagen Builder?</h2>
+                                    <h2 className="text-white">WHY CHOOSE BEYUVANA™ Glow Essence</h2>
                                     <p className="text-white">
-                                        A Smarter, Safer Path to Ageless Skin. Not Just Collagen — A Complete Skin Nutrition Ritual
-                                        BEYUVANA™ is more than a collagen supplement. It&apos;s a powerful, plant-based formula that activates
-                                        your skin’s natural renewal systems from within. We don&apos;t just give you collagen — we help your body
-                                        create, protect, and preserve its own.
-                                        100% vegetarian, sugar-free, gelatin-free — crafted for those who want visible results, naturally. Every
-                                        ingredient has a purpose, and every sachet is a step toward long-term skin health.
+                                        BEYUVANA™ Glow Essence is India’s 1st sachet-based glow therapy powered by 18 elite plant actives.
+                                        It brightens skin, reduces pigmentation, and supports collagen with Glutathione, Vitamin C & Bamboo.
+                                        Amla, Inulin, and Guava Leaf help heal your gut—because glow starts from within.
+                                        Ashwagandha and Turmeric calm stress and fight inflammation, while Black Pepper boosts absorption.
+                                        Each sugar-free, vegetarian sachet is your daily dose of skin radiance, gut vitality, and inner balance.
                                     </p>
                                     <div className="d-firt-img">
                                         <Image src="/assets/img/bulider.png" alt="Money back" width={600} height={600} className="img-fluid me-2" />
-                                    </div>
-                                    <div className="d-flex mb-2">
-                                        <Image
-                                            src="/assets/img/certificate 1.png"
-                                            alt="Product"
-                                            width={40}
-                                            height={40}
-                                            className="img-fluid me-2"
-                                        />
-                                        <p className="text-white mb-0 certig">View Lab Certificates</p>
-                                    </div>
-                                    <hr className="buil_hr" />
-                                    <div className="bui_ul">
-                                        <ul>
-                                            <li className="text-white">Each Sachet Delivers 21 Synergistic Plant-Based Actives</li>
-                                            <li className="text-white">Each Sachet Delivers 21 Synergistic Plant-Based Actives</li>
-                                            <li className="text-white">Each Sachet Delivers 21 Synergistic Plant-Based Actives</li>
-                                        </ul>
                                     </div>
                                 </div>
                             </div>
@@ -372,7 +353,7 @@ export default function collagen() {
                             <div className="col-lg-6 col-md-6 col-12">
                                 <div className="bul_second_bx">
                                     <div className="bg-white core">
-                                        <h5 className="mb-0">10 Core Actions. 1 Intelligent Sachet</h5>
+                                        <h5 className="mb-0">10 CORE ACTIVITES, 10 PROVEN FUNCTION</h5>
                                     </div>
                                     <div className="thir-box-sec text-white">
                                         <div className="row">

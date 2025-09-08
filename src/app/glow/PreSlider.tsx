@@ -4,6 +4,7 @@ import { Splide, SplideSlide } from '@splidejs/react-splide';
 import type { Splide as SplideClass } from '@splidejs/splide';
 import Image from 'next/image';
 import { useState } from 'react';
+import styles from "./Slider.module.css";
 
 const MySplideSlider = () => {
     const [activeIndex, setActiveIndex] = useState(1);
@@ -11,6 +12,7 @@ const MySplideSlider = () => {
     const testimonials = [
         {
             img: '/assets/img/gl8.png',
+            alt:'glow',
             name: (
                 <>
                     Brightens Skin & Fades <br /> Pigmentation
@@ -20,6 +22,7 @@ const MySplideSlider = () => {
         },
         {
             img: '/assets/img/gl8.png',
+            alt:'glow',
             name: (
                 <>
                     Hydrates & Plumps
@@ -30,6 +33,7 @@ const MySplideSlider = () => {
         },
         {
             img: '/assets/img/gl8.png',
+            alt:'glow',
             name: (
                 <>
                     Fights Acne &
@@ -41,6 +45,7 @@ const MySplideSlider = () => {
         },
         {
             img: '/assets/img/gl8.png',
+            alt:'glow',
             name: 'Fights Acne &  pigmentation',
             para: 'Neem, Green Tea, Curcuma, Guava Leaf: Clear acne & calm redness. Ashwagandha: Reduces stress-triggered breakouts. Clearer, calmer skin',
         },
@@ -79,7 +84,7 @@ const MySplideSlider = () => {
                         onMove={(splide: SplideClass, newIndex: number) => setActiveIndex(newIndex)}
                     >
                         {testimonials.map((item, index) => (
-                            <SplideSlide key={index}>
+                            <SplideSlide key={index} className="pinhg">
                                 <div
                                     className={`test-box mt-2   ${activeIndex === index ? 'active-slide' : ''
                                         }`}
@@ -131,24 +136,7 @@ height:300px;
   .active-slide p{
   color:#fff;
 }
-.test-box  .splide__pagination__page {
-    background: #ccc; /* normal color */
-    opacity: 1;
-    transition: background 0.3s;
-  }
 
-  /* Active dot */
-.test-box  .splide__pagination__page.is-active {
-    background: #B00404 !important;
-    transform: scale(1.2);
-    width:20px;
-    height:5px;
-  }
-
-  /* Hover pe color change */
-.test-box  .splide__pagination__page:hover {
-    background: #B00404 !important;
-  }
       `}</style>
         </section>
     );

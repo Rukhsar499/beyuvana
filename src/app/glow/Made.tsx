@@ -29,11 +29,11 @@ const MySplideSlider = () => {
     return (
         <section className="mb">
             <div className="container position-relative">
-                <div className='prty'>
+                <div className='prty poiv'>
                 <div className='text-center'>
-                    <h2>Who Is BEYUVANA™ Premium Collagen Builder Made For?</h2>
+                    <h2>WHO IS BEYUVANA™ GLOW ESSENCE MADE FOR?</h2>
                     <p>
-                        BEYUVANA™ is designed for modern individuals who want results without compromise —using only clean, plant-based ingredients that are backed by science and safe for everyday use.
+                       BEYUVANA™ is designed for modern individuals who want results without compromise —using only clean, plant-based ingredients that are backed by science and safe for everyday use.
                     </p>
                 </div>
 
@@ -100,12 +100,13 @@ const MySplideSlider = () => {
        
 /* Active slide border */
 .test-box{
-background-color:#E2F9E5;
-color:#0C4B33;
+background-color:#B00404;
+color:#fff;
 }
-
+.test-box p{
+color:#fff;}
 .active-slide {
-  background-color:#0C4B33;
+  background-color:#B00404;
   color:#fff;
 }
   .active-slide p{

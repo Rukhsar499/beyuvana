@@ -11,17 +11,17 @@ const MySplideSlider = () => {
 
     const testimonials = [
         {
-            img: '/assets/img/wrinkle.png',
-            name: 'Lines that used to stay... started to fade.',
-            para: 'Unlike animal collagen powders that simply supply broken peptides, BEYUVANA™ uses amino acids (L-Lysine, L-Proline), Vitamin C, and bamboo silica to naturally boost your body’s own collagen-building process — from within.',
+            img: '/assets/img/red-img.png',
+            name: 'My skin started glowing from within — no filters needed',
+            para: 'I began noticing a visible difference in just 2 weeks. The dark spots around my cheeks started fading, my skin felt more hydrated, and even my gut felt lighter. By week 4, people were asking what I’m using — and I haven’t changed my skincare. It’s just Glow Essence.',
         },
         {
-            img: '/assets/img/wrinkle.png',
+            img: '/assets/img/red-img.png',
             name: 'Wrinkle that used to stay... started to fade.',
             para: 'With Hyaluronic Acid and Amla the formula restores moisture balance, plumps the skin, and strengthens the barrier — essential for smooth, youthful skin.',
         },
         {
-            img: '/assets/img/wrinkle.png',
+             img: '/assets/img/red-img.png',
             name: 'Pigment that used to stay... started to fade.',
             para: 'I noticed the difference by week 4. My skin felt tighter, especially around the eyes and mouth. Now, even without makeup, the fine lines are visibly reduced.',
         },
@@ -88,7 +88,7 @@ const MySplideSlider = () => {
 
             <style jsx>{`
                 .test-box1 {
-                    background-color: #122014;
+                    background-color: #B00404;
                     color: #fff;
                     padding: 20px 20px 30px 20px;
                     height:100%;

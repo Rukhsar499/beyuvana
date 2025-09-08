@@ -1,0 +1,16 @@
+.testBox .splide__pagination__page {
+  background: #ccc;
+  opacity: 1;
+  transition: background 0.3s;
+}
+
+.testBox .splide__pagination__page.is-active {
+  background: #B00404 !important;
+  transform: scale(1.2);
+  width: 20px;
+  height: 5px;
+}
+
+.testBox .splide__pagination__page:hover {
+  background: #B00404 !important;
+}
