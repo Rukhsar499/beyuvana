@@ -1049,5 +1049,19 @@ padding: 20px;
 .tsti-img img{
   height: auto !important;
 }
+#dropdown-basic{
+  width: 100%;
+  text-align:left;
+  background-color: #F8FFF9;
+}
+.core {
+  padding: 10px 10px;
+}
+.bul_second_bx {
+    margin-left: 0px;
+}
+.bui_ul ul li{
+  padding-top: 10px;
+}
 }
 

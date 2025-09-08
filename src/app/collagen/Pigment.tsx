@@ -35,7 +35,7 @@ const MySplideSlider = () => {
     }, [activeIndex]);
 
     return (
-        <section className="mb pigj">
+        <section className="pigj">
             <div className="">
                 <div className="slider-wrapper position-relative">
                     <Splide
