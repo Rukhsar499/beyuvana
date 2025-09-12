@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Modal, Button, Form } from "react-bootstrap";
 import Image from "next/image";
 
-export default function LoginModal() {
+export default function RegisterModal() {
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);
